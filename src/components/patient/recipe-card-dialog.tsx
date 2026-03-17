@@ -1,0 +1,93 @@
+
+"use client"
+
+import {
+    Dialog,
+    DialogContent,
+    DialogHeader,
+    DialogTitle,
+    DialogDescription,
+} from "@/components/ui/dialog"
+import { X, Download, Loader2 } from "lucide-react"
+import { useState } from "react"
+
+interface RecipeCardDialogProps {
+    isOpen: boolean
+    onClose: () => void
+    cardUrl: string
+    cardName: string
+}
+
+export function RecipeCardDialog({ isOpen, onClose, cardUrl, cardName }: RecipeCardDialogProps) {
+    const [isDownloading, setIsDownloading] = useState(false);
+
+    const handleDownload = async (e: React.MouseEvent) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        if (isDownloading) return;
+        setIsDownloading(true);
+
+        try {
+            const response = await fetch(cardUrl);
+            const blob = await response.blob();
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            // Provide a sensible default extension if missing
+            a.download = cardName.includes('.') ? cardName : `${cardName}.webp`;
+            document.body.appendChild(a);
+            a.click();
+            window.URL.revokeObjectURL(url);
+            document.body.removeChild(a);
+        } catch (err) {
+            console.error('Failed to download image', err);
+            // Fallback: Just open image in new tab if blob fetch fails (e.g., CORS issue)
+            window.open(cardUrl, '_blank');
+        } finally {
+            setIsDownloading(false);
+        }
+    }
+
+    return (
+        <Dialog open={isOpen} onOpenChange={onClose}>
+            <DialogContent
+                showCloseButton={false}
+                className="max-w-[100vw] max-h-[100dvh] w-auto h-auto p-0 border-none bg-transparent shadow-none flex flex-col items-center outline-none"
+            >
+                <DialogTitle className="sr-only">{cardName}</DialogTitle>
+                <DialogDescription className="sr-only">
+                    {cardName} tarif kartı görseli
+                </DialogDescription>
+                {/* Close Button - Floating top right */}
+                <button
+                    onClick={onClose}
+                    className="absolute top-2 right-2 z-50 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-all backdrop-blur-sm"
+                >
+                    <X className="h-6 w-6" />
+                </button>
+
+                {/* Save Button - Floating bottom right */}
+                <button
+                    onClick={handleDownload}
+                    disabled={isDownloading}
+                    className="absolute bottom-4 right-4 z-50 bg-emerald-600/90 hover:bg-emerald-700 text-white rounded-full p-3 transition-all backdrop-blur-sm shadow-xl flex items-center justify-center font-medium border border-emerald-400/30 group"
+                >
+                    {isDownloading ? (
+                        <Loader2 className="h-5 w-5 animate-spin" />
+                    ) : (
+                        <Download className="h-5 w-5 group-hover:scale-110 transition-transform" />
+                    )}
+                </button>
+
+                {/* Image drives the size */}
+                <img
+                    src={cardUrl}
+                    alt={cardName}
+                    className="max-w-[100vw] max-h-[100dvh] w-auto h-auto object-contain shadow-2xl"
+                />
+            </DialogContent>
+        </Dialog>
+    )
+}

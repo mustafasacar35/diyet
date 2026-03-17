@@ -1,0 +1,24 @@
+﻿[dotenv@17.2.3] injecting env (4) from .env.local -- tip: ­şôí add observability to secrets: https://dotenvx.com/ops
+URL: https://edcxbjneplsktmlrkvix.supabase.co
+Key exists: true
+Key prefix: sb_secret_mV02d9PcmC...
+
+­şôï All Profiles:
+  - mustafa sacar (admin) - 9c691075-82c8-47f8-93a0-78f553fa2643
+  - Demo Diyetisyen (dietitian) - 1cbd426e-5eb2-4728-8232-6bc357b29c56
+  - Test Diyetisyen (dietitian) - 9e78a311-f7b8-4a76-b198-41f2dbe75936
+  - UI Diyetisye (admin) - b8a2474d-c37f-4c4f-83d0-f3d6d8aa05a3
+  - Final Diyetisyen (dietitian) - 1cb22c33-c41f-4ad4-b121-ad2b9c22b5da
+  - Diyetteik12 (dietitian) - c01bde44-abfa-4177-85ac-74b2e3c15466
+  - Supabase Diyetisyen (dietitian) - 54a5d845-2a96-4cf8-9f75-ed484302b74b
+  - Test Doktor (doctor) - 0bcc9439-6168-4174-b62d-1d2e0967e76c
+  - deneme diyetizyen (dietitian) - c3fe4352-0dc0-4052-b934-9e6d30bb6ec0
+  - apiii (dietitian) - 4ab8a768-ef0f-4933-977a-0183d95e3efd
+  - hasta deneme (patient) - 48c4d5cb-165a-48d2-b938-9bf1387a4ee8
+  - d neme2 (patient) - d1018f69-2e6e-4392-95c0-7a38c78d07a3
+
+­şæñ Auth Users (page 1):
+Auth error: Database error finding users
+
+­şÅÑ Patients with HACER:
+  - HACER YILBA┼ŞI | email: hacer@demo.com | user_id: b1cca998-b190-414d-a2d6-04ee0138e14a

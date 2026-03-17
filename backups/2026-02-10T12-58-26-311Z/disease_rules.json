@@ -1,0 +1,283 @@
+[
+  {
+    "id": "11cb0a4f-76d3-4fb8-a765-23826a777c5b",
+    "disease_id": "d90a903a-f02d-41cc-ac4f-b177bee0ee24",
+    "rule_type": "negative",
+    "keywords": [
+      "Buğday",
+      "Arpa",
+      "Çavdar",
+      "Kavuzlu Buğday",
+      "Kamut",
+      "Tritikale",
+      "Bulgur",
+      "İrmik",
+      "Kuskus",
+      "Şehriye",
+      "Erişte",
+      "Makarna",
+      "Dövme",
+      "Malt",
+      "Malt Özü",
+      "Arpa Suyu",
+      "Bira Mayası",
+      "Malt Sirkesi",
+      "Seitan",
+      "Buğday Gluteni",
+      "Vejetaryen Et",
+      "Hidrolize Buğday Proteini",
+      "Galeta Unu",
+      "Pane Harcı",
+      "Panko",
+      "Bulyon",
+      "Hazır Çorba",
+      "Salata Sosu",
+      "Soya Sosu",
+      "Çin Tuzu",
+      "Yulaf",
+      "Yulaf Kepeği",
+      "Granola",
+      "Müsli",
+      "Börek",
+      "Poğaça",
+      "Simit",
+      "Pide",
+      "Lahmacun",
+      "Mantı",
+      "Pizza",
+      "Yufka",
+      "Baklava"
+    ],
+    "tags": [],
+    "match_name": true,
+    "match_tags": true,
+    "created_at": "2026-02-10T08:42:44.980423+00:00",
+    "keyword_metadata": {
+      "Arpa": {
+        "info": "[Çölyak]: Bağırsak onarımını desteklemek için doğal glutensiz ve lifli kaynaklar (Karabuğday, Kinoa, Teff) tercih edilmelidir.",
+        "warning": "[Çölyak]: Bu tahıllardaki gliadin, secalin ve hordein proteinleri, ince bağırsak villuslarında kalıcı hasara ve emilim bozukluğuna (malabsorbsiyon) yol açar."
+      },
+      "Malt": {
+        "info": "[Çölyak]: Sirke olarak sadece Elma Sirkesi veya Üzüm Sirkesi",
+        "warning": "[Çölyak]: Genellikle arpadan fermente edildikleri için toksik düzeyde gluten içerirler ve gizli gluten kaynağıdırlar."
+      },
+      "Pide": {
+        "info": "[Çölyak]: Bu lezzetler ancak badem unu, hindistan cevizi unu veya özel glutensiz un karışımları ile evde hazırlandığında güvenlidir.",
+        "warning": "[Çölyak]: Geleneksel unlu mamüllerin ana iskeleti gluten ağıdır. Hastalığı alevlendirir."
+      },
+      "Kamut": {
+        "info": "[Çölyak]: Bağırsak onarımını desteklemek için doğal glutensiz ve lifli kaynaklar (Karabuğday, Kinoa, Teff) tercih edilmelidir.",
+        "warning": "[Çölyak]: Bu tahıllardaki gliadin, secalin ve hordein proteinleri, ince bağırsak villuslarında kalıcı hasara ve emilim bozukluğuna (malabsorbsiyon) yol açar."
+      },
+      "Panko": {
+        "info": "[Çölyak]: Panelleme işlemi için Badem Unu, Mısır Unu veya susam kullanılarak fırınlama yöntemi uygulanmalıdır.",
+        "warning": "[Çölyak]: Kızartma ve kaplamalarda kullanılan bu ürünler buğday ekmeğinden yapılır ve çapraz bulaşma riski en yüksek gruptur."
+      },
+      "Pizza": {
+        "info": "[Çölyak]: Bu lezzetler ancak badem unu, hindistan cevizi unu veya özel glutensiz un karışımları ile evde hazırlandığında güvenlidir.",
+        "warning": "[Çölyak]: Geleneksel unlu mamüllerin ana iskeleti gluten ağıdır. Hastalığı alevlendirir."
+      },
+      "Simit": {
+        "info": "[Çölyak]: Bu lezzetler ancak badem unu, hindistan cevizi unu veya özel glutensiz un karışımları ile evde hazırlandığında güvenlidir.",
+        "warning": "[Çölyak]: Geleneksel unlu mamüllerin ana iskeleti gluten ağıdır. Hastalığı alevlendirir."
+      },
+      "Yufka": {
+        "info": "[Çölyak]: Bu lezzetler ancak badem unu, hindistan cevizi unu veya özel glutensiz un karışımları ile evde hazırlandığında güvenlidir.",
+        "warning": "[Çölyak]: Geleneksel unlu mamüllerin ana iskeleti gluten ağıdır. Hastalığı alevlendirir."
+      },
+      "Yulaf": {
+        "info": "[Çölyak]: Sadece \"Glutensiz Sertifikalı\" yulaf veya yulaf yerine karabuğday patlağı tüketilmelidir.",
+        "warning": "[Çölyak]: Yulaf, tarlada buğday ile karışık ekildiği için yüksek oranda çapraz bulaşma içerir. Ayrıca Avenin proteini bazı hastalarda gluten benzeri villus hasarı yapabilir."
+      },
+      "Bulgur": {
+        "info": "[Çölyak]: Karbonhidrat kaynağı olarak sebze bazlı alternatifler (Karnabahar pilavı, Kabak spagetti) veya baklagil makarnaları kullanılmalıdır.",
+        "warning": "[Çölyak]: Durum buğdayı veya sert buğdaydan elde edildikleri için saf gluten kaynaklarıdır. Eser miktarı bile antikorları (anti-tTG) yükseltir."
+      },
+      "Bulyon": {
+        "info": "[Çölyak]: \"Glutensiz\" ibaresi olmayan hiçbir sos tüketilmemeli",
+        "warning": "[Çölyak]: Endüstriyel gıdalarda buğday unu \"kıvam artırıcı\" ve \"taşıyıcı\" olarak kullanılır. Etikette belirtilmese bile risklidir."
+      },
+      "Börek": {
+        "info": "[Çölyak]: Bu lezzetler ancak badem unu, hindistan cevizi unu veya özel glutensiz un karışımları ile evde hazırlandığında güvenlidir.",
+        "warning": "[Çölyak]: Geleneksel unlu mamüllerin ana iskeleti gluten ağıdır. Hastalığı alevlendirir."
+      },
+      "Dövme": {
+        "info": "[Çölyak]: Karbonhidrat kaynağı olarak sebze bazlı alternatifler (Karnabahar pilavı, Kabak spagetti) veya baklagil makarnaları kullanılmalıdır.",
+        "warning": "[Çölyak]: Durum buğdayı veya sert buğdaydan elde edildikleri için saf gluten kaynaklarıdır. Eser miktarı bile antikorları (anti-tTG) yükseltir."
+      },
+      "Kuskus": {
+        "info": "[Çölyak]: Karbonhidrat kaynağı olarak sebze bazlı alternatifler (Karnabahar pilavı, Kabak spagetti) veya baklagil makarnaları kullanılmalıdır.",
+        "warning": "[Çölyak]: Durum buğdayı veya sert buğdaydan elde edildikleri için saf gluten kaynaklarıdır. Eser miktarı bile antikorları (anti-tTG) yükseltir."
+      },
+      "Mantı": {
+        "info": "[Çölyak]: Bu lezzetler ancak badem unu, hindistan cevizi unu veya özel glutensiz un karışımları ile evde hazırlandığında güvenlidir.",
+        "warning": "[Çölyak]: Geleneksel unlu mamüllerin ana iskeleti gluten ağıdır. Hastalığı alevlendirir."
+      },
+      "Müsli": {
+        "info": "[Çölyak]: Sadece \"Glutensiz Sertifikalı\" yulaf veya yulaf yerine karabuğday patlağı tüketilmelidir.",
+        "warning": "[Çölyak]: Yulaf, tarlada buğday ile karışık ekildiği için yüksek oranda çapraz bulaşma içerir. Ayrıca Avenin proteini bazı hastalarda gluten benzeri villus hasarı yapabilir."
+      },
+      "Seitan": {
+        "info": "[Çölyak]: Protein ihtiyacı işlenmemiş kaynaklardan (Balık, Et, Yumurta) veya Tofu/Tempeh gibi glutensiz bitkisel kaynaklardan karşılanmalıdır.",
+        "warning": "[Çölyak]: Bu ürünler doğrudan glutenin izole edilmiş halidir. Çölyak hastası için anafilaksi benzeri şiddetli sistemik reaksiyon riski taşır."
+      },
+      "İrmik": {
+        "info": "[Çölyak]: Karbonhidrat kaynağı olarak sebze bazlı alternatifler (Karnabahar pilavı, Kabak spagetti) veya baklagil makarnaları kullanılmalıdır.",
+        "warning": "[Çölyak]: Durum buğdayı veya sert buğdaydan elde edildikleri için saf gluten kaynaklarıdır. Eser miktarı bile antikorları (anti-tTG) yükseltir."
+      },
+      "Baklava": {
+        "info": "[Çölyak]: Bu lezzetler ancak badem unu, hindistan cevizi unu veya özel glutensiz un karışımları ile evde hazırlandığında güvenlidir.",
+        "warning": "[Çölyak]: Geleneksel unlu mamüllerin ana iskeleti gluten ağıdır. Hastalığı alevlendirir."
+      },
+      "Buğday": {
+        "info": "[Çölyak]: Bağırsak onarımını desteklemek için doğal glutensiz ve lifli kaynaklar (Karabuğday, Kinoa, Teff) tercih edilmelidir.",
+        "warning": "[Çölyak]: Bu tahıllardaki gliadin, secalin ve hordein proteinleri, ince bağırsak villuslarında kalıcı hasara ve emilim bozukluğuna (malabsorbsiyon) yol açar."
+      },
+      "Erişte": {
+        "info": "[Çölyak]: Karbonhidrat kaynağı olarak sebze bazlı alternatifler (Karnabahar pilavı, Kabak spagetti) veya baklagil makarnaları kullanılmalıdır.",
+        "warning": "[Çölyak]: Durum buğdayı veya sert buğdaydan elde edildikleri için saf gluten kaynaklarıdır. Eser miktarı bile antikorları (anti-tTG) yükseltir."
+      },
+      "Granola": {
+        "info": "[Çölyak]: Sadece \"Glutensiz Sertifikalı\" yulaf veya yulaf yerine karabuğday patlağı tüketilmelidir.",
+        "warning": "[Çölyak]: Yulaf, tarlada buğday ile karışık ekildiği için yüksek oranda çapraz bulaşma içerir. Ayrıca Avenin proteini bazı hastalarda gluten benzeri villus hasarı yapabilir."
+      },
+      "Makarna": {
+        "info": "[Çölyak]: Karbonhidrat kaynağı olarak sebze bazlı alternatifler (Karnabahar pilavı, Kabak spagetti) veya baklagil makarnaları kullanılmalıdır.",
+        "warning": "[Çölyak]: Durum buğdayı veya sert buğdaydan elde edildikleri için saf gluten kaynaklarıdır. Eser miktarı bile antikorları (anti-tTG) yükseltir."
+      },
+      "Çavdar": {
+        "info": "[Çölyak]: Bağırsak onarımını desteklemek için doğal glutensiz ve lifli kaynaklar (Karabuğday, Kinoa, Teff) tercih edilmelidir.",
+        "warning": "[Çölyak]: Bu tahıllardaki gliadin, secalin ve hordein proteinleri, ince bağırsak villuslarında kalıcı hasara ve emilim bozukluğuna (malabsorbsiyon) yol açar."
+      },
+      "Lahmacun": {
+        "info": "[Çölyak]: Bu lezzetler ancak badem unu, hindistan cevizi unu veya özel glutensiz un karışımları ile evde hazırlandığında güvenlidir.",
+        "warning": "[Çölyak]: Geleneksel unlu mamüllerin ana iskeleti gluten ağıdır. Hastalığı alevlendirir."
+      },
+      "Poğaça": {
+        "info": "[Çölyak]: Bu lezzetler ancak badem unu, hindistan cevizi unu veya özel glutensiz un karışımları ile evde hazırlandığında güvenlidir.",
+        "warning": "[Çölyak]: Geleneksel unlu mamüllerin ana iskeleti gluten ağıdır. Hastalığı alevlendirir."
+      },
+      "Şehriye": {
+        "info": "[Çölyak]: Karbonhidrat kaynağı olarak sebze bazlı alternatifler (Karnabahar pilavı, Kabak spagetti) veya baklagil makarnaları kullanılmalıdır.",
+        "warning": "[Çölyak]: Durum buğdayı veya sert buğdaydan elde edildikleri için saf gluten kaynaklarıdır. Eser miktarı bile antikorları (anti-tTG) yükseltir."
+      },
+      "Arpa Suyu": {
+        "info": "[Çölyak]: Sirke olarak sadece Elma Sirkesi veya Üzüm Sirkesi",
+        "warning": "[Çölyak]: Genellikle arpadan fermente edildikleri için toksik düzeyde gluten içerirler ve gizli gluten kaynağıdırlar."
+      },
+      "Soya Sosu": {
+        "info": "[Çölyak]: \"Glutensiz\" ibaresi olmayan hiçbir sos tüketilmemeli",
+        "warning": "[Çölyak]: Endüstriyel gıdalarda buğday unu \"kıvam artırıcı\" ve \"taşıyıcı\" olarak kullanılır. Etikette belirtilmese bile risklidir."
+      },
+      "Tritikale": {
+        "info": "[Çölyak]: Bağırsak onarımını desteklemek için doğal glutensiz ve lifli kaynaklar (Karabuğday, Kinoa, Teff) tercih edilmelidir.",
+        "warning": "[Çölyak]: Bu tahıllardaki gliadin, secalin ve hordein proteinleri, ince bağırsak villuslarında kalıcı hasara ve emilim bozukluğuna (malabsorbsiyon) yol açar."
+      },
+      "Çin Tuzu": {
+        "info": "[Çölyak]: \"Glutensiz\" ibaresi olmayan hiçbir sos tüketilmemeli",
+        "warning": "[Çölyak]: Endüstriyel gıdalarda buğday unu \"kıvam artırıcı\" ve \"taşıyıcı\" olarak kullanılır. Etikette belirtilmese bile risklidir."
+      },
+      "Galeta Unu": {
+        "info": "[Çölyak]: Panelleme işlemi için Badem Unu, Mısır Unu veya susam kullanılarak fırınlama yöntemi uygulanmalıdır.",
+        "warning": "[Çölyak]: Kızartma ve kaplamalarda kullanılan bu ürünler buğday ekmeğinden yapılır ve çapraz bulaşma riski en yüksek gruptur."
+      },
+      "Malt Özü": {
+        "info": "[Çölyak]: Sirke olarak sadece Elma Sirkesi veya Üzüm Sirkesi",
+        "warning": "[Çölyak]: Genellikle arpadan fermente edildikleri için toksik düzeyde gluten içerirler ve gizli gluten kaynağıdırlar."
+      },
+      "Pane Harcı": {
+        "info": "[Çölyak]: Panelleme işlemi için Badem Unu, Mısır Unu veya susam kullanılarak fırınlama yöntemi uygulanmalıdır.",
+        "warning": "[Çölyak]: Kızartma ve kaplamalarda kullanılan bu ürünler buğday ekmeğinden yapılır ve çapraz bulaşma riski en yüksek gruptur."
+      },
+      "Salata Sosu": {
+        "info": "[Çölyak]: \"Glutensiz\" ibaresi olmayan hiçbir sos tüketilmemeli",
+        "warning": "[Çölyak]: Endüstriyel gıdalarda buğday unu \"kıvam artırıcı\" ve \"taşıyıcı\" olarak kullanılır. Etikette belirtilmese bile risklidir."
+      },
+      "Bira Mayası": {
+        "info": "[Çölyak]: Sirke olarak sadece Elma Sirkesi veya Üzüm Sirkesi",
+        "warning": "[Çölyak]: Genellikle arpadan fermente edildikleri için toksik düzeyde gluten içerirler ve gizli gluten kaynağıdırlar."
+      },
+      "Malt Sirkesi": {
+        "info": "[Çölyak]: Sirke olarak sadece Elma Sirkesi veya Üzüm Sirkesi",
+        "warning": "[Çölyak]: Genellikle arpadan fermente edildikleri için toksik düzeyde gluten içerirler ve gizli gluten kaynağıdırlar."
+      },
+      "Hazır Çorba": {
+        "info": "[Çölyak]: \"Glutensiz\" ibaresi olmayan hiçbir sos tüketilmemeli",
+        "warning": "[Çölyak]: Endüstriyel gıdalarda buğday unu \"kıvam artırıcı\" ve \"taşıyıcı\" olarak kullanılır. Etikette belirtilmese bile risklidir."
+      },
+      "Vejetaryen Et": {
+        "info": "[Çölyak]: Protein ihtiyacı işlenmemiş kaynaklardan (Balık, Et, Yumurta) veya Tofu/Tempeh gibi glutensiz bitkisel kaynaklardan karşılanmalıdır.",
+        "warning": "[Çölyak]: Bu ürünler doğrudan glutenin izole edilmiş halidir. Çölyak hastası için anafilaksi benzeri şiddetli sistemik reaksiyon riski taşır."
+      },
+      "Yulaf Kepeği": {
+        "info": "[Çölyak]: Sadece \"Glutensiz Sertifikalı\" yulaf veya yulaf yerine karabuğday patlağı tüketilmelidir.",
+        "warning": "[Çölyak]: Yulaf, tarlada buğday ile karışık ekildiği için yüksek oranda çapraz bulaşma içerir. Ayrıca Avenin proteini bazı hastalarda gluten benzeri villus hasarı yapabilir."
+      },
+      "Buğday Gluteni": {
+        "info": "[Çölyak]: Protein ihtiyacı işlenmemiş kaynaklardan (Balık, Et, Yumurta) veya Tofu/Tempeh gibi glutensiz bitkisel kaynaklardan karşılanmalıdır.",
+        "warning": "[Çölyak]: Bu ürünler doğrudan glutenin izole edilmiş halidir. Çölyak hastası için anafilaksi benzeri şiddetli sistemik reaksiyon riski taşır."
+      },
+      "Kavuzlu Buğday": {
+        "info": "[Çölyak]: Bağırsak onarımını desteklemek için doğal glutensiz ve lifli kaynaklar (Karabuğday, Kinoa, Teff) tercih edilmelidir.",
+        "warning": "[Çölyak]: Bu tahıllardaki gliadin, secalin ve hordein proteinleri, ince bağırsak villuslarında kalıcı hasara ve emilim bozukluğuna (malabsorbsiyon) yol açar."
+      },
+      "Hidrolize Buğday Proteini": {
+        "info": "[Çölyak]: Protein ihtiyacı işlenmemiş kaynaklardan (Balık, Et, Yumurta) veya Tofu/Tempeh gibi glutensiz bitkisel kaynaklardan karşılanmalıdır.",
+        "warning": "[Çölyak]: Bu ürünler doğrudan glutenin izole edilmiş halidir. Çölyak hastası için anafilaksi benzeri şiddetli sistemik reaksiyon riski taşır."
+      }
+    }
+  },
+  {
+    "id": "f84e5194-9dfe-499c-916d-12df5c7ef795",
+    "disease_id": "b4c0d038-5763-4998-9e5c-c741b879afc3",
+    "rule_type": "negative",
+    "keywords": [
+      "makarna",
+      "pirinç"
+    ],
+    "tags": [],
+    "match_name": true,
+    "match_tags": true,
+    "created_at": "2026-02-10T12:46:45.491514+00:00",
+    "keyword_metadata": {
+      "makarna": {
+        "match_name": true,
+        "match_tags": true
+      },
+      "pirinç": {
+        "match_name": true,
+        "match_tags": true
+      }
+    }
+  },
+  {
+    "id": "f4a5f67e-f098-4634-ab23-79fd6170fce7",
+    "disease_id": "b4c0d038-5763-4998-9e5c-c741b879afc3",
+    "rule_type": "positive",
+    "keywords": [
+      "yumurta",
+      "ceviz",
+      "avokado"
+    ],
+    "tags": [],
+    "match_name": true,
+    "match_tags": true,
+    "created_at": "2026-02-10T12:46:45.491514+00:00",
+    "keyword_metadata": {
+      "ceviz": {
+        "match_name": true,
+        "match_tags": true
+      },
+      "avokado": {
+        "info": "burada da öneriler yazar",
+        "warning": "bu kısımda övgüler yazar",
+        "match_name": true,
+        "match_tags": true
+      },
+      "yumurta": {
+        "match_name": true,
+        "match_tags": true
+      }
+    }
+  }
+]

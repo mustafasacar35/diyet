@@ -1,0 +1,25 @@
+--- Items in KURUYEMİŞLER category ---
+[Tuzsuz Ay Çekirdeği] Role: 'snack', MealTypes: [lunch,dinner]
+[Ay Çekirdeği] Role: 'snack', MealTypes: [lunch,dinner]
+[Yer Fıstığı] Role: 'snack', MealTypes: [lunch,dinner]
+[10 adet Badem] Role: 'snack', MealTypes: []
+[10 adet Badem] Role: 'snack', MealTypes: []
+[Ceviz (3 adet)] Role: 'snack', MealTypes: [lunch,dinner]
+[Ceviz (3 adet )] Role: 'snack', MealTypes: [lunch,dinner]
+[10 adet Çiğ Badem] Role: 'snack', MealTypes: [lunch,dinner]
+[10 adet Çiğ Fındık] Role: 'snack', MealTypes: [lunch,dinner]
+[5 adet Ceviz] Role: 'snack', MealTypes: [lunch,dinner]
+
+--- Items in EKMEKLER category ---
+[Haşhaş ezmesi ekmeği (1 dilim)] Role: 'bread', MealTypes: [lunch,dinner]
+[Sebzeli Krep (2 adet yumurta, 1 yemek kaşığı lupin unu, 5 adet mantar, 5 yaprak ıspanak, 1 yemek kaşığı zeytinyağı)] Role: 'bread', MealTypes: [lunch]
+[1 adet Sebzeli Muffin] Role: 'bread', MealTypes: [lunch]
+[Bakla Unu Ekmeği] Role: 'bread', MealTypes: []
+[Badem Unlu Ekmek (1 dilim)] Role: 'bread', MealTypes: [lunch,dinner]
+
+--- Items in ÇORBALAR category ---
+[badem unlu krep (1 yumurta ve 1 çorba kaşığı badem ununu çırpın. i̇stediğiniz baharatları ekleyin1 tatlı kaşığı] Role: 'corba', MealTypes: [dinner]
+[Domates çorbası] Role: 'corba', MealTypes: [dinner]
+[Közlenmiş Kırmızı Biber Çorbası] Role: 'corba', MealTypes: [dinner]
+[Bal Kabağı Çorbası] Role: 'corba', MealTypes: [dinner]
+[Etli Karnabahar Çorbası] Role: 'corba', MealTypes: [dinner]

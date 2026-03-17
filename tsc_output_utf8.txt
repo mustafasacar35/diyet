@@ -1,0 +1,4 @@
+﻿src/app/patients/[id]/page.tsx(3818,29): error TS2322: Type 'string | null | undefined' is not assignable to type 'string | undefined'.
+  Type 'null' is not assignable to type 'string | undefined'.
+src/app/patients/[id]/page.tsx(4811,55): error TS2322: Type 'string | null | undefined' is not assignable to type 'string | undefined'.
+  Type 'null' is not assignable to type 'string | undefined'.

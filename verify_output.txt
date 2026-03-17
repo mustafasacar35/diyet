@@ -1,0 +1,16 @@
+Starting Device Security Verification...
+1. Creating Test User: device_test_1769371929569@example.com
+   User created. ID: aacd4e47-16d3-4c7e-8f8e-9ce7842ee535
+2. Logging In...
+3. Registering Device 1 (62b270ca-9dce-4db8-8bfe-dfbfb95ef971)...
+   Device 1 Registration FAILED: {
+  code: '23503',
+  details: 'Key (user_id)=(aacd4e47-16d3-4c7e-8f8e-9ce7842ee535) is not present in table "profiles".',
+  hint: null,
+  message: 'insert or update on table "user_devices" violates foreign key constraint "user_devices_user_id_fkey"'
+}
+4. Registering Device 2 (90e08fa4-8313-48cf-b89a-259d1b16ec35)...
+   Device 2 Registration Failed (AS EXPECTED): insert or update on table "user_devices" violates foreign key constraint "user_devices_user_id_fkey"
+   ⚠️ TEST WARNING: Failed but unexpected message.
+5. Cleanup: Deleting user...
+   User deleted.

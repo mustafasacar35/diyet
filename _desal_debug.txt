@@ -1,0 +1,11 @@
+MEDS: [
+  {
+    "id": "ee5f6127-94fe-4b88-9370-860b5ebca96a",
+    "name": "Desal"
+  }
+]
+RULE_COUNT: 4
+R0: type=negative keyword="Meyan Kökü/Meyan Şerbeti/Meyan Çayı" match_name=true match_tags=true
+R1: type=negative keyword="Tuz/Turşu/Salamura/Soya Sosu/Cips/Kraker/Konserve Gıdalar/Maden Suyu" match_name=true match_tags=true
+R2: type=warning keyword="Alkol/Bira/Şarap/Rakı" match_name=true match_tags=true
+R3: type=positive keyword="Muz/Kuru Kayısı/Patates/Avokado/Ispanak/Mercimek/Hurma" match_name=true match_tags=true

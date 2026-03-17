@@ -1,0 +1,6 @@
+﻿[dotenv@17.2.3] injecting env (4) from .env.local -- tip: ÔÜÖ´©Å  suppress all logs with { quiet: true }
+­şöı Finding hacer@demo.com...
+Profiles with HACER: []
+ÔØî Auth user not found in any page
+
+All auth users:

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "741d4c32-3b85-4126-95f3-9e9126323d46",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "micronutrient_id": "e38f6cbc-8012-460a-8c2c-f91468379306",
+    "value": 25,
+    "measured_at": "2026-01-29",
+    "ref_min": 20,
+    "ref_max": 79,
+    "note": null,
+    "created_at": "2026-01-31T20:41:58.036615+00:00",
+    "updated_at": "2026-01-31T20:41:58.036615+00:00"
+  },
+  {
+    "id": "3108fb39-7e91-48cb-8aca-1465a0c1b734",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "micronutrient_id": "0301eeef-650c-480c-bc0a-7ff01dd692b7",
+    "value": 999,
+    "measured_at": "2026-01-29",
+    "ref_min": 211,
+    "ref_max": 911,
+    "note": null,
+    "created_at": "2026-02-01T16:11:35.796766+00:00",
+    "updated_at": "2026-02-01T16:11:35.796766+00:00"
+  },
+  {
+    "id": "0e788f54-dae7-405b-83f0-9fe331305bef",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "micronutrient_id": "576ad3c1-6db1-4acb-8e8b-868407bc26b0",
+    "value": 950,
+    "measured_at": "2026-01-29",
+    "ref_min": 200,
+    "ref_max": 900,
+    "note": null,
+    "created_at": "2026-01-29T08:29:37.232572+00:00",
+    "updated_at": "2026-01-29T08:29:37.232572+00:00"
+  },
+  {
+    "id": "deebd2e0-303f-4b56-a853-f7f437181ca1",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "micronutrient_id": "acc50ed9-b618-404a-80e8-d920946551d3",
+    "value": 65,
+    "measured_at": "2026-01-29",
+    "ref_min": 70,
+    "ref_max": 120,
+    "note": null,
+    "created_at": "2026-01-29T08:30:42.429612+00:00",
+    "updated_at": "2026-01-29T08:30:42.429612+00:00"
+  },
+  {
+    "id": "c0b70745-1bf9-4170-ab2c-3d9788e3f77c",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "micronutrient_id": "530c74bc-b800-4a1a-86e6-a7771644ae0c",
+    "value": 101,
+    "measured_at": "2026-01-29",
+    "ref_min": 98,
+    "ref_max": 106,
+    "note": null,
+    "created_at": "2026-01-31T17:57:45.141096+00:00",
+    "updated_at": "2026-01-31T17:57:45.141096+00:00"
+  },
+  {
+    "id": "23067d18-b855-4a32-8cad-0a92adac06aa",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "micronutrient_id": "599b3690-dc95-4f49-a113-f53f6d7c22a8",
+    "value": 44,
+    "measured_at": "2026-01-29",
+    "ref_min": 60,
+    "ref_max": 170,
+    "note": null,
+    "created_at": "2026-01-31T20:36:49.111999+00:00",
+    "updated_at": "2026-01-31T20:36:49.111999+00:00"
+  },
+  {
+    "id": "87050e06-46f1-4b24-bf79-897b7b2f8419",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "micronutrient_id": "e38f6cbc-8012-460a-8c2c-f91468379306",
+    "value": 18,
+    "measured_at": "2026-01-26",
+    "ref_min": 20,
+    "ref_max": 79,
+    "note": null,
+    "created_at": "2026-01-29T21:22:37.754023+00:00",
+    "updated_at": "2026-01-29T21:22:37.754023+00:00"
+  },
+  {
+    "id": "e827e22f-2b6e-42ef-8659-2c9e84cfee19",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "micronutrient_id": "576ad3c1-6db1-4acb-8e8b-868407bc26b0",
+    "value": 911,
+    "measured_at": "2026-01-26",
+    "ref_min": 200,
+    "ref_max": 900,
+    "note": null,
+    "created_at": "2026-01-29T21:22:37.754023+00:00",
+    "updated_at": "2026-01-29T21:22:37.754023+00:00"
+  },
+  {
+    "id": "243a37c9-7359-4b58-b61c-d2c92e1b3c92",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "micronutrient_id": "acc50ed9-b618-404a-80e8-d920946551d3",
+    "value": 44,
+    "measured_at": "2026-01-26",
+    "ref_min": 70,
+    "ref_max": 120,
+    "note": null,
+    "created_at": "2026-01-29T21:22:37.754023+00:00",
+    "updated_at": "2026-01-29T21:22:37.754023+00:00"
+  }
+]

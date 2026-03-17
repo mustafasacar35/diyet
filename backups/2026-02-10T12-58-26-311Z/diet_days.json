@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "20c424e2-bc25-44cf-8a5a-e9713525f312",
+    "diet_week_id": "260488ab-7814-4f63-a2d4-594f25b0dbd2",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.078148+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "87e2b081-6420-433f-ad82-b9797704a59a",
+    "diet_week_id": "260488ab-7814-4f63-a2d4-594f25b0dbd2",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.078148+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "05250fb2-57bf-439a-82aa-ae666be63978",
+    "diet_week_id": "6e201e11-185c-48f8-8b97-b955c85a92dd",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:32:58.935707+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ea556c06-fef0-421c-8210-f2b25758b116",
+    "diet_week_id": "260488ab-7814-4f63-a2d4-594f25b0dbd2",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.078148+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "02893cbf-a034-4ba0-b49e-21b4ac768a66",
+    "diet_week_id": "260488ab-7814-4f63-a2d4-594f25b0dbd2",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.078148+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "90c951f0-1e7f-437a-8d2c-50bcccd05b51",
+    "diet_week_id": "260488ab-7814-4f63-a2d4-594f25b0dbd2",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.078148+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ea011371-ea0a-4299-b9e3-f22edf88b6d9",
+    "diet_week_id": "260488ab-7814-4f63-a2d4-594f25b0dbd2",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.078148+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1dbe68f9-e07c-4b0f-89c4-3a78e389cb41",
+    "diet_week_id": "260488ab-7814-4f63-a2d4-594f25b0dbd2",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.078148+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9c07d6e6-6b30-4464-ae4e-b2b643b62b6d",
+    "diet_week_id": "e2f48459-d365-4551-8bc5-17b3c3b8a292",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:20.981712+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d46aace4-f714-4806-8351-081d169aac21",
+    "diet_week_id": "e2f48459-d365-4551-8bc5-17b3c3b8a292",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:20.981712+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "aa6a010b-dd2b-4dde-b4b6-f31040ef8986",
+    "diet_week_id": "e2f48459-d365-4551-8bc5-17b3c3b8a292",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:20.981712+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ae3b3100-ede2-4638-b7fb-f24423da41d2",
+    "diet_week_id": "e2f48459-d365-4551-8bc5-17b3c3b8a292",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:20.981712+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "61c2e688-6edb-4fc4-8db5-be9e16a7f63e",
+    "diet_week_id": "e2f48459-d365-4551-8bc5-17b3c3b8a292",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:20.981712+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "94301ec7-928b-48e2-8c34-26a12a7d434b",
+    "diet_week_id": "e2f48459-d365-4551-8bc5-17b3c3b8a292",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:20.981712+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5cc67a1d-f475-4d73-b8fe-e58eb268699c",
+    "diet_week_id": "e2f48459-d365-4551-8bc5-17b3c3b8a292",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:20.981712+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "80e5384e-abbe-430d-b660-2fa9fcdcdc6c",
+    "diet_week_id": "0bb9dd1d-3989-4634-8cc0-5d017ec6a9a2",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.464295+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8a14ca62-2194-41d1-83a8-4a1df9193346",
+    "diet_week_id": "0bb9dd1d-3989-4634-8cc0-5d017ec6a9a2",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.464295+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "340eaf53-8838-483f-9f6a-05226ef2a5b3",
+    "diet_week_id": "0bb9dd1d-3989-4634-8cc0-5d017ec6a9a2",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.464295+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "21387075-fabe-4cf8-a5b0-9443b5e21eff",
+    "diet_week_id": "0bb9dd1d-3989-4634-8cc0-5d017ec6a9a2",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.464295+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2aaa5746-7e8e-4981-8110-b3534dff0355",
+    "diet_week_id": "0bb9dd1d-3989-4634-8cc0-5d017ec6a9a2",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.464295+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6f7e7031-b850-40ac-800d-a18f531e7c7c",
+    "diet_week_id": "0bb9dd1d-3989-4634-8cc0-5d017ec6a9a2",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.464295+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4a78ddf0-ec9e-4d77-9819-aac23d8c5673",
+    "diet_week_id": "0bb9dd1d-3989-4634-8cc0-5d017ec6a9a2",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.464295+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "65f83d18-d33c-46ca-a0a0-f33355fa90c0",
+    "diet_week_id": "dc864a58-a161-4a00-aaeb-f4f99c38e70a",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T08:03:19.898794+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "bfcd82ed-6c7e-424d-ac8c-4436adf4801a",
+    "diet_week_id": "dc864a58-a161-4a00-aaeb-f4f99c38e70a",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T08:03:19.898794+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "22ed9b8c-ae41-4427-a280-141ff7f026e5",
+    "diet_week_id": "dc864a58-a161-4a00-aaeb-f4f99c38e70a",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T08:03:19.898794+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c414bb08-252e-4abc-9a94-8e5077db98e1",
+    "diet_week_id": "dc864a58-a161-4a00-aaeb-f4f99c38e70a",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T08:03:19.898794+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6add5906-b47b-4d44-8ce4-437244b0747d",
+    "diet_week_id": "dc864a58-a161-4a00-aaeb-f4f99c38e70a",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T08:03:19.898794+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "dfe798df-e97e-4b70-bb0d-5fd2af86d172",
+    "diet_week_id": "dc864a58-a161-4a00-aaeb-f4f99c38e70a",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T08:03:19.898794+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "99442812-1ae2-46a4-bb20-1b7f01cab709",
+    "diet_week_id": "dc864a58-a161-4a00-aaeb-f4f99c38e70a",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T08:03:19.898794+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d0cafccd-1534-4e57-b4eb-8381f5c3bb80",
+    "diet_week_id": "32a64769-4cda-4145-ae23-b968d8901e79",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:24.676331+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "536c3316-bc97-43d0-bada-c2bde5e36fc3",
+    "diet_week_id": "32a64769-4cda-4145-ae23-b968d8901e79",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:26.828016+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "27db720e-b451-4781-991d-43a5dcc9c69b",
+    "diet_week_id": "32a64769-4cda-4145-ae23-b968d8901e79",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:28.979484+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c75faa2f-1ae4-4f0a-8562-ab7954d6792c",
+    "diet_week_id": "ef7139c8-641b-4133-b413-1cd13d8e2fd2",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:31.112851+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b86898bb-e038-4d10-8666-e17ddc5ab06e",
+    "diet_week_id": "ef7139c8-641b-4133-b413-1cd13d8e2fd2",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:33.16155+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1811fddc-4326-42e9-8b57-df6ddc8c86c4",
+    "diet_week_id": "82c7c037-1f45-4c1a-9ef0-2c56788b7ff3",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:37.108447+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9f3284aa-1001-48ac-ad88-0b9cd3abd0f8",
+    "diet_week_id": "82c7c037-1f45-4c1a-9ef0-2c56788b7ff3",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:39.111261+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e88e01a0-60ba-4dec-a098-27f91d325c27",
+    "diet_week_id": "2a601f8c-a14f-43cf-970e-6c1488aed8da",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:41.156347+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "bb1666fc-f17e-42fa-a2c6-fd8a1cd5eea7",
+    "diet_week_id": "2a601f8c-a14f-43cf-970e-6c1488aed8da",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:42.990815+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2da678f9-61ce-4e2b-9292-76e7d5ee537b",
+    "diet_week_id": "2a601f8c-a14f-43cf-970e-6c1488aed8da",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:44.950208+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c0378d96-db98-4ff0-bc1c-cc206a93b4f5",
+    "diet_week_id": "fe88f6e6-3e81-469f-96e2-08cce25825d0",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:47.708222+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b9fe4525-617d-4c1a-9636-abcd9d3ca794",
+    "diet_week_id": "fe88f6e6-3e81-469f-96e2-08cce25825d0",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:49.535902+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0e5da908-63e5-4c39-9648-9e5e9b7dfc4b",
+    "diet_week_id": "b9cc6fc6-2d22-433f-bea4-891f3d9ec928",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:53.442467+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a76568df-dade-4208-95c7-2510cc71ea49",
+    "diet_week_id": "b9cc6fc6-2d22-433f-bea4-891f3d9ec928",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:55.177953+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5ffccdd3-1004-4bba-8741-b9677ef0c26d",
+    "diet_week_id": "7b7f3394-3d95-41b4-a872-7e3d2c797f1a",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:57.225481+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "462fafe0-a46b-42ed-8557-d2de4d4cdca1",
+    "diet_week_id": "7b7f3394-3d95-41b4-a872-7e3d2c797f1a",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:59.086166+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "02638678-d75d-466a-9b8d-3491ec2bcce1",
+    "diet_week_id": "7b7f3394-3d95-41b4-a872-7e3d2c797f1a",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:00.915062+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e7a06a2e-9f74-4406-9c45-280e463003fe",
+    "diet_week_id": "22290bc4-e1b0-4d94-85e6-17f75ab9cbfd",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:02.859214+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c2d378e8-9331-4810-a869-fee546c72602",
+    "diet_week_id": "22290bc4-e1b0-4d94-85e6-17f75ab9cbfd",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:04.648452+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ca6d204b-06e9-4dfc-b5a9-c4cc277c8449",
+    "diet_week_id": "d33a88a9-082c-40aa-b75a-57a7bc9d8c5d",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:08.280575+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "fb38957e-9bea-48ac-bd77-7703ac600082",
+    "diet_week_id": "d33a88a9-082c-40aa-b75a-57a7bc9d8c5d",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:10.007377+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "04322328-3a93-44e7-8d72-cf9885d35025",
+    "diet_week_id": "de4fe0f4-df3d-49d6-86d9-7e47fb25b86a",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:12.152102+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "289a6ab9-bc1a-4b47-9ea4-889a26ce26ee",
+    "diet_week_id": "de4fe0f4-df3d-49d6-86d9-7e47fb25b86a",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:14.23145+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d27a053d-cfef-4a43-9abe-ca4ca49f10ac",
+    "diet_week_id": "de4fe0f4-df3d-49d6-86d9-7e47fb25b86a",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:16.023932+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1deaa332-2a15-4e24-81c1-f56b876fbc41",
+    "diet_week_id": "78b1bc73-2904-48a0-9d4a-967e0c308f09",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:18.539995+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8f3dbe81-39f2-4416-9615-f535db738bb5",
+    "diet_week_id": "78b1bc73-2904-48a0-9d4a-967e0c308f09",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:20.661897+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d3c63713-1486-4997-bba3-0d66eec840d9",
+    "diet_week_id": "f21eeb22-9b01-4388-83f5-22d476b6855b",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:24.778089+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "16a95f4e-0b87-4770-b6b8-ae2f9d317df8",
+    "diet_week_id": "f21eeb22-9b01-4388-83f5-22d476b6855b",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:26.73069+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8e270ed1-65d0-4e91-8d80-89fd9c9fe5d9",
+    "diet_week_id": "13b22ae3-615e-49a0-94f5-fcd6d6a68177",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:28.86964+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8d2b1531-e7d8-40e1-8b5d-b36a1317731b",
+    "diet_week_id": "13b22ae3-615e-49a0-94f5-fcd6d6a68177",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:30.919983+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "960dbc90-e196-4672-b5b9-b55981b383cb",
+    "diet_week_id": "13b22ae3-615e-49a0-94f5-fcd6d6a68177",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:33.271126+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5f3c8c3d-fdd8-41af-a55f-724e9f81c476",
+    "diet_week_id": "9cfe69dd-aa13-4111-8c65-88e99073c82c",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:35.514768+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3921f647-c790-4a12-bb9b-6d3c93b61f47",
+    "diet_week_id": "9cfe69dd-aa13-4111-8c65-88e99073c82c",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:37.570723+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "568e2123-1dd9-4965-a92b-cc095206286c",
+    "diet_week_id": "d4252e24-4117-4d13-a5dc-84acc8118fdb",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:41.676914+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2f5a1ed0-4988-48b7-8a13-5fa9bd105fc9",
+    "diet_week_id": "d4252e24-4117-4d13-a5dc-84acc8118fdb",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:44.549811+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ce998f16-d31f-4949-bc76-d86074af1bf6",
+    "diet_week_id": "6d5104f2-e85b-438b-a2dc-9943272eb72e",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:46.579143+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4a98b16b-d017-433c-be5b-64f9fc694b9f",
+    "diet_week_id": "6d5104f2-e85b-438b-a2dc-9943272eb72e",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:48.511497+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f7754a8c-9192-4d33-8373-c1943a4b3d5d",
+    "diet_week_id": "b1dee891-a735-4103-9a1f-741aa03e7575",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.076716+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8709c66d-b333-4929-bf18-25278c6fa851",
+    "diet_week_id": "b1dee891-a735-4103-9a1f-741aa03e7575",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.076716+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4cb9f90b-18c6-47a8-a529-b6d2cc54267f",
+    "diet_week_id": "b1dee891-a735-4103-9a1f-741aa03e7575",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.076716+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "fe8b7690-3b70-45f9-aa87-45cf471f558c",
+    "diet_week_id": "b1dee891-a735-4103-9a1f-741aa03e7575",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.076716+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ca2f150c-1e9b-4a7c-adca-5716c1646021",
+    "diet_week_id": "b1dee891-a735-4103-9a1f-741aa03e7575",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.076716+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1d90941c-5728-4658-9322-645bd6c4c872",
+    "diet_week_id": "b1dee891-a735-4103-9a1f-741aa03e7575",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.076716+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "117f5456-9a4f-464a-81ea-1d5cc5dd122f",
+    "diet_week_id": "b1dee891-a735-4103-9a1f-741aa03e7575",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:33.076716+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d2dd112c-178a-4f31-a3c9-94133e540c9d",
+    "diet_week_id": "76cab06a-0fe6-4caf-9d4b-cff6c9cbe231",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:21.924965+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ceaefbb5-9a5e-4daa-a6ca-4d3fac369f2b",
+    "diet_week_id": "76cab06a-0fe6-4caf-9d4b-cff6c9cbe231",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:21.924965+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f82996b4-24f1-40ea-b995-c9d4a1daf767",
+    "diet_week_id": "76cab06a-0fe6-4caf-9d4b-cff6c9cbe231",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:21.924965+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f019b96d-d9c9-4bb3-b11e-0210e5b4138b",
+    "diet_week_id": "76cab06a-0fe6-4caf-9d4b-cff6c9cbe231",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:21.924965+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1c122c25-0caa-44a8-83ba-a302a503513b",
+    "diet_week_id": "76cab06a-0fe6-4caf-9d4b-cff6c9cbe231",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:21.924965+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5485019f-6921-4f51-bcf8-986486d5b41c",
+    "diet_week_id": "76cab06a-0fe6-4caf-9d4b-cff6c9cbe231",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:21.924965+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "fff7e2e0-ba07-4dad-af0f-8ed18fae4ae3",
+    "diet_week_id": "76cab06a-0fe6-4caf-9d4b-cff6c9cbe231",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:21.924965+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "14efc8b1-e610-46b9-aa3c-f41e228f65d4",
+    "diet_week_id": "54727e01-acae-41e7-90fc-11e8c8581ff9",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:02.365695+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "62271cb1-5bb3-495f-b2ba-16d22c61b73f",
+    "diet_week_id": "54727e01-acae-41e7-90fc-11e8c8581ff9",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:02.365695+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "64bca72c-ec00-4dfb-94c7-112de95c5eec",
+    "diet_week_id": "54727e01-acae-41e7-90fc-11e8c8581ff9",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:02.365695+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9205871f-98b9-4a81-aab3-446bb385c47e",
+    "diet_week_id": "54727e01-acae-41e7-90fc-11e8c8581ff9",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:02.365695+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "88bdc691-cb7b-49aa-9948-6b76d2535f62",
+    "diet_week_id": "54727e01-acae-41e7-90fc-11e8c8581ff9",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:02.365695+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "13fd7bdd-85c9-4269-abb0-138b78806793",
+    "diet_week_id": "54727e01-acae-41e7-90fc-11e8c8581ff9",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:02.365695+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4259cab4-7c77-4394-b24a-bf10d0c2e3d2",
+    "diet_week_id": "54727e01-acae-41e7-90fc-11e8c8581ff9",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:02.365695+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "be1d1cbd-8b7d-41af-92e4-8cb09a8e9c4d",
+    "diet_week_id": "33e38f7a-03aa-4f28-923b-a3a41bea78df",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T08:32:24.672988+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "21629ceb-fb9f-4d0e-a3f9-a03c39b1930d",
+    "diet_week_id": "33e38f7a-03aa-4f28-923b-a3a41bea78df",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T08:32:24.672988+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "256082ad-7955-4bc8-8595-601f024efb31",
+    "diet_week_id": "33e38f7a-03aa-4f28-923b-a3a41bea78df",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T08:32:24.672988+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c4939853-762d-45b9-83e6-5996386af275",
+    "diet_week_id": "33e38f7a-03aa-4f28-923b-a3a41bea78df",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T08:32:24.672988+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8d52cb5d-6bc6-4069-97eb-2cc54dcca422",
+    "diet_week_id": "33e38f7a-03aa-4f28-923b-a3a41bea78df",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T08:32:24.672988+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "73d64d96-02b6-42f4-863d-c951a5cf86bd",
+    "diet_week_id": "33e38f7a-03aa-4f28-923b-a3a41bea78df",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T08:32:24.672988+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "beacfc28-6cf9-4611-8dfa-3e1dc54360e6",
+    "diet_week_id": "33e38f7a-03aa-4f28-923b-a3a41bea78df",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T08:32:24.672988+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d39fd8d6-1b66-4536-b9af-7e9f4a0d8bb5",
+    "diet_week_id": "29855893-a05f-4522-a71a-2ce69c348ed2",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:01.200993+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f59f0396-5045-44f9-8229-39095fa0411f",
+    "diet_week_id": "29855893-a05f-4522-a71a-2ce69c348ed2",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:01.200993+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f62c59b3-6a2d-4f59-a720-c5723b27c19b",
+    "diet_week_id": "29855893-a05f-4522-a71a-2ce69c348ed2",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:01.200993+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "229138d4-aa20-4aee-bf88-b6f34d981698",
+    "diet_week_id": "29855893-a05f-4522-a71a-2ce69c348ed2",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:01.200993+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3fed8f49-3e3f-40eb-9ae0-1d0fa4d420d8",
+    "diet_week_id": "29855893-a05f-4522-a71a-2ce69c348ed2",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:01.200993+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4ac4043a-d814-4d78-a2d6-0c2d2bcee3bd",
+    "diet_week_id": "29855893-a05f-4522-a71a-2ce69c348ed2",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:01.200993+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "96dc07fb-6c43-4987-be2e-1945819776de",
+    "diet_week_id": "29855893-a05f-4522-a71a-2ce69c348ed2",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:01.200993+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5546c39e-fa5d-45ad-a346-22a9ba262180",
+    "diet_week_id": "32a64769-4cda-4145-ae23-b968d8901e79",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:25.375135+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "eea7b430-a57a-46fc-82bb-f1c87c10e849",
+    "diet_week_id": "32a64769-4cda-4145-ae23-b968d8901e79",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:27.571661+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9da27945-36f0-4e0b-b907-3562b58dbbef",
+    "diet_week_id": "ef7139c8-641b-4133-b413-1cd13d8e2fd2",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:31.858621+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "fb5b800a-f3c5-4225-9cb5-1571f8e62560",
+    "diet_week_id": "ef7139c8-641b-4133-b413-1cd13d8e2fd2",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:34.088828+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8d53caa3-658a-4119-8393-9debb359910d",
+    "diet_week_id": "82c7c037-1f45-4c1a-9ef0-2c56788b7ff3",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:35.978047+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e0a6d5ba-6481-4893-8370-dd70062d4a2f",
+    "diet_week_id": "82c7c037-1f45-4c1a-9ef0-2c56788b7ff3",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:37.730425+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "bc90cea5-fa20-4c3e-9b21-9e96e868bf00",
+    "diet_week_id": "82c7c037-1f45-4c1a-9ef0-2c56788b7ff3",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:39.825477+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "530e7bf7-053f-4fd3-96ac-22a9b1a1c5f0",
+    "diet_week_id": "dc2506b8-7a3e-485e-80aa-bcba0c67dcca",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:02.475711+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ab2635ad-adc1-4dd1-9a1f-2cfe621771cf",
+    "diet_week_id": "dc2506b8-7a3e-485e-80aa-bcba0c67dcca",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:02.475711+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "99aabcd2-241d-451a-8f7a-a263c1113f23",
+    "diet_week_id": "dc2506b8-7a3e-485e-80aa-bcba0c67dcca",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:02.475711+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c473da3b-3703-47ff-b6cd-2bb1a449b472",
+    "diet_week_id": "dc2506b8-7a3e-485e-80aa-bcba0c67dcca",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:02.475711+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "01caac0e-0b5e-44e2-af06-c55168db9667",
+    "diet_week_id": "dc2506b8-7a3e-485e-80aa-bcba0c67dcca",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:02.475711+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "15fb0284-3d03-4339-a832-f87e24e5f1e7",
+    "diet_week_id": "dc2506b8-7a3e-485e-80aa-bcba0c67dcca",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:02.475711+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2273a929-52b7-4dcb-94f4-dca1d556f992",
+    "diet_week_id": "dc2506b8-7a3e-485e-80aa-bcba0c67dcca",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:02.475711+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "aacf4f48-e4f5-40d1-8681-37c7cb7aa13c",
+    "diet_week_id": "2a601f8c-a14f-43cf-970e-6c1488aed8da",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:41.726156+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2cbdd110-1a0c-4d2b-b4b0-05b36a4b1c16",
+    "diet_week_id": "2a601f8c-a14f-43cf-970e-6c1488aed8da",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:43.630499+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e5cf1474-4a07-4149-9c29-c3e75ec28563",
+    "diet_week_id": "fe88f6e6-3e81-469f-96e2-08cce25825d0",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:48.400228+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f0137a75-d9c6-4572-81f1-3ecff9d25354",
+    "diet_week_id": "fe88f6e6-3e81-469f-96e2-08cce25825d0",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:50.155672+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1fb51bb5-da68-4281-be76-50ae3e2219f2",
+    "diet_week_id": "b9cc6fc6-2d22-433f-bea4-891f3d9ec928",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:52.120145+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "70e8fdca-2f2e-4019-8b5a-4bfff8b8807b",
+    "diet_week_id": "b9cc6fc6-2d22-433f-bea4-891f3d9ec928",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:54.003143+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6d7f1c77-fd08-4622-a60a-dd54f2ad2d1c",
+    "diet_week_id": "b9cc6fc6-2d22-433f-bea4-891f3d9ec928",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:55.762441+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c01f310d-57ef-4292-b4e4-3820bdf08f33",
+    "diet_week_id": "7b7f3394-3d95-41b4-a872-7e3d2c797f1a",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:57.837129+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "41a65739-1ddf-4712-880a-8266da2ceede",
+    "diet_week_id": "7b7f3394-3d95-41b4-a872-7e3d2c797f1a",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:59.684211+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "07e5c0de-dec2-4090-b411-008a7398dd56",
+    "diet_week_id": "22290bc4-e1b0-4d94-85e6-17f75ab9cbfd",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:03.436884+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d3735fa6-daad-494b-9693-74a17f53b4a9",
+    "diet_week_id": "22290bc4-e1b0-4d94-85e6-17f75ab9cbfd",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:05.326728+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "14f31789-17b4-48ae-bf7d-d0984150f753",
+    "diet_week_id": "d33a88a9-082c-40aa-b75a-57a7bc9d8c5d",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:07.098248+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9df72439-13df-4c11-a04d-e48ba211204d",
+    "diet_week_id": "d33a88a9-082c-40aa-b75a-57a7bc9d8c5d",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:08.815621+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "09717567-d140-4bb5-a132-c9c53cb600dd",
+    "diet_week_id": "d33a88a9-082c-40aa-b75a-57a7bc9d8c5d",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:10.644502+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "216d4083-f1dc-4c67-a904-d16c1b0685f4",
+    "diet_week_id": "de4fe0f4-df3d-49d6-86d9-7e47fb25b86a",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:12.775849+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "142fd09a-37fa-4b19-83cf-213e69f0cd57",
+    "diet_week_id": "de4fe0f4-df3d-49d6-86d9-7e47fb25b86a",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:14.805791+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "69a8b395-3a10-4e2a-8875-18c6bbaa210c",
+    "diet_week_id": "78b1bc73-2904-48a0-9d4a-967e0c308f09",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:19.368438+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3463b90d-d036-4185-905d-c8b07407f8b1",
+    "diet_week_id": "78b1bc73-2904-48a0-9d4a-967e0c308f09",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:21.286582+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2f7da4e1-e98b-4962-95d6-50ed7f6f6456",
+    "diet_week_id": "f21eeb22-9b01-4388-83f5-22d476b6855b",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:23.62857+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c4b5c0b3-e43f-4c8a-8e15-d04f58ca6d2c",
+    "diet_week_id": "f21eeb22-9b01-4388-83f5-22d476b6855b",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:25.37354+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "973f381c-9f7a-4954-aab8-f06ab3b26019",
+    "diet_week_id": "f21eeb22-9b01-4388-83f5-22d476b6855b",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:27.284968+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9d554bbc-b721-42e5-beee-0b4fe30bf03c",
+    "diet_week_id": "13b22ae3-615e-49a0-94f5-fcd6d6a68177",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:29.491521+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "cac189af-0586-453a-a780-798436bd26b7",
+    "diet_week_id": "13b22ae3-615e-49a0-94f5-fcd6d6a68177",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:31.529191+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5108e63a-2bde-4414-a125-d2dbe7fcf772",
+    "diet_week_id": "9cfe69dd-aa13-4111-8c65-88e99073c82c",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:36.205033+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a538fc7d-4f12-4d2e-bcb7-fa22ea09edb4",
+    "diet_week_id": "9cfe69dd-aa13-4111-8c65-88e99073c82c",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:38.262111+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "803c44b9-3748-44e1-a93c-20b325bf9a51",
+    "diet_week_id": "d4252e24-4117-4d13-a5dc-84acc8118fdb",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:40.405941+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6b831fac-a95e-42b2-8a19-f61a892ad6ce",
+    "diet_week_id": "d4252e24-4117-4d13-a5dc-84acc8118fdb",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:42.287684+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d9db378e-0f9e-45dd-8322-c33c90153dec",
+    "diet_week_id": "d4252e24-4117-4d13-a5dc-84acc8118fdb",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:45.148967+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d3bca934-7a02-4980-9c5c-7b941445ec09",
+    "diet_week_id": "6d5104f2-e85b-438b-a2dc-9943272eb72e",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:47.202207+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1e207af3-a936-4282-861f-514270e75d57",
+    "diet_week_id": "41b1cde9-0542-48f7-a785-a08ab8b7a3d9",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.532325+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "be97d508-d814-411f-b6cf-d39a82fd3dbe",
+    "diet_week_id": "41b1cde9-0542-48f7-a785-a08ab8b7a3d9",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.532325+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "76d72193-876e-4474-b32f-33c108338d92",
+    "diet_week_id": "41b1cde9-0542-48f7-a785-a08ab8b7a3d9",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.532325+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b9c2e2f5-7993-4056-908b-91cdd34b991c",
+    "diet_week_id": "41b1cde9-0542-48f7-a785-a08ab8b7a3d9",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.532325+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "40918797-0e53-4119-8c27-da7d4415b8ff",
+    "diet_week_id": "41b1cde9-0542-48f7-a785-a08ab8b7a3d9",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.532325+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "fe8f8905-b277-4341-93f1-b8a1b2895476",
+    "diet_week_id": "41b1cde9-0542-48f7-a785-a08ab8b7a3d9",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.532325+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "dde611ff-3878-4472-83f0-97250fbd15c3",
+    "diet_week_id": "41b1cde9-0542-48f7-a785-a08ab8b7a3d9",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.532325+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "705a2ed7-128d-4b33-a352-d2b3ebaa694c",
+    "diet_week_id": "53fe776d-adeb-4801-bd88-b0904d35cff5",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558059+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "635a6cc2-685d-495a-822d-33e0b4b859ac",
+    "diet_week_id": "53fe776d-adeb-4801-bd88-b0904d35cff5",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558059+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "db886a3a-fc89-495a-8b47-790cb7442a12",
+    "diet_week_id": "53fe776d-adeb-4801-bd88-b0904d35cff5",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558059+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "29bdcaab-da0f-49d7-b386-7a71b741a7a9",
+    "diet_week_id": "53fe776d-adeb-4801-bd88-b0904d35cff5",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558059+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "13d9fec0-4746-4506-a386-d7d2483f2348",
+    "diet_week_id": "53fe776d-adeb-4801-bd88-b0904d35cff5",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558059+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "465492fd-1c4b-4a63-8830-fc53d2db9918",
+    "diet_week_id": "53fe776d-adeb-4801-bd88-b0904d35cff5",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558059+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a66a6b0a-df79-4334-a184-2b17188df0ca",
+    "diet_week_id": "53fe776d-adeb-4801-bd88-b0904d35cff5",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558059+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6cbc64f6-ffc2-4eea-a5f6-964f1af9ebce",
+    "diet_week_id": "392ffe08-4087-42d7-8f66-67a62c5ff42e",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:43.804095+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5bbe9152-d950-47f4-b562-b05871b107e6",
+    "diet_week_id": "392ffe08-4087-42d7-8f66-67a62c5ff42e",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:43.804095+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c473cfc9-b7b1-43a9-babc-c021f02a5c15",
+    "diet_week_id": "392ffe08-4087-42d7-8f66-67a62c5ff42e",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:43.804095+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7c6ae1a2-306b-454a-b891-64c7072efc60",
+    "diet_week_id": "392ffe08-4087-42d7-8f66-67a62c5ff42e",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:43.804095+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "05e4c82b-4841-4865-a420-19b62e606144",
+    "diet_week_id": "392ffe08-4087-42d7-8f66-67a62c5ff42e",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:43.804095+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c15856be-c296-4665-b1a6-6e25e1e2346e",
+    "diet_week_id": "392ffe08-4087-42d7-8f66-67a62c5ff42e",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:43.804095+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "814642bd-047a-4807-b4f3-a811445c7973",
+    "diet_week_id": "392ffe08-4087-42d7-8f66-67a62c5ff42e",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T06:39:43.804095+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b7a6049f-30a8-4b5b-be44-dea1b8eaaf5a",
+    "diet_week_id": "c3059aa2-98c6-4936-884f-fd9cd111345b",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T14:46:56.045489+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "98671823-0b53-4ec1-badb-ff9e5b84fb9b",
+    "diet_week_id": "c3059aa2-98c6-4936-884f-fd9cd111345b",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T14:46:56.045489+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "974c964f-96ad-40b5-978a-96ca0ee84560",
+    "diet_week_id": "c3059aa2-98c6-4936-884f-fd9cd111345b",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T14:46:56.045489+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3f394941-4c47-4e57-a8cc-fd1845be0af4",
+    "diet_week_id": "c3059aa2-98c6-4936-884f-fd9cd111345b",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T14:46:56.045489+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "209615cd-44af-4bcb-a3bb-19f54474b87a",
+    "diet_week_id": "c3059aa2-98c6-4936-884f-fd9cd111345b",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T14:46:56.045489+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6c5becbf-6752-4e00-9ff8-f88de36c5e99",
+    "diet_week_id": "c3059aa2-98c6-4936-884f-fd9cd111345b",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T14:46:56.045489+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "140783ff-baf5-4b7d-8106-fc4ecc07400b",
+    "diet_week_id": "c3059aa2-98c6-4936-884f-fd9cd111345b",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T14:46:56.045489+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "16d9ef29-b083-46b7-82df-84b64f2109af",
+    "diet_week_id": "32a64769-4cda-4145-ae23-b968d8901e79",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:26.203224+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "87544f8b-3b25-4ba7-be7d-d50392bcf94e",
+    "diet_week_id": "32a64769-4cda-4145-ae23-b968d8901e79",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:28.365389+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "49f93d9b-634c-4a20-8298-b8c91b3526b5",
+    "diet_week_id": "ef7139c8-641b-4133-b413-1cd13d8e2fd2",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:30.420226+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "bb613163-90e8-4abc-a3ef-eed1b870ce03",
+    "diet_week_id": "ef7139c8-641b-4133-b413-1cd13d8e2fd2",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:32.543263+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "af98f9dc-7732-4645-9662-463b0edcc5dd",
+    "diet_week_id": "ef7139c8-641b-4133-b413-1cd13d8e2fd2",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:34.69966+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7a87e7fe-a3d4-46bc-9cc0-14f782dc2e65",
+    "diet_week_id": "82c7c037-1f45-4c1a-9ef0-2c56788b7ff3",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:36.53778+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "63a02c2d-a362-4bc9-9634-77bf6181357c",
+    "diet_week_id": "82c7c037-1f45-4c1a-9ef0-2c56788b7ff3",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:38.51287+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "49cb141f-a0e8-431b-ae26-7af80f1eea58",
+    "diet_week_id": "2a601f8c-a14f-43cf-970e-6c1488aed8da",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:42.394707+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "18436fa7-498a-44ac-a495-1db5f9d1ea47",
+    "diet_week_id": "2a601f8c-a14f-43cf-970e-6c1488aed8da",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:44.29846+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b7b2e8ed-f3cf-45fc-94f1-d51f82004c93",
+    "diet_week_id": "fe88f6e6-3e81-469f-96e2-08cce25825d0",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:47.060967+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a1598333-c9db-4b76-a219-6ac173d37d0d",
+    "diet_week_id": "fe88f6e6-3e81-469f-96e2-08cce25825d0",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:48.978911+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "110a6352-0ad5-4b47-8ef3-339e9906066a",
+    "diet_week_id": "fe88f6e6-3e81-469f-96e2-08cce25825d0",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:50.785452+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "91105eae-34a0-4a44-bfbb-e79c335c957b",
+    "diet_week_id": "b9cc6fc6-2d22-433f-bea4-891f3d9ec928",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:52.712613+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "45476c19-ed6a-48ef-ac46-411bf33050f2",
+    "diet_week_id": "b9cc6fc6-2d22-433f-bea4-891f3d9ec928",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:54.555767+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7c62c9f5-7771-4b61-8de3-23bfe021cabe",
+    "diet_week_id": "7b7f3394-3d95-41b4-a872-7e3d2c797f1a",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:12:58.465745+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "808e0730-5b45-4480-882b-422169098340",
+    "diet_week_id": "7b7f3394-3d95-41b4-a872-7e3d2c797f1a",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:00.306331+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e067e8de-b817-4bdf-8907-8eae9741ba6a",
+    "diet_week_id": "22290bc4-e1b0-4d94-85e6-17f75ab9cbfd",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:02.243925+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3856ac08-f08c-4554-bac9-be8a02963a90",
+    "diet_week_id": "22290bc4-e1b0-4d94-85e6-17f75ab9cbfd",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:04.076499+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "89914b6b-4703-4b61-b95a-7f4e2ea9a6b3",
+    "diet_week_id": "22290bc4-e1b0-4d94-85e6-17f75ab9cbfd",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:05.842657+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "857e0614-b0b6-4ef0-9a20-0839194dd791",
+    "diet_week_id": "d33a88a9-082c-40aa-b75a-57a7bc9d8c5d",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:07.639685+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5afd3106-2d35-462e-9882-c41e461f3ecc",
+    "diet_week_id": "d33a88a9-082c-40aa-b75a-57a7bc9d8c5d",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:09.358394+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e858ef25-3936-48cc-ab1e-ca3e1578a733",
+    "diet_week_id": "de4fe0f4-df3d-49d6-86d9-7e47fb25b86a",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:13.415744+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "379714f7-bc78-4a22-843a-04d47fecaa25",
+    "diet_week_id": "de4fe0f4-df3d-49d6-86d9-7e47fb25b86a",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:15.429562+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "076d772d-0147-497c-83df-5088b030abee",
+    "diet_week_id": "78b1bc73-2904-48a0-9d4a-967e0c308f09",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:18.015479+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1d40fe54-e62f-4d48-9ab2-6fd2c673109b",
+    "diet_week_id": "78b1bc73-2904-48a0-9d4a-967e0c308f09",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:19.95722+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "93cdb87f-4b37-4688-be0a-55aa666bb486",
+    "diet_week_id": "78b1bc73-2904-48a0-9d4a-967e0c308f09",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:21.903263+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1bb99885-9f10-48fd-9de7-b4c558785486",
+    "diet_week_id": "f21eeb22-9b01-4388-83f5-22d476b6855b",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:24.168474+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4a3f0f8f-ad7b-4dee-a033-13773285bdb5",
+    "diet_week_id": "f21eeb22-9b01-4388-83f5-22d476b6855b",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:26.119074+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b254890a-c1bd-45a5-85e6-73f851bae946",
+    "diet_week_id": "13b22ae3-615e-49a0-94f5-fcd6d6a68177",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:30.315538+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "33c928c3-1ac6-4672-80e2-49b6a477c938",
+    "diet_week_id": "13b22ae3-615e-49a0-94f5-fcd6d6a68177",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:32.353604+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9f8f3104-e369-43d3-a7ff-1c09213f6b5d",
+    "diet_week_id": "9cfe69dd-aa13-4111-8c65-88e99073c82c",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:34.839131+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c145e421-9333-4aac-ac6a-da3094f62c3c",
+    "diet_week_id": "9cfe69dd-aa13-4111-8c65-88e99073c82c",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:37.020631+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e3b1a9d9-bbea-4259-b6b9-2ce64f31e8ba",
+    "diet_week_id": "9cfe69dd-aa13-4111-8c65-88e99073c82c",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:39.085894+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0193ad27-df4f-4b5a-85ac-fe266acf272f",
+    "diet_week_id": "d4252e24-4117-4d13-a5dc-84acc8118fdb",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:41.091837+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "289630a6-72a9-46df-b086-fb8ee7275204",
+    "diet_week_id": "d4252e24-4117-4d13-a5dc-84acc8118fdb",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:43.754504+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1bd585ff-5001-4c7a-af5b-840d19a2d726",
+    "diet_week_id": "6d5104f2-e85b-438b-a2dc-9943272eb72e",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:47.90207+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a6af49ed-5510-4419-9bdd-9286f6060ead",
+    "diet_week_id": "b4163f81-90c2-498c-868c-fb4822165d55",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.573563+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c0dedad1-0ee6-4ac2-81ac-5c2ac6d9b871",
+    "diet_week_id": "b4163f81-90c2-498c-868c-fb4822165d55",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.573563+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2550d0b3-af7c-4f6b-8cdf-d446c1f9a4d3",
+    "diet_week_id": "b4163f81-90c2-498c-868c-fb4822165d55",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.573563+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a57690d0-43f1-4456-8de0-d72fab225d33",
+    "diet_week_id": "b4163f81-90c2-498c-868c-fb4822165d55",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.573563+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "83ecdcd2-a51b-492c-97e4-6f5019b41487",
+    "diet_week_id": "b4163f81-90c2-498c-868c-fb4822165d55",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.573563+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9f49c85a-554d-4131-a944-c8eda234bf15",
+    "diet_week_id": "b4163f81-90c2-498c-868c-fb4822165d55",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.573563+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7bb66507-b56f-42cf-bc82-e78465129437",
+    "diet_week_id": "b4163f81-90c2-498c-868c-fb4822165d55",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T21:53:54.573563+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "742b0af7-cc07-42ef-afd5-49db696ab4ec",
+    "diet_week_id": "bc4bbbbd-54de-461b-a110-e94cc2b57356",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558941+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "496ad65e-11d0-491f-a2ba-805149cb6e55",
+    "diet_week_id": "bc4bbbbd-54de-461b-a110-e94cc2b57356",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558941+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "40813862-d250-4268-8ff0-63e1309b91cb",
+    "diet_week_id": "bc4bbbbd-54de-461b-a110-e94cc2b57356",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558941+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8b84dab1-7c5e-4e34-b366-043da800d0b8",
+    "diet_week_id": "bc4bbbbd-54de-461b-a110-e94cc2b57356",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558941+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "adda5b71-f3ac-427e-9537-3184c4c2e8d6",
+    "diet_week_id": "bc4bbbbd-54de-461b-a110-e94cc2b57356",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558941+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "81cc2813-42e0-4177-90b8-1272dbd1ea89",
+    "diet_week_id": "bc4bbbbd-54de-461b-a110-e94cc2b57356",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558941+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f345f3d6-79a2-4fcc-b3a7-f4cf6ebf0f49",
+    "diet_week_id": "bc4bbbbd-54de-461b-a110-e94cc2b57356",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T22:02:44.558941+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7f55bf8f-3ea9-4dbe-8b77-7b9566b90992",
+    "diet_week_id": "55ce29e1-f520-4c57-a400-1979ceb59019",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T06:42:48.542848+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2133bc06-618a-4088-b6b0-bcb4ca8aecc2",
+    "diet_week_id": "55ce29e1-f520-4c57-a400-1979ceb59019",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T06:42:48.542848+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4a7b620e-e52d-47c5-b468-a862286fb843",
+    "diet_week_id": "55ce29e1-f520-4c57-a400-1979ceb59019",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T06:42:48.542848+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0e08c5cf-5bf2-4962-b23b-f8e7217cf4c7",
+    "diet_week_id": "55ce29e1-f520-4c57-a400-1979ceb59019",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T06:42:48.542848+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7f37f7a1-8f27-436d-91cd-f8d00c5348c9",
+    "diet_week_id": "55ce29e1-f520-4c57-a400-1979ceb59019",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T06:42:48.542848+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "09dc81e8-1f50-4deb-b0f8-e795c50f9ab3",
+    "diet_week_id": "55ce29e1-f520-4c57-a400-1979ceb59019",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T06:42:48.542848+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0065b2a1-698a-467b-914c-3e2820e08513",
+    "diet_week_id": "55ce29e1-f520-4c57-a400-1979ceb59019",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T06:42:48.542848+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b95d661a-974d-4855-821f-f0d3b1957936",
+    "diet_week_id": "6d5104f2-e85b-438b-a2dc-9943272eb72e",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:49.101535+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ca4b6940-84de-4b52-b176-96becbd9d5c1",
+    "diet_week_id": "05d765f3-6747-4afa-8587-f01a07922d2c",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.059298+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e54d07cc-ce02-4bbb-a342-ff9ea6ccc6c1",
+    "diet_week_id": "05d765f3-6747-4afa-8587-f01a07922d2c",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.059298+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e488c765-9030-4777-ab59-341f103b4f9e",
+    "diet_week_id": "05d765f3-6747-4afa-8587-f01a07922d2c",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.059298+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4b15875d-1bce-4121-a14e-0e88a285365e",
+    "diet_week_id": "05d765f3-6747-4afa-8587-f01a07922d2c",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.059298+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ed16b368-5a39-45f6-a9db-713fc618089e",
+    "diet_week_id": "05d765f3-6747-4afa-8587-f01a07922d2c",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.059298+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "df38c18d-22f7-487c-b338-8cf126371763",
+    "diet_week_id": "05d765f3-6747-4afa-8587-f01a07922d2c",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.059298+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5ed80520-d0e7-4a60-8862-e33d100e8e22",
+    "diet_week_id": "05d765f3-6747-4afa-8587-f01a07922d2c",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.059298+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "aa8f8d33-4a26-461e-bba2-727f5993cb80",
+    "diet_week_id": "280113af-ac77-4cee-829a-d9bd1e85e424",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.478808+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3fee231a-c267-45b6-bdbe-0e29ece996c1",
+    "diet_week_id": "280113af-ac77-4cee-829a-d9bd1e85e424",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.478808+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7556aac2-d88c-4ff7-9623-4547626c8849",
+    "diet_week_id": "280113af-ac77-4cee-829a-d9bd1e85e424",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.478808+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4c3474f4-c5f9-407f-8e95-58d0b7bed6d2",
+    "diet_week_id": "280113af-ac77-4cee-829a-d9bd1e85e424",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.478808+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "90626084-60f6-40d2-a55e-d0fc9222534b",
+    "diet_week_id": "280113af-ac77-4cee-829a-d9bd1e85e424",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.478808+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4628bcdd-33d9-4350-93db-8a1010bf6e14",
+    "diet_week_id": "280113af-ac77-4cee-829a-d9bd1e85e424",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.478808+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b948a7bc-8e8f-4be8-b9fc-87c2ad5fb01e",
+    "diet_week_id": "280113af-ac77-4cee-829a-d9bd1e85e424",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.478808+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7f5bbae5-81ef-42d8-94c8-993b0bf8ec51",
+    "diet_week_id": "df33b611-f96e-4ea3-801b-8aa7cdd046fc",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T06:46:04.36262+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "fad93adc-254d-4eae-8c7c-865677b5e6aa",
+    "diet_week_id": "df33b611-f96e-4ea3-801b-8aa7cdd046fc",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T06:46:04.36262+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "51bbfe1e-5c77-4082-b657-9c63c88c7662",
+    "diet_week_id": "df33b611-f96e-4ea3-801b-8aa7cdd046fc",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T06:46:04.36262+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "54797c21-4061-46a9-b453-681fe48aaa2d",
+    "diet_week_id": "df33b611-f96e-4ea3-801b-8aa7cdd046fc",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T06:46:04.36262+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "bce274a9-fbf3-42b4-a8f2-5301a3c1d748",
+    "diet_week_id": "df33b611-f96e-4ea3-801b-8aa7cdd046fc",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T06:46:04.36262+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "92a10de9-532e-47b3-9248-109287fa1d18",
+    "diet_week_id": "38112677-9369-4c48-a148-df44ef8b7825",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:03.98856+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c01069d7-10aa-45ae-8946-0c30e5f1a461",
+    "diet_week_id": "38112677-9369-4c48-a148-df44ef8b7825",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:03.98856+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "509b672d-c5d4-4093-99f9-f2e3a581906f",
+    "diet_week_id": "38112677-9369-4c48-a148-df44ef8b7825",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:03.98856+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5848f484-286f-4d86-9720-87fcd92f44e1",
+    "diet_week_id": "38112677-9369-4c48-a148-df44ef8b7825",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:03.98856+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "792c3691-e84d-4cc5-9561-81687c91002a",
+    "diet_week_id": "38112677-9369-4c48-a148-df44ef8b7825",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:03.98856+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3d46af90-3979-474d-8c88-541bdb1af5ff",
+    "diet_week_id": "38112677-9369-4c48-a148-df44ef8b7825",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:03.98856+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "db77cff6-2cb7-47e8-866c-44f006d91b89",
+    "diet_week_id": "38112677-9369-4c48-a148-df44ef8b7825",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:03.98856+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5f1a38d4-0a84-4724-a1a6-c20f73c82d81",
+    "diet_week_id": "df33b611-f96e-4ea3-801b-8aa7cdd046fc",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T06:46:04.36262+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "905de435-bc8c-43e5-ae09-fc8474403785",
+    "diet_week_id": "df33b611-f96e-4ea3-801b-8aa7cdd046fc",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T06:46:04.36262+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e8aa0bd4-a2f4-4b26-a32c-aa37787d0b5f",
+    "diet_week_id": "6e201e11-185c-48f8-8b97-b955c85a92dd",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:32:59.317217+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "95d1fdf8-acfc-499c-818c-adf30d400af0",
+    "diet_week_id": "6d5104f2-e85b-438b-a2dc-9943272eb72e",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:49.921713+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f73fad38-2290-4f77-a7a2-200e5e072f19",
+    "diet_week_id": "00d4a08e-d7c2-484c-9d7e-e1ff544e6645",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.063227+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5f2bfb00-1160-4476-9b3a-77b54739136b",
+    "diet_week_id": "00d4a08e-d7c2-484c-9d7e-e1ff544e6645",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.063227+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "db2ee39a-64d5-4931-b66f-6d462156daa0",
+    "diet_week_id": "00d4a08e-d7c2-484c-9d7e-e1ff544e6645",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.063227+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d5081f34-8fdd-49f6-b0ef-364124e6946e",
+    "diet_week_id": "00d4a08e-d7c2-484c-9d7e-e1ff544e6645",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.063227+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ba27d024-41e1-40f6-8efc-60ebcfba12e1",
+    "diet_week_id": "00d4a08e-d7c2-484c-9d7e-e1ff544e6645",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.063227+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "be6ca6a8-05b2-4323-82f7-546f81bc8aaf",
+    "diet_week_id": "00d4a08e-d7c2-484c-9d7e-e1ff544e6645",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.063227+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "28598b8d-cb6d-4f23-8875-d6d22c5e4197",
+    "diet_week_id": "00d4a08e-d7c2-484c-9d7e-e1ff544e6645",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T21:57:36.063227+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f7576f00-765c-4370-9037-9d9d4d9ececd",
+    "diet_week_id": "7ebc4a30-b476-4ecb-8662-b57acf1d4239",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.484588+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "49abc1a4-640c-4f9c-b936-8fae432eb54e",
+    "diet_week_id": "7ebc4a30-b476-4ecb-8662-b57acf1d4239",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.484588+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1e32e5bd-7e87-4c71-a13b-8cf7314ddd9d",
+    "diet_week_id": "7ebc4a30-b476-4ecb-8662-b57acf1d4239",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.484588+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d75e53ef-5d9b-4ceb-a199-899101e1b7f2",
+    "diet_week_id": "7ebc4a30-b476-4ecb-8662-b57acf1d4239",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.484588+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "09827b88-b6dc-4083-8c58-810feda001ba",
+    "diet_week_id": "7ebc4a30-b476-4ecb-8662-b57acf1d4239",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.484588+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f2074563-6b52-4e2f-baa4-39f07db6e46d",
+    "diet_week_id": "decb3ef6-9123-4052-a7bd-7aed09b71b14",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:05.434436+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6d7b425f-ae44-4347-95d0-922346e4a159",
+    "diet_week_id": "decb3ef6-9123-4052-a7bd-7aed09b71b14",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:05.434436+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5519e42b-95c7-4c8f-a89e-ad9ecd1dfdb5",
+    "diet_week_id": "decb3ef6-9123-4052-a7bd-7aed09b71b14",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:05.434436+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "cadf6cf7-0b9e-4521-9d6f-bef1f764ee33",
+    "diet_week_id": "decb3ef6-9123-4052-a7bd-7aed09b71b14",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:05.434436+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1f1d529d-aeda-45e2-bdfc-5fe16470ae2f",
+    "diet_week_id": "decb3ef6-9123-4052-a7bd-7aed09b71b14",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:05.434436+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "37fc10ee-d880-48e4-a2cd-c52b2f74eb4c",
+    "diet_week_id": "decb3ef6-9123-4052-a7bd-7aed09b71b14",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:05.434436+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "07fcc920-6413-4a3d-b3ea-d8762b18e544",
+    "diet_week_id": "decb3ef6-9123-4052-a7bd-7aed09b71b14",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:05.434436+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "790232a0-9f98-45f4-8f00-39362a91347f",
+    "diet_week_id": "e7fff4fb-0e2b-486b-a564-1e0a06183c65",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:06.743968+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "74bc2289-b4c5-4892-b84c-04682e41660a",
+    "diet_week_id": "e7fff4fb-0e2b-486b-a564-1e0a06183c65",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:06.743968+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0eb17437-6db5-4180-85e7-77d74c4f70f4",
+    "diet_week_id": "e7fff4fb-0e2b-486b-a564-1e0a06183c65",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:06.743968+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c433dfa0-f695-4cef-98d6-a37c952699aa",
+    "diet_week_id": "e7fff4fb-0e2b-486b-a564-1e0a06183c65",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:06.743968+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "70267b5a-e5ee-45a6-8ac5-deb56d912a3b",
+    "diet_week_id": "e7fff4fb-0e2b-486b-a564-1e0a06183c65",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:06.743968+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "cf03c3a9-fca2-4ab0-8885-37f0ebf8aa04",
+    "diet_week_id": "e7fff4fb-0e2b-486b-a564-1e0a06183c65",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:06.743968+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7958b2fc-c237-4eec-ba6e-19bbf4925bfc",
+    "diet_week_id": "e7fff4fb-0e2b-486b-a564-1e0a06183c65",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:06.743968+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "09493f6f-2ffa-463b-9604-4586614fce3c",
+    "diet_week_id": "7ebc4a30-b476-4ecb-8662-b57acf1d4239",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.484588+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c539ee5e-5eee-4760-a15b-c8b74b87f3ed",
+    "diet_week_id": "d1ad34eb-8518-434c-ae92-48ba232345ba",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:50.176888+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "500aa03b-bdc8-4ff4-add0-1022ce0e113c",
+    "diet_week_id": "d1ad34eb-8518-434c-ae92-48ba232345ba",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:50.176888+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0e99ac94-bf33-4c08-b49c-c0afb7562274",
+    "diet_week_id": "d1ad34eb-8518-434c-ae92-48ba232345ba",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:50.176888+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7adec82e-66c4-4c62-a2ee-1a4db33080b3",
+    "diet_week_id": "d1ad34eb-8518-434c-ae92-48ba232345ba",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:50.176888+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5df203d7-5802-4369-b14c-f34e58f93064",
+    "diet_week_id": "d1ad34eb-8518-434c-ae92-48ba232345ba",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:50.176888+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "02310819-1b69-4bbc-b4d2-8d8a6e9aa397",
+    "diet_week_id": "d1ad34eb-8518-434c-ae92-48ba232345ba",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:50.176888+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3eb082e9-b9bb-4d4b-8490-3503cd5d5551",
+    "diet_week_id": "d1ad34eb-8518-434c-ae92-48ba232345ba",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:50.176888+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5edc62d2-000f-4a81-b4da-30764d6081fa",
+    "diet_week_id": "bedada8c-5a0f-4b22-8bb9-bdb9b2d53aec",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:54.650807+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "30aa97fc-ddf2-4933-9001-16cbf46dfc2e",
+    "diet_week_id": "bedada8c-5a0f-4b22-8bb9-bdb9b2d53aec",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:54.650807+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c79de66e-eb5a-4875-a559-07e3a3ae10f6",
+    "diet_week_id": "bedada8c-5a0f-4b22-8bb9-bdb9b2d53aec",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:54.650807+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ca396455-bb19-4c26-9dc5-efb0e752dd22",
+    "diet_week_id": "bedada8c-5a0f-4b22-8bb9-bdb9b2d53aec",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:54.650807+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2e7bbd8e-1f54-411d-bff6-7913924cfd8c",
+    "diet_week_id": "bedada8c-5a0f-4b22-8bb9-bdb9b2d53aec",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:54.650807+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0fff7fac-5e1e-44ad-8495-a0a1ac711472",
+    "diet_week_id": "bedada8c-5a0f-4b22-8bb9-bdb9b2d53aec",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:54.650807+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d0c4af0d-1c05-4974-9f48-5a8a5f29e60e",
+    "diet_week_id": "bedada8c-5a0f-4b22-8bb9-bdb9b2d53aec",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:54.650807+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "bfcec983-8172-4c73-8bf6-be0294db50c4",
+    "diet_week_id": "7ebc4a30-b476-4ecb-8662-b57acf1d4239",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T22:05:29.484588+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1429c9cf-2147-4d6a-a731-6036f7d09887",
+    "diet_week_id": "6e201e11-185c-48f8-8b97-b955c85a92dd",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:32:59.751461+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "37b1edbe-e03e-493d-b3a6-ed5ea18feeb3",
+    "diet_week_id": "6e201e11-185c-48f8-8b97-b955c85a92dd",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:33:00.983804+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c3d11afb-4105-4330-9ec3-4cc8023a286f",
+    "diet_week_id": "6d5104f2-e85b-438b-a2dc-9943272eb72e",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-26T09:13:50.585199+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "15499684-b97d-48ba-b499-41da6081e677",
+    "diet_week_id": "11857404-502c-4718-ba60-3e66e8df68e4",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695205+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4fd86a95-97e5-4d5a-8f24-2ab737c02a42",
+    "diet_week_id": "11857404-502c-4718-ba60-3e66e8df68e4",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695205+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a514f8a8-ef9e-4462-b935-58ebd9e2a3b2",
+    "diet_week_id": "11857404-502c-4718-ba60-3e66e8df68e4",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695205+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3ba4bb0a-4f27-4ea3-9fa1-d7ad4a3e1059",
+    "diet_week_id": "11857404-502c-4718-ba60-3e66e8df68e4",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695205+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b43b133d-6fce-43d1-bd5e-b6b71e053bed",
+    "diet_week_id": "11857404-502c-4718-ba60-3e66e8df68e4",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695205+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8880c969-601d-4401-9bde-41292da12cd3",
+    "diet_week_id": "11857404-502c-4718-ba60-3e66e8df68e4",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695205+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "190b85dc-2c17-43be-bf8e-c832f1aae785",
+    "diet_week_id": "11857404-502c-4718-ba60-3e66e8df68e4",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695205+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "faec9c52-0f9e-4797-8a5f-d566e610b0fb",
+    "diet_week_id": "8ebf7349-7a36-4b80-9576-034b05feade2",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.224772+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "abc919c3-97df-41e6-b3a8-5ddcfc45b878",
+    "diet_week_id": "8ebf7349-7a36-4b80-9576-034b05feade2",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.224772+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b722ff22-3ee0-4446-b913-d54604bb85c3",
+    "diet_week_id": "8ebf7349-7a36-4b80-9576-034b05feade2",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.224772+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6c4bb1cf-aa20-4ae7-bd26-e4cebce4c8bb",
+    "diet_week_id": "8ebf7349-7a36-4b80-9576-034b05feade2",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.224772+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9147eec3-a991-4d95-bb29-3029bc6984a1",
+    "diet_week_id": "7363f5c8-70c5-49b0-85cb-b86b871475e4",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:08.060664+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5f976efa-08c1-42af-ad2b-9629838bdb96",
+    "diet_week_id": "7363f5c8-70c5-49b0-85cb-b86b871475e4",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:08.060664+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "88ca72b8-455e-48a2-87ef-3612ea3a6ab1",
+    "diet_week_id": "7363f5c8-70c5-49b0-85cb-b86b871475e4",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:08.060664+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c7797149-2041-48e4-8ebf-a99613068523",
+    "diet_week_id": "7363f5c8-70c5-49b0-85cb-b86b871475e4",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:08.060664+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ab5b17d7-86a8-44c0-88e4-c5b37256c09a",
+    "diet_week_id": "7363f5c8-70c5-49b0-85cb-b86b871475e4",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:08.060664+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "47f5c73f-682b-446e-9621-8239940d08c9",
+    "diet_week_id": "7363f5c8-70c5-49b0-85cb-b86b871475e4",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:08.060664+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8c7c65b0-e86c-463d-94ea-6d8770d93f64",
+    "diet_week_id": "7363f5c8-70c5-49b0-85cb-b86b871475e4",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:08.060664+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e0ed859d-6619-4ace-906d-195d7f57aa2c",
+    "diet_week_id": "2114441c-53b6-4e3e-a145-2aba558d3553",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:09.503501+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2a090827-6c6d-4a25-bfd9-d13df4529c56",
+    "diet_week_id": "2114441c-53b6-4e3e-a145-2aba558d3553",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:09.503501+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c5482fd5-ec34-48c5-9c85-28e4ab2908bf",
+    "diet_week_id": "2114441c-53b6-4e3e-a145-2aba558d3553",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:09.503501+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f4b99c28-ba43-469f-96c4-7c8617bd0a27",
+    "diet_week_id": "2114441c-53b6-4e3e-a145-2aba558d3553",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:09.503501+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a59febd5-0c10-44c8-a8ac-6e473c6f6277",
+    "diet_week_id": "2114441c-53b6-4e3e-a145-2aba558d3553",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:09.503501+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d0d3aed1-52d0-483d-8e4b-81dcff0dab45",
+    "diet_week_id": "2114441c-53b6-4e3e-a145-2aba558d3553",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:09.503501+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "56ab9e25-0e4e-4ac6-b487-f9fbbd39960b",
+    "diet_week_id": "2114441c-53b6-4e3e-a145-2aba558d3553",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:09.503501+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "cca008ff-d246-4b8e-8755-f42bfd43c72a",
+    "diet_week_id": "8ebf7349-7a36-4b80-9576-034b05feade2",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.224772+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "df96bddb-fa07-43b7-bec8-590813ab88e5",
+    "diet_week_id": "8ebf7349-7a36-4b80-9576-034b05feade2",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.224772+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3dffe576-ed3c-444b-94ed-6a88d2978cc4",
+    "diet_week_id": "6e201e11-185c-48f8-8b97-b955c85a92dd",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:33:00.160883+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "be102913-28d7-4a3b-828f-cd36e823ab5d",
+    "diet_week_id": "8ebf7349-7a36-4b80-9576-034b05feade2",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.224772+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "98d1cefa-0ec1-4557-b40b-cbac5f7d5207",
+    "diet_week_id": "cee23871-1ab1-4c90-8c9b-87036e7f3fbe",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:51.786753+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5fad4ed5-33fd-426c-afef-e45e7b95f5fa",
+    "diet_week_id": "cee23871-1ab1-4c90-8c9b-87036e7f3fbe",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:51.786753+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "20bfb66f-7392-4764-979c-669049467bac",
+    "diet_week_id": "cee23871-1ab1-4c90-8c9b-87036e7f3fbe",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:51.786753+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c1da944e-794c-474a-9804-d1eb42af4969",
+    "diet_week_id": "cee23871-1ab1-4c90-8c9b-87036e7f3fbe",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:51.786753+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b773a122-197b-4ec3-ab8e-310bf24e4555",
+    "diet_week_id": "cee23871-1ab1-4c90-8c9b-87036e7f3fbe",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:51.786753+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "962b6c02-b3a2-40e7-9b2c-dc8fe9803e94",
+    "diet_week_id": "cee23871-1ab1-4c90-8c9b-87036e7f3fbe",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:51.786753+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "81e3a905-1d1e-45b0-87f9-16eb56cbb3ba",
+    "diet_week_id": "cee23871-1ab1-4c90-8c9b-87036e7f3fbe",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:51.786753+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "22229733-9167-4b55-9090-f73ccf7a67f5",
+    "diet_week_id": "96265ba5-0710-4609-bd3e-22a9e074aa44",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695289+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "4ae77e45-37c4-45b3-a412-eda343c3c159",
+    "diet_week_id": "96265ba5-0710-4609-bd3e-22a9e074aa44",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695289+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9060fa71-a851-46f5-9be1-299d1b91df45",
+    "diet_week_id": "96265ba5-0710-4609-bd3e-22a9e074aa44",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695289+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3f346398-c844-4b48-9f2e-f0bc80317207",
+    "diet_week_id": "96265ba5-0710-4609-bd3e-22a9e074aa44",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695289+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d1e56063-a10a-4ac0-bc61-195b1defc1ec",
+    "diet_week_id": "96265ba5-0710-4609-bd3e-22a9e074aa44",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695289+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "ca7d190b-a0a1-4179-b4f7-87721066952f",
+    "diet_week_id": "96265ba5-0710-4609-bd3e-22a9e074aa44",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695289+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "d3e063df-2f78-4858-86f0-c805e6a7aa50",
+    "diet_week_id": "96265ba5-0710-4609-bd3e-22a9e074aa44",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T21:59:29.695289+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7ac4bf17-6404-475d-837d-3a234f0468b7",
+    "diet_week_id": "7498597a-53a0-4874-9c91-53867742eceb",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.230758+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6bd2fbd0-fea9-4303-aa57-2bf3cd993dd4",
+    "diet_week_id": "7498597a-53a0-4874-9c91-53867742eceb",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.230758+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "500c46f5-69fd-4178-bc29-be914dc15465",
+    "diet_week_id": "7498597a-53a0-4874-9c91-53867742eceb",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.230758+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7c3f12c6-8da4-4c58-bd2e-914521a97664",
+    "diet_week_id": "7498597a-53a0-4874-9c91-53867742eceb",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.230758+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "573170f1-d1dc-495e-9976-96ee35ceb2d0",
+    "diet_week_id": "7498597a-53a0-4874-9c91-53867742eceb",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.230758+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6001dcc0-652e-4c62-812e-303195a4c880",
+    "diet_week_id": "693fddf0-a665-4365-bf3e-c02c6eefe709",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:10.847165+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5a6ffebd-c31a-4831-bbe5-b25c9673b3dc",
+    "diet_week_id": "693fddf0-a665-4365-bf3e-c02c6eefe709",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:10.847165+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3b60dbdb-f6aa-44a5-b44d-6d630d35dd12",
+    "diet_week_id": "693fddf0-a665-4365-bf3e-c02c6eefe709",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:10.847165+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7ce29fba-b540-42f4-94e7-78c9fefe86d8",
+    "diet_week_id": "693fddf0-a665-4365-bf3e-c02c6eefe709",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:10.847165+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "845b03d6-4ae2-4d97-9f11-51c062c610f4",
+    "diet_week_id": "693fddf0-a665-4365-bf3e-c02c6eefe709",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:10.847165+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b3dd365c-f7fc-4199-bfc7-c9f5d6b06c9f",
+    "diet_week_id": "693fddf0-a665-4365-bf3e-c02c6eefe709",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:10.847165+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "679a1bcb-ec0c-4aed-bc4a-57d2d53911fe",
+    "diet_week_id": "693fddf0-a665-4365-bf3e-c02c6eefe709",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:21:10.847165+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0ab249c6-b1aa-4ffc-b2f7-aa4ee53f587d",
+    "diet_week_id": "7498597a-53a0-4874-9c91-53867742eceb",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.230758+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f6758b9b-b47d-4f30-af6f-352d4b06d752",
+    "diet_week_id": "7498597a-53a0-4874-9c91-53867742eceb",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T22:08:16.230758+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "46ca4471-c127-40ee-8125-a60f85cac5d6",
+    "diet_week_id": "6e201e11-185c-48f8-8b97-b955c85a92dd",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:33:00.571275+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a013f183-c041-4b3f-8342-7593880c3a95",
+    "diet_week_id": "76fdfc78-5744-495f-aef8-3fc8098ff2c9",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T07:43:29.297352+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "bc21ccfe-354c-4df7-b448-a72818f8173b",
+    "diet_week_id": "76fdfc78-5744-495f-aef8-3fc8098ff2c9",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T07:43:29.297352+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c1c1c9c7-0439-4e6a-8171-8471044b49ef",
+    "diet_week_id": "76fdfc78-5744-495f-aef8-3fc8098ff2c9",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T07:43:29.297352+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "efb6e588-4374-475f-b698-2f670f4164aa",
+    "diet_week_id": "76fdfc78-5744-495f-aef8-3fc8098ff2c9",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T07:43:29.297352+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a2c797ec-6cc7-4628-99ff-e8104179f4e9",
+    "diet_week_id": "76fdfc78-5744-495f-aef8-3fc8098ff2c9",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T07:43:29.297352+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "5ac6ea37-b73a-4d5a-b1e3-b33bf0fbc84a",
+    "diet_week_id": "76fdfc78-5744-495f-aef8-3fc8098ff2c9",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T07:43:29.297352+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c29a128d-8ec8-408f-ae8e-a221f55b102b",
+    "diet_week_id": "76fdfc78-5744-495f-aef8-3fc8098ff2c9",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T07:43:29.297352+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "3b3c0c95-e44d-4f8a-ae1f-3ff02e083cdf",
+    "diet_week_id": "4914e83a-bc02-401b-85e4-7166bf01f1ea",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:53.218604+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9c81c5b2-07d7-43d0-b07e-5ec7871ab6b2",
+    "diet_week_id": "4914e83a-bc02-401b-85e4-7166bf01f1ea",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:53.218604+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "41652df4-75d8-4ea3-a1df-a37bee8f27cf",
+    "diet_week_id": "4914e83a-bc02-401b-85e4-7166bf01f1ea",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:53.218604+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "67d48999-3ed8-44de-9e3b-d1aebfb4fa6e",
+    "diet_week_id": "4914e83a-bc02-401b-85e4-7166bf01f1ea",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:53.218604+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "80477d33-ecf8-4b39-b1fb-38dbab5b7316",
+    "diet_week_id": "4914e83a-bc02-401b-85e4-7166bf01f1ea",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:53.218604+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "220a30e7-ffa9-448e-be9c-45267920b857",
+    "diet_week_id": "4914e83a-bc02-401b-85e4-7166bf01f1ea",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:53.218604+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0d8ecf00-4a67-4182-9cbe-adf857cf6eea",
+    "diet_week_id": "4914e83a-bc02-401b-85e4-7166bf01f1ea",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:53.218604+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "89da74f2-8917-4c1e-94c7-9bf840c7cc0f",
+    "diet_week_id": "dbdd11fc-94a8-4dfc-81fb-c13986915d8b",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:55.780032+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "345f1711-928e-4f4e-a1d4-82598539b235",
+    "diet_week_id": "dbdd11fc-94a8-4dfc-81fb-c13986915d8b",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:55.780032+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "081fe483-f24f-43db-9c16-c8196d8a631b",
+    "diet_week_id": "dbdd11fc-94a8-4dfc-81fb-c13986915d8b",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:55.780032+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "76a25cef-6b0b-4c71-848d-78ed01e8227d",
+    "diet_week_id": "dbdd11fc-94a8-4dfc-81fb-c13986915d8b",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:55.780032+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f50e9ea9-6904-4b1d-be84-fb984a8ebc66",
+    "diet_week_id": "dbdd11fc-94a8-4dfc-81fb-c13986915d8b",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:55.780032+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f0bfe1fe-f88c-467c-a38c-92fafe709142",
+    "diet_week_id": "dbdd11fc-94a8-4dfc-81fb-c13986915d8b",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:55.780032+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b6333ff9-fd1b-4dc6-b206-06a7c593870b",
+    "diet_week_id": "dbdd11fc-94a8-4dfc-81fb-c13986915d8b",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:55.780032+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1fdf6551-310c-4073-ba61-d11b6c0b88c9",
+    "diet_week_id": "ab22d29c-fe3e-4d0d-8c51-05e22cae7705",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-06T22:00:22.626864+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "6e90f7f1-88d8-4ffe-83c1-3eea7fa58643",
+    "diet_week_id": "ab22d29c-fe3e-4d0d-8c51-05e22cae7705",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-06T22:00:22.626864+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "056459e7-5581-48de-a466-0fe4e950f16a",
+    "diet_week_id": "ab22d29c-fe3e-4d0d-8c51-05e22cae7705",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-06T22:00:22.626864+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7b2a47b1-0ef3-4c72-88ac-0f0ebf44e630",
+    "diet_week_id": "ab22d29c-fe3e-4d0d-8c51-05e22cae7705",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-06T22:00:22.626864+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "29ea7d4e-baf8-4f38-865a-d2d79b427d34",
+    "diet_week_id": "ab22d29c-fe3e-4d0d-8c51-05e22cae7705",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-06T22:00:22.626864+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "95218e07-0961-4c73-9925-2ff15d218c9c",
+    "diet_week_id": "ab22d29c-fe3e-4d0d-8c51-05e22cae7705",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-06T22:00:22.626864+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2f9b6651-7c04-4fbd-a164-b8b39ed56cb8",
+    "diet_week_id": "ab22d29c-fe3e-4d0d-8c51-05e22cae7705",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-06T22:00:22.626864+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9b0e5d0c-481a-4ea8-8541-2ce169fb2406",
+    "diet_week_id": "18da5473-7694-4c5c-9f64-62280a5586f9",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.358825+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e3d3de67-90ad-4886-9a37-7070a97a69a9",
+    "diet_week_id": "18da5473-7694-4c5c-9f64-62280a5586f9",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.358825+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f85a7d0d-eee0-4451-b459-c2a2d3be29ef",
+    "diet_week_id": "18da5473-7694-4c5c-9f64-62280a5586f9",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.358825+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "9ad5de3a-65d8-40ee-82e2-f12c16a6b5e5",
+    "diet_week_id": "18da5473-7694-4c5c-9f64-62280a5586f9",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.358825+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "02d4e83b-67dd-4aa1-abc7-5342e1c93bd8",
+    "diet_week_id": "18da5473-7694-4c5c-9f64-62280a5586f9",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.358825+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "cdd05f5a-85d8-4dff-872c-dd1516198342",
+    "diet_week_id": "18da5473-7694-4c5c-9f64-62280a5586f9",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.358825+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "77d9b220-7942-4fb6-bfca-764e3d3ba6cc",
+    "diet_week_id": "18da5473-7694-4c5c-9f64-62280a5586f9",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T06:34:53.358825+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "8d6bdd27-1f3a-41c7-9a04-841a8a439c14",
+    "diet_week_id": "c52fdc86-3964-4edb-af97-d84eb0905eb4",
+    "day_number": 1,
+    "notes": "",
+    "created_at": "2026-02-08T07:55:33.125642+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "0528c04d-3f2f-4124-ab1a-b6d76801ec44",
+    "diet_week_id": "c52fdc86-3964-4edb-af97-d84eb0905eb4",
+    "day_number": 2,
+    "notes": "",
+    "created_at": "2026-02-08T07:55:33.125642+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "b1837a21-9bf0-4c2c-90c7-00337a2f69bb",
+    "diet_week_id": "6e201e11-185c-48f8-8b97-b955c85a92dd",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:32:58.437124+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1d38e945-8e64-466a-bfb8-f8e7fa6c5625",
+    "diet_week_id": "c52fdc86-3964-4edb-af97-d84eb0905eb4",
+    "day_number": 3,
+    "notes": "",
+    "created_at": "2026-02-08T07:55:33.125642+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "1e79beaf-ce3c-4a84-bc72-305157e9be33",
+    "diet_week_id": "c52fdc86-3964-4edb-af97-d84eb0905eb4",
+    "day_number": 4,
+    "notes": "",
+    "created_at": "2026-02-08T07:55:33.125642+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "f3dca5ad-091e-42ad-9a38-06da2eb0a0a1",
+    "diet_week_id": "c52fdc86-3964-4edb-af97-d84eb0905eb4",
+    "day_number": 5,
+    "notes": "",
+    "created_at": "2026-02-08T07:55:33.125642+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c60f4118-6026-400f-9922-838ba0624574",
+    "diet_week_id": "c52fdc86-3964-4edb-af97-d84eb0905eb4",
+    "day_number": 6,
+    "notes": "",
+    "created_at": "2026-02-08T07:55:33.125642+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7e75e039-f5b0-4d01-8755-a21cd22d8abc",
+    "diet_week_id": "c52fdc86-3964-4edb-af97-d84eb0905eb4",
+    "day_number": 7,
+    "notes": "",
+    "created_at": "2026-02-08T07:55:33.125642+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "abe8d294-9499-48c2-a626-f4b63458a580",
+    "diet_week_id": "f1a0c37f-815d-4be3-bfbe-59024552477f",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:57.011076+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7c798bac-f4e2-497c-af7b-c8e1fb54d115",
+    "diet_week_id": "f1a0c37f-815d-4be3-bfbe-59024552477f",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:57.011076+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "41b6b1f0-1a8d-4f3f-a147-e6885fd467bb",
+    "diet_week_id": "f1a0c37f-815d-4be3-bfbe-59024552477f",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:57.011076+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "943eaa73-9e00-4731-bc7c-e125cb73917a",
+    "diet_week_id": "f1a0c37f-815d-4be3-bfbe-59024552477f",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:57.011076+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "a56feb29-bbd0-479e-80b7-9b50a49c05b3",
+    "diet_week_id": "f1a0c37f-815d-4be3-bfbe-59024552477f",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:57.011076+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "771d70a3-de68-433a-a9a1-483e816babd6",
+    "diet_week_id": "f1a0c37f-815d-4be3-bfbe-59024552477f",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:57.011076+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "c615a21a-79ef-4a39-a524-f267b060f562",
+    "diet_week_id": "f1a0c37f-815d-4be3-bfbe-59024552477f",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:57.011076+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "453a7846-6b1a-47dc-9f9a-f777ee2db0ae",
+    "diet_week_id": "90288ad0-0f76-4404-8a0c-0a3c073540cb",
+    "day_number": 1,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:58.439898+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "75cb8086-023b-45be-a8a0-9c46cdd2ef90",
+    "diet_week_id": "90288ad0-0f76-4404-8a0c-0a3c073540cb",
+    "day_number": 2,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:58.439898+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "2beae07f-7eea-4ab7-8073-570a1c05edd9",
+    "diet_week_id": "90288ad0-0f76-4404-8a0c-0a3c073540cb",
+    "day_number": 3,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:58.439898+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "94c90fc1-fead-41a9-968f-256c20a45bd6",
+    "diet_week_id": "90288ad0-0f76-4404-8a0c-0a3c073540cb",
+    "day_number": 4,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:58.439898+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "7f629ee8-d69f-4076-a0e0-d75ec64e6694",
+    "diet_week_id": "90288ad0-0f76-4404-8a0c-0a3c073540cb",
+    "day_number": 5,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:58.439898+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "e574cc8b-a002-4820-88a6-cf3db3838636",
+    "diet_week_id": "90288ad0-0f76-4404-8a0c-0a3c073540cb",
+    "day_number": 6,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:58.439898+00:00",
+    "meal_template_id": null
+  },
+  {
+    "id": "af6b67a1-c8a2-4ebd-9762-713f5843dd37",
+    "diet_week_id": "90288ad0-0f76-4404-8a0c-0a3c073540cb",
+    "day_number": 7,
+    "notes": null,
+    "created_at": "2026-01-24T14:20:58.439898+00:00",
+    "meal_template_id": null
+  }
+]

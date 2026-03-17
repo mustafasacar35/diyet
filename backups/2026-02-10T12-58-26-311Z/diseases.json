@@ -1,0 +1,26 @@
+[
+  {
+    "id": "d974bd03-6e33-4690-a15f-bd3696b66bac",
+    "name": "Gut",
+    "description": "Ürik asit yüksekliği",
+    "created_at": "2026-01-28T20:54:32.810807+00:00"
+  },
+  {
+    "id": "3adfdd19-340d-4ae1-98f2-f210b3a8bbee",
+    "name": "Diyabet (Tip 2)",
+    "description": "Şeker hastalığı ve insülin direnci",
+    "created_at": "2026-01-28T20:54:32.810807+00:00"
+  },
+  {
+    "id": "d90a903a-f02d-41cc-ac4f-b177bee0ee24",
+    "name": "Çölyak",
+    "description": "Gluten hassasiyeti ve intoleransı",
+    "created_at": "2026-01-28T20:54:32.810807+00:00"
+  },
+  {
+    "id": "b4c0d038-5763-4998-9e5c-c741b879afc3",
+    "name": "Lipödem",
+    "description": "",
+    "created_at": "2026-01-28T21:13:17.223403+00:00"
+  }
+]

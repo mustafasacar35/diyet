@@ -1,0 +1,191 @@
+[
+  {
+    "id": "a1923e39-6929-4676-933e-3734c0aa931b",
+    "name": "Plavix",
+    "generic_name": "Clopidogrel",
+    "category": "Antikoagülan",
+    "description": "Trombosit agregasyonunu önler",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "e38c9217-9589-4f70-9812-b831281673e4",
+    "name": "Glucophage",
+    "generic_name": "Metformin",
+    "category": "Antidiyabetik",
+    "description": "İnsülin duyarlılığını artırır",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "d4f0b6ff-df8b-4f7f-a299-e696139cdb90",
+    "name": "Glucophage XR",
+    "generic_name": "Metformin XR",
+    "category": "Antidiyabetik",
+    "description": "Uzun salınımlı metformin",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "d653ff97-1ea2-4817-8734-88e19de8d145",
+    "name": "Jardiance",
+    "generic_name": "Empagliflozin",
+    "category": "Antidiyabetik (SGLT2)",
+    "description": "Böbreklerden glukoz atılımını artırır",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "1b329259-9aa1-4813-8a11-88571860fba7",
+    "name": "Levotiroksin",
+    "generic_name": "Levothyroxine",
+    "category": "Tiroid Hormonu",
+    "description": "Hipotiroidi tedavisi",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "ed74258f-1811-4e07-b9b4-c6ab7ef195e8",
+    "name": "Euthyrox",
+    "generic_name": "Levothyroxine",
+    "category": "Tiroid Hormonu",
+    "description": "T4 hormonu",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "d1a649f7-25ae-4dec-8cf4-e061005ad03e",
+    "name": "Norvasc",
+    "generic_name": "Amlodipine",
+    "category": "Antihipertansif (CCB)",
+    "description": "Kalsiyum kanal blokörü",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "50c4efaa-81f1-4a51-b188-8a24709611fd",
+    "name": "Diovan",
+    "generic_name": "Valsartan",
+    "category": "Antihipertansif (ARB)",
+    "description": "Anjiyotensin reseptör blokörü",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "cf8a3f07-6d5c-43f5-84ab-7d8f7ef7153d",
+    "name": "Lipitor",
+    "generic_name": "Atorvastatin",
+    "category": "Statin",
+    "description": "Kolesterol düşürücü",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "f04868fe-4179-46ff-8280-e837e352d3e0",
+    "name": "Crestor",
+    "generic_name": "Rosuvastatin",
+    "category": "Statin",
+    "description": "HMG-CoA redüktaz inhibitörü",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "name": "Coumadin",
+    "generic_name": "Warfarin",
+    "category": "Antikoagülan",
+    "description": "K vitamini metabolizmasını etkiler",
+    "created_at": "2026-02-02T05:48:53.597682+00:00",
+    "updated_at": "2026-02-10T15:40:33.836541+00:00"
+  },
+  {
+    "id": "eed6de06-26af-4423-8bb2-9d8ec7d134f2",
+    "name": "xanax",
+    "generic_name": null,
+    "category": null,
+    "description": null,
+    "created_at": "2026-02-10T16:08:15.287165+00:00",
+    "updated_at": "2026-02-10T16:08:15.287165+00:00"
+  },
+  {
+    "id": "f45427a2-625d-4c45-be64-c781df349282",
+    "name": "Daflon",
+    "generic_name": "Diosmin + Hesperidin",
+    "category": "Diğer",
+    "description": "Venöz yetmezlik, varis, bacaklarda ağrı, şişlik ve hemoroid (basur) tedavisinde kullanılan, damar direncini artıran venotonik bir ilaçtır.",
+    "created_at": "2026-02-10T20:55:58.85878+00:00",
+    "updated_at": "2026-02-10T20:55:58.85878+00:00"
+  },
+  {
+    "id": "bbdb752b-a07d-4641-990b-5462d4262ca5",
+    "name": "Aspirin",
+    "generic_name": "Asetilsalisilik Asit",
+    "category": "Antikoagülan",
+    "description": "Ağrı, ateş ve iltihap giderici etkisinin yanı sıra trombosit agregasyonunu engelleyerek kanı sulandıran, kalp krizi ve inme riskini azaltmada kullanılan bir ajandır.",
+    "created_at": "2026-02-10T19:15:28.698418+00:00",
+    "updated_at": "2026-02-10T21:01:28.914166+00:00"
+  },
+  {
+    "id": "78489094-9a41-413a-9d0a-f2b9f76f0172",
+    "name": "Ecopirin",
+    "generic_name": "Asetilsalisilik Asit",
+    "category": "Antikoagülan",
+    "description": "Kan pulcuklarının yapışmasını önleyerek pıhtı oluşumunu engelleyen, kalp krizi ve inme riskini azaltmak için kullanılan bir ilaçtır.",
+    "created_at": "2026-02-10T20:32:13.021581+00:00",
+    "updated_at": "2026-02-10T21:09:28.114286+00:00"
+  },
+  {
+    "id": "c9db61c6-06d5-424d-b8b3-ac21e8dc80b6",
+    "name": "Atacand",
+    "generic_name": "Kandesartan Sileksetil",
+    "category": "Antihipertansif",
+    "description": "Anjiyotensin II reseptör blokeri (ARB) grubuna ait bir tansiyon ilacıdır. Damarları daraltan anjiyotensin II maddesinin reseptörlere bağlanmasını engelleyerek vazodilatasyon (damar genişlemesi) sağlar. Ayrıca aldosteron hormonunu baskılayarak sodyum atılımını artırırken potasyumun vücutta tutulmasına neden olur.",
+    "created_at": "2026-02-11T06:19:42.679349+00:00",
+    "updated_at": "2026-02-11T06:27:01.925447+00:00"
+  },
+  {
+    "id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "name": "Modet",
+    "generic_name": "Kalsiyum Dobesilat",
+    "category": "Vazoprotektif / Venotonik",
+    "description": "Kalsiyum dobesilat, kılcal damar (kapiller) duvarlarının direncini artırıp geçirgenliğini azaltarak etki gösterir. Kanın akışkanlığını (viskozite) düzenler ve lenfatik drenajı iyileştirir. Kronik venöz yetmezlik, hemoroid ve diyabetik retinopati tedavisinde kullanılır.",
+    "created_at": "2026-02-11T06:29:14.458293+00:00",
+    "updated_at": "2026-02-11T06:29:14.458293+00:00"
+  },
+  {
+    "id": "0c4f38c7-79be-4fb2-9d5d-6cc6ed773f53",
+    "name": "Maxantiox",
+    "generic_name": "Alfa Lipoik Asit, L-Karnitin, Koenzim Q10, Astaksantin, Çinko, Selenyum",
+    "category": "Antioksidan / Takviye Edici Gıda",
+    "description": "Yüksek potensli bir antioksidan kompleksidir. İçeriğindeki Alfa Lipoik Asit, L-Karnitin ve CoQ10 sayesinde mitokondriyal enerji üretimini destekler, sperm kalitesini (motilite ve morfoloji) artırır ve hücresel oksidatif stresi azaltır.",
+    "created_at": "2026-02-11T06:56:18.871037+00:00",
+    "updated_at": "2026-02-11T06:56:18.871037+00:00"
+  },
+  {
+    "id": "ee5f6127-94fe-4b88-9370-860b5ebca96a",
+    "name": "Desal",
+    "generic_name": "Furosemid",
+    "category": "Diüretik (İdrar Söktürücü)",
+    "description": "Henle kulbunda Na+/K+/2Cl- taşıyıcısını inhibe eden 'loop' (kıvrım) diüretiğidir. Böbreklerden su, sodyum, klorür ve özellikle potasyum atılımını artırarak ödemi çözer ve tansiyonu düşürür.",
+    "created_at": "2026-02-11T07:08:36.516288+00:00",
+    "updated_at": "2026-02-11T07:08:36.516288+00:00"
+  },
+  {
+    "id": "377d35c4-9bd5-405f-9caf-fbe45fc5e213",
+    "name": "Tensart",
+    "generic_name": "Valsartan",
+    "category": "Antihipertansif (Anjiyotensin II Reseptör Blokeri - ARB)",
+    "description": "Valsartan, kan damarlarının daralmasına neden olan Anjiyotensin II hormonunun reseptörlere bağlanmasını selektif olarak engelleyen bir ARB grubu ilaçtır. Damar düz kaslarını gevşeterek kan basıncını düşürür ve aldosteron salınımını azaltarak sodyum/su dengesini düzenler.",
+    "created_at": "2026-02-11T09:32:37.795457+00:00",
+    "updated_at": "2026-02-11T09:32:37.795457+00:00"
+  },
+  {
+    "id": "6dc1759f-c23a-41e6-b59b-c678bf278264",
+    "name": "selenyum",
+    "generic_name": null,
+    "category": null,
+    "description": null,
+    "created_at": "2026-02-14T19:19:07.873196+00:00",
+    "updated_at": "2026-02-14T19:19:07.873196+00:00"
+  }
+]

@@ -1,0 +1,234 @@
+2026-01-25T06:25:45.304Z - ----------------------------------------
+2026-01-25T06:25:45.306Z - API CALLED: /api/admin/users/update
+2026-01-25T06:25:45.312Z - Cookie Header Length: 30
+2026-01-25T06:25:45.313Z - Parsed Cookies: __next_hmr_refresh_hash__
+2026-01-25T06:25:45.316Z - Checking Auth with getUser()...
+2026-01-25T06:25:45.319Z - getUser returned no user, trying getSession...
+2026-01-25T06:25:45.321Z - getUser Error: Auth session missing!
+2026-01-25T06:25:45.323Z - ❌ API Auth Failed: Auth session missing!
+2026-01-25T06:27:57.148Z - ----------------------------------------
+2026-01-25T06:27:57.151Z - API CALLED: /api/admin/users/update
+2026-01-25T06:27:57.164Z - Cookie Header Length: 30
+2026-01-25T06:27:57.165Z - Auth Header Present: true
+2026-01-25T06:27:57.168Z - Checking Auth...
+2026-01-25T06:27:57.170Z - Verifying Bearer Token...
+2026-01-25T06:27:57.601Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-25T06:27:57.603Z - Checking Admin Role...
+2026-01-25T06:27:57.903Z - Profile Role: admin
+2026-01-25T06:27:57.906Z - Target User ID: 1cbd426e-5eb2-4728-8232-6bc357b29c56
+2026-01-25T06:27:57.907Z - Updating Auth: password
+2026-01-25T06:27:58.102Z - Auth Update Error: Database error loading user
+2026-01-25T06:27:58.105Z - 🔥 UNHANDLED ERROR: Kullanıcı kimlik bilgileri güncellenemedi: Database error loading user
+2026-01-25T06:29:17.038Z - ----------------------------------------
+2026-01-25T06:29:17.042Z - API CALLED: /api/admin/users/update
+2026-01-25T06:29:17.052Z - Cookie Header Length: 30
+2026-01-25T06:29:17.054Z - Auth Header Present: true
+2026-01-25T06:29:17.055Z - Checking Auth...
+2026-01-25T06:29:17.056Z - Verifying Bearer Token...
+2026-01-25T06:29:17.354Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-25T06:29:17.357Z - Checking Admin Role...
+2026-01-25T06:29:17.591Z - Profile Role: admin
+2026-01-25T06:29:17.593Z - Target User ID: 1cbd426e-5eb2-4728-8232-6bc357b29c56
+2026-01-25T06:29:17.593Z - Updating Auth: password
+2026-01-25T06:29:17.794Z - CRITICAL: Auth user check failed! ID: 1cbd426e-5eb2-4728-8232-6bc357b29c56, Error: Database error loading user
+2026-01-25T06:29:17.795Z - 🔥 UNHANDLED ERROR: Kullanıcı sistemde bulunamadı (Auth kaydı yok). Lütfen kullanıcıyı silip yeniden oluşturun.
+2026-01-25T06:30:25.668Z - ----------------------------------------
+2026-01-25T06:30:25.670Z - API CALLED: /api/admin/users/update
+2026-01-25T06:30:25.675Z - Cookie Header Length: 30
+2026-01-25T06:30:25.676Z - Auth Header Present: true
+2026-01-25T06:30:25.678Z - Checking Auth...
+2026-01-25T06:30:25.680Z - Verifying Bearer Token...
+2026-01-25T06:30:25.927Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-25T06:30:25.928Z - Checking Admin Role...
+2026-01-25T06:30:26.121Z - Profile Role: admin
+2026-01-25T06:30:26.124Z - Target User ID: b92dd638-3ecb-4442-96c9-40ee19438f30
+2026-01-25T06:30:26.126Z - Updating Auth: password
+2026-01-25T06:30:26.326Z - Auth User Verified: b92dd638-3ecb-4442-96c9-40ee19438f30 (diyetisyen@demo.com)
+2026-01-25T06:30:26.602Z - Updating Profile: full_name, title
+2026-01-25T06:30:26.798Z - ✅ Update Process Completed Successfully
+2026-01-25T06:54:02.468Z - ----------------------------------------
+2026-01-25T06:54:02.474Z - API CALLED: /api/admin/users/update
+2026-01-25T06:54:02.494Z - Cookie Header Length: 30
+2026-01-25T06:54:02.497Z - Auth Header Present: true
+2026-01-25T06:54:02.502Z - Checking Auth...
+2026-01-25T06:54:02.506Z - Verifying Bearer Token...
+2026-01-25T06:54:03.189Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-25T06:54:03.191Z - Checking Admin Role...
+2026-01-25T06:54:03.460Z - Profile Role: admin
+2026-01-25T06:54:03.465Z - Target User ID: b92dd638-3ecb-4442-96c9-40ee19438f30
+2026-01-25T06:54:03.468Z - Updating Profile: full_name, title
+2026-01-25T06:54:03.654Z - ✅ Update Process Completed Successfully
+2026-01-25T16:55:45.415Z - ----------------------------------------
+2026-01-25T16:55:45.420Z - API CALLED: /api/admin/users/update
+2026-01-25T16:55:45.424Z - Cookie Header Length: 30
+2026-01-25T16:55:45.426Z - Auth Header Present: true
+2026-01-25T16:55:45.432Z - Checking Auth...
+2026-01-25T16:55:45.435Z - Verifying Bearer Token...
+2026-01-25T16:55:45.722Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-25T16:55:45.724Z - Checking Admin Role...
+2026-01-25T16:55:45.977Z - Profile Role: admin
+2026-01-25T16:55:45.980Z - Target User ID: b92dd638-3ecb-4442-96c9-40ee19438f30
+2026-01-25T16:55:45.981Z - Updating Auth: password
+2026-01-25T16:55:46.175Z - Auth User Verified: b92dd638-3ecb-4442-96c9-40ee19438f30 (diyetisyen@demo.com)
+2026-01-25T16:55:46.455Z - Updating Profile: full_name, title
+2026-01-25T16:55:46.643Z - ✅ Update Process Completed Successfully
+2026-01-25T20:05:50.173Z - ----------------------------------------
+2026-01-25T20:05:50.178Z - API CALLED: /api/admin/users/update
+2026-01-25T20:05:50.180Z - Cookie Header Length: 122
+2026-01-25T20:05:50.181Z - Auth Header Present: true
+2026-01-25T20:05:50.185Z - Checking Auth...
+2026-01-25T20:05:50.186Z - Verifying Bearer Token...
+2026-01-25T20:05:50.490Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-25T20:05:50.492Z - Checking Admin Role...
+2026-01-25T20:05:50.751Z - Profile Role: admin
+2026-01-25T20:05:50.753Z - Target User ID: a97c9f5d-acac-464e-a0f8-322b0be9be5a
+2026-01-25T20:05:50.755Z - Updating Profile: full_name, title, max_devices
+2026-01-25T20:05:50.939Z - ✅ Update Process Completed Successfully
+2026-01-25T20:22:53.153Z - ----------------------------------------
+2026-01-25T20:22:53.154Z - API CALLED: /api/admin/users/update
+2026-01-25T20:22:53.159Z - Cookie Header Length: 122
+2026-01-25T20:22:53.160Z - Auth Header Present: true
+2026-01-25T20:22:53.164Z - Checking Auth...
+2026-01-25T20:22:53.165Z - Verifying Bearer Token...
+2026-01-25T20:22:53.563Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-25T20:22:53.564Z - Checking Admin Role...
+2026-01-25T20:22:53.825Z - Profile Role: admin
+2026-01-25T20:22:53.829Z - Target User ID: a97c9f5d-acac-464e-a0f8-322b0be9be5a
+2026-01-25T20:22:53.831Z - Updating Profile: full_name, title, max_devices
+2026-01-25T20:22:54.015Z - ✅ Update Process Completed Successfully
+2026-01-31T18:45:35.913Z - ----------------------------------------
+2026-01-31T18:45:35.918Z - API CALLED: /api/admin/users/update
+2026-01-31T18:45:35.931Z - Cookie Header Length: 29
+2026-01-31T18:45:35.932Z - Auth Header Present: true
+2026-01-31T18:45:35.936Z - Checking Auth...
+2026-01-31T18:45:35.938Z - Verifying Bearer Token...
+2026-01-31T18:45:36.536Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-31T18:45:36.539Z - Checking Admin Role...
+2026-01-31T18:45:36.878Z - Profile Role: admin
+2026-01-31T18:45:36.882Z - Target User ID: a97c9f5d-acac-464e-a0f8-322b0be9be5a
+2026-01-31T18:45:36.883Z - Updating Profile: full_name, title, max_devices
+2026-01-31T18:45:37.132Z - ✅ Update Process Completed Successfully
+2026-01-31T18:46:37.097Z - ----------------------------------------
+2026-01-31T18:46:37.104Z - API CALLED: /api/admin/users/update
+2026-01-31T18:46:37.110Z - Cookie Header Length: 29
+2026-01-31T18:46:37.112Z - Auth Header Present: true
+2026-01-31T18:46:37.114Z - Checking Auth...
+2026-01-31T18:46:37.116Z - Verifying Bearer Token...
+2026-01-31T18:46:37.738Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-31T18:46:37.739Z - Checking Admin Role...
+2026-01-31T18:46:37.996Z - Profile Role: admin
+2026-01-31T18:46:37.999Z - Target User ID: a97c9f5d-acac-464e-a0f8-322b0be9be5a
+2026-01-31T18:46:38.000Z - Updating Profile: full_name, title, max_devices
+2026-01-31T18:46:38.317Z - ✅ Update Process Completed Successfully
+2026-01-31T19:56:43.370Z - ----------------------------------------
+2026-01-31T19:56:43.373Z - API CALLED: /api/admin/users/update
+2026-01-31T19:56:43.385Z - Cookie Header Length: 29
+2026-01-31T19:56:43.387Z - Auth Header Present: true
+2026-01-31T19:56:43.399Z - Checking Auth...
+2026-01-31T19:56:43.401Z - Verifying Bearer Token...
+2026-01-31T19:56:44.069Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-01-31T19:56:44.072Z - Checking Admin Role...
+2026-01-31T19:56:44.417Z - Profile Role: admin
+2026-01-31T19:56:44.421Z - Target User ID: a97c9f5d-acac-464e-a0f8-322b0be9be5a
+2026-01-31T19:56:44.423Z - Updating Profile: full_name, title, max_devices
+2026-01-31T19:56:44.692Z - ✅ Update Process Completed Successfully
+2026-02-01T19:11:36.488Z - ----------------------------------------
+2026-02-01T19:11:36.492Z - API CALLED: /api/admin/users/update
+2026-02-01T19:11:36.495Z - Cookie Header Length: 29
+2026-02-01T19:11:36.496Z - Auth Header Present: true
+2026-02-01T19:11:36.501Z - Checking Auth...
+2026-02-01T19:11:36.503Z - Verifying Bearer Token...
+2026-02-01T19:11:37.245Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-02-01T19:11:37.248Z - Checking Admin Role...
+2026-02-01T19:11:37.671Z - Profile Role: admin
+2026-02-01T19:11:37.673Z - Target User ID: a97c9f5d-acac-464e-a0f8-322b0be9be5a
+2026-02-01T19:11:37.674Z - Updating Profile: full_name, title, max_devices
+2026-02-01T19:11:37.921Z - ✅ Update Process Completed Successfully
+2026-02-01T19:11:48.095Z - ----------------------------------------
+2026-02-01T19:11:48.096Z - API CALLED: /api/admin/users/update
+2026-02-01T19:11:48.104Z - Cookie Header Length: 29
+2026-02-01T19:11:48.105Z - Auth Header Present: true
+2026-02-01T19:11:48.106Z - Checking Auth...
+2026-02-01T19:11:48.107Z - Verifying Bearer Token...
+2026-02-01T19:11:48.618Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-02-01T19:11:48.619Z - Checking Admin Role...
+2026-02-01T19:11:48.912Z - Profile Role: admin
+2026-02-01T19:11:48.913Z - Target User ID: a97c9f5d-acac-464e-a0f8-322b0be9be5a
+2026-02-01T19:11:48.914Z - Updating Profile: full_name, title, max_devices
+2026-02-01T19:11:49.148Z - ✅ Update Process Completed Successfully
+2026-02-05T08:11:25.686Z - ----------------------------------------
+2026-02-05T08:11:25.692Z - API CALLED: /api/admin/users/update
+2026-02-05T08:11:25.694Z - Cookie Header Length: 29
+2026-02-05T08:11:25.696Z - Auth Header Present: true
+2026-02-05T08:11:25.700Z - Checking Auth...
+2026-02-05T08:11:25.701Z - Verifying Bearer Token...
+2026-02-05T08:11:25.999Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-02-05T08:11:26.000Z - Checking Admin Role...
+2026-02-05T08:11:26.376Z - Profile Role: admin
+2026-02-05T08:11:26.379Z - Target User ID: a97c9f5d-acac-464e-a0f8-322b0be9be5a
+2026-02-05T08:11:26.382Z - Updating Profile: full_name, title, max_devices
+2026-02-05T08:11:26.596Z - ✅ Update Process Completed Successfully
+2026-02-19T19:07:40.363Z - ----------------------------------------
+2026-02-19T19:07:40.366Z - API CALLED: /api/admin/users/update
+2026-02-19T19:07:40.369Z - Cookie Header Length: 29
+2026-02-19T19:07:40.370Z - Auth Header Present: true
+2026-02-19T19:07:40.374Z - Checking Auth...
+2026-02-19T19:07:40.376Z - Verifying Bearer Token...
+2026-02-19T19:07:40.668Z - ❌ Token invalid: Auth session missing!
+2026-02-19T19:07:40.670Z - Trying Cookie Session...
+2026-02-19T19:07:40.671Z - ❌ Cookie invalid: Auth session missing!
+2026-02-19T19:07:40.673Z - ❌ API Auth Failed Final: Auth session missing!
+2026-02-19T19:08:06.648Z - ----------------------------------------
+2026-02-19T19:08:06.651Z - API CALLED: /api/admin/users/update
+2026-02-19T19:08:06.668Z - Cookie Header Length: 29
+2026-02-19T19:08:06.669Z - Auth Header Present: true
+2026-02-19T19:08:06.670Z - Checking Auth...
+2026-02-19T19:08:06.673Z - Verifying Bearer Token...
+2026-02-19T19:08:06.989Z - ❌ Token invalid: Auth session missing!
+2026-02-19T19:08:06.991Z - Trying Cookie Session...
+2026-02-19T19:08:06.992Z - ❌ Cookie invalid: Auth session missing!
+2026-02-19T19:08:06.993Z - ❌ API Auth Failed Final: Auth session missing!
+2026-02-19T19:08:28.952Z - ----------------------------------------
+2026-02-19T19:08:28.953Z - API CALLED: /api/admin/users/update
+2026-02-19T19:08:28.959Z - Cookie Header Length: 29
+2026-02-19T19:08:28.961Z - Auth Header Present: true
+2026-02-19T19:08:28.962Z - Checking Auth...
+2026-02-19T19:08:28.963Z - Verifying Bearer Token...
+2026-02-19T19:08:29.204Z - ❌ Token invalid: Auth session missing!
+2026-02-19T19:08:29.206Z - Trying Cookie Session...
+2026-02-19T19:08:29.207Z - ❌ Cookie invalid: Auth session missing!
+2026-02-19T19:08:29.207Z - ❌ API Auth Failed Final: Auth session missing!
+2026-02-19T19:08:51.580Z - ----------------------------------------
+2026-02-19T19:08:51.581Z - API CALLED: /api/admin/users/update
+2026-02-19T19:08:51.600Z - Cookie Header Length: 29
+2026-02-19T19:08:51.602Z - Auth Header Present: true
+2026-02-19T19:08:51.603Z - Checking Auth...
+2026-02-19T19:08:51.606Z - Verifying Bearer Token...
+2026-02-19T19:08:51.857Z - ❌ Token invalid: Auth session missing!
+2026-02-19T19:08:51.859Z - Trying Cookie Session...
+2026-02-19T19:08:51.860Z - ❌ Cookie invalid: Auth session missing!
+2026-02-19T19:08:51.861Z - ❌ API Auth Failed Final: Auth session missing!
+2026-02-19T20:27:04.422Z - ----------------------------------------
+2026-02-19T20:27:04.427Z - API CALLED: /api/admin/users/update
+2026-02-19T20:27:04.438Z - Cookie Header Length: 29
+2026-02-19T20:27:04.439Z - Auth Header Present: true
+2026-02-19T20:27:04.441Z - Checking Auth...
+2026-02-19T20:27:04.442Z - Verifying Bearer Token...
+2026-02-19T20:27:04.679Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-02-19T20:27:04.683Z - Checking Admin Role...
+2026-02-19T20:27:04.886Z - Profile Role: admin
+2026-02-19T20:27:04.891Z - Target User ID: 77b27786-4e8d-4186-9b02-7fdc366f82e6
+2026-02-19T20:27:04.894Z - Updating Profile: full_name, title, max_devices
+2026-02-19T20:27:05.110Z - ✅ Update Process Completed Successfully
+2026-02-23T20:07:31.558Z - ----------------------------------------
+2026-02-23T20:07:31.563Z - API CALLED: /api/admin/users/update
+2026-02-23T20:07:31.572Z - Cookie Header Length: 3196
+2026-02-23T20:07:31.577Z - Auth Header Present: true
+2026-02-23T20:07:31.588Z - Checking Auth...
+2026-02-23T20:07:31.615Z - Verifying Bearer Token...
+2026-02-23T20:07:31.804Z - ✅ Token valid! User: 9c691075-82c8-47f8-93a0-78f553fa2643
+2026-02-23T20:07:31.806Z - Checking Admin Role...
+2026-02-23T20:07:31.986Z - Profile Role: admin
+2026-02-23T20:07:31.989Z - Target User ID: 2c193cd9-a142-4469-a8bf-a7e2ef4ce9a4
+2026-02-23T20:07:31.992Z - Updating Profile: full_name, title, max_devices
+2026-02-23T20:07:32.189Z - ✅ Update Process Completed Successfully

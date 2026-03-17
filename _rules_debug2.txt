@@ -1,0 +1,12 @@
+ASPIRIN RULES:
+0: type=negative keyword="Alkol"
+1: type=negative keyword="Ginkgo Biloba"
+2: type=warning keyword="Sarımsak"
+3: type=warning keyword="Zencefil"
+4: type=warning keyword="Omega-3"
+
+DESAL RULES:
+0: type=negative keyword="Meyan Kökü/Meyan Şerbeti/Meyan Çayı"
+1: type=negative keyword="Tuz/Turşu/Salamura/Soya Sosu/Cips/Kraker/Konserve Gıdalar/Maden Suyu"
+2: type=warning keyword="Alkol/Bira/Şarap/Rakı"
+3: type=positive keyword="Muz/Kuru Kayısı/Patates/Avokado/Ispanak/Mercimek/Hurma"

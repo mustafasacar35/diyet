@@ -1,0 +1,66 @@
+﻿[dotenv@17.2.3] injecting env (4) from .env.local -- tip: ÔÜÖ´©Å  override existing env vars with { override: true }
+­şöı Checking patient data for HACER YILBA┼ŞI...
+
+­şôï Patient Record:
+{
+  "id": "77dd6383-b2b7-4c2b-be8b-f5cf75acf3ae",
+  "full_name": "HACER YILBA┼ŞI",
+  "notes": "",
+  "created_at": "2026-01-18T18:51:39.957073+00:00",
+  "birth_date": "1981-01-01",
+  "height": 156,
+  "weight": 67,
+  "gender": "female",
+  "activity_level": 3,
+  "liked_foods": [
+    "kabak"
+  ],
+  "disliked_foods": [
+    "domates"
+  ],
+  "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+  "status": "active",
+  "show_meal_badges": true,
+  "sidebar_sort_preference": "asc",
+  "user_id": "b1cca998-b190-414d-a2d6-04ee0138e14a",
+  "visibility_settings": {
+    "allow_past": true,
+    "max_future_weeks": 1
+  },
+  "email": "hacer@demo.com"
+}
+
+­şôè Diet Plans (1):
+  - Varsay─▒lan Diyet Plan─▒ (ID: 4663eb15-da45-45be-a2ae-e30bc5437e56)
+    Status: active, Active: undefined
+    Created: 2026-01-18T18:51:50.38299+00:00
+
+­şôà Weeks in "Varsay─▒lan Diyet Plan─▒" (16):
+  - Hafta 1: 1. Hafta (7 g├╝n)
+  - Hafta 2: 2. Hafta (7 g├╝n)
+  - Hafta 3: 3. Hafta (7 g├╝n)
+  - Hafta 4: 4. Hafta (7 g├╝n)
+  - Hafta 5: 5. Hafta (7 g├╝n)
+  - Hafta 6: 6. Hafta (7 g├╝n)
+  - Hafta 7: 7. Hafta (7 g├╝n)
+  - Hafta 8: 8. Hafta (7 g├╝n)
+  - Hafta 9: 9. Hafta (7 g├╝n)
+  - Hafta 10: 10. Hafta (7 g├╝n)
+  - Hafta 11: 11. Hafta (7 g├╝n)
+  - Hafta 12: 12. Hafta (7 g├╝n)
+  - Hafta 13: 13. Hafta (7 g├╝n)
+  - Hafta 14: 14. Hafta (7 g├╝n)
+  - Hafta 15: 15. Hafta (7 g├╝n)
+  - Hafta 16: 16. Hafta (7 g├╝n)
+
+­şôÅ Measurements table might not exist: Could not find the table 'public.patient_measurements' in the schema cache
+­şæñ Assignments: 1 records
+[
+  {
+    "id": "49ba6d2e-3d22-4376-ad0b-d3d932cfa1f7",
+    "dietitian_id": "4ab8a768-ef0f-4933-977a-0183d95e3efd",
+    "patient_id": "77dd6383-b2b7-4c2b-be8b-f5cf75acf3ae",
+    "is_primary": true,
+    "created_at": "2026-01-21T20:27:15.472192+00:00"
+  }
+]

@@ -1,0 +1,3070 @@
+[
+  {
+    "id": "82c7c037-1f45-4c1a-9ef0-2c56788b7ff3",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 3,
+    "title": "3. Hafta",
+    "created_at": "2026-01-26T09:12:35.275962+00:00",
+    "start_date": "2026-02-09",
+    "end_date": "2026-02-15",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 88,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "b9cc6fc6-2d22-433f-bea4-891f3d9ec928",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 6,
+    "title": "6. Hafta",
+    "created_at": "2026-01-26T09:12:51.392267+00:00",
+    "start_date": "2026-03-02",
+    "end_date": "2026-03-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "d33a88a9-082c-40aa-b75a-57a7bc9d8c5d",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 9,
+    "title": "9. Hafta",
+    "created_at": "2026-01-26T09:13:06.447088+00:00",
+    "start_date": "2026-03-23",
+    "end_date": "2026-03-29",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "f21eeb22-9b01-4388-83f5-22d476b6855b",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 12,
+    "title": "12. Hafta",
+    "created_at": "2026-01-26T09:13:22.516075+00:00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-04-19",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "d4252e24-4117-4d13-a5dc-84acc8118fdb",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 15,
+    "title": "15. Hafta",
+    "created_at": "2026-01-26T09:13:39.761594+00:00",
+    "start_date": "2026-05-04",
+    "end_date": "2026-05-10",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "8ebf7349-7a36-4b80-9576-034b05feade2",
+    "diet_plan_id": "9c4b9865-0a1e-4a59-878d-40a1265c4507",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T22:08:15.93471+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "0bb9dd1d-3989-4634-8cc0-5d017ec6a9a2",
+    "diet_plan_id": "afa8bdcf-52cb-4048-8122-a8390bcd4b26",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T06:34:53.262388+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "55ce29e1-f520-4c57-a400-1979ceb59019",
+    "diet_plan_id": "9a1751ce-3567-4965-ade1-2f5dfe8afba5",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T06:42:48.197403+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "76fdfc78-5744-495f-aef8-3fc8098ff2c9",
+    "diet_plan_id": "0224a454-26e5-40d1-8cc5-bd7c6ac2e1ae",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T07:43:29.046301+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      }
+    ]
+  },
+  {
+    "id": "d1ad34eb-8518-434c-ae92-48ba232345ba",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-01-24T14:20:49.854538+00:00",
+    "start_date": "2026-01-19",
+    "end_date": "2026-01-25",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM"
+    ],
+    "weight_log": 89,
+    "assigned_diet_type_id": "97e9a368-6505-4b8c-93c3-cb07fe6f64b0",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 5,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 2
+      }
+    ]
+  },
+  {
+    "id": "260488ab-7814-4f63-a2d4-594f25b0dbd2",
+    "diet_plan_id": "e529b2ef-a1a8-4b33-993b-4f42679310da",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T21:53:32.802737+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "bedada8c-5a0f-4b22-8bb9-bdb9b2d53aec",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 4,
+    "title": "4. Hafta",
+    "created_at": "2026-01-24T14:20:54.349549+00:00",
+    "start_date": "2026-03-02",
+    "end_date": "2026-03-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 5,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      }
+    ]
+  },
+  {
+    "id": "b4163f81-90c2-498c-868c-fb4822165d55",
+    "diet_plan_id": "37d0a8d0-af6d-4619-98c3-7b46964789a0",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T21:53:54.312957+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 5,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 2
+      }
+    ]
+  },
+  {
+    "id": "38112677-9369-4c48-a148-df44ef8b7825",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 11,
+    "title": "11. Hafta",
+    "created_at": "2026-01-24T14:21:03.771778+00:00",
+    "start_date": "2026-04-20",
+    "end_date": "2026-04-26",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "693fddf0-a665-4365-bf3e-c02c6eefe709",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 16,
+    "title": "16. Hafta",
+    "created_at": "2026-01-24T14:21:10.632931+00:00",
+    "start_date": "2026-05-25",
+    "end_date": "2026-05-31",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "96265ba5-0710-4609-bd3e-22a9e074aa44",
+    "diet_plan_id": "4d8e76b7-21e4-4aab-8fae-7b86ad403c7a",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T21:59:29.434373+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "e2f48459-d365-4551-8bc5-17b3c3b8a292",
+    "diet_plan_id": "523979c1-8031-46e7-ba57-cfc86a8cbdd7",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T22:02:19.636462+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "bc4bbbbd-54de-461b-a110-e94cc2b57356",
+    "diet_plan_id": "b3dd7297-0891-44b8-aa09-8f6987f589c7",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T22:02:44.317917+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "33e38f7a-03aa-4f28-923b-a3a41bea78df",
+    "diet_plan_id": "3429f82a-c1a9-4e95-b18f-afcfcbe39aa2",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T08:32:24.288428+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      }
+    ]
+  },
+  {
+    "id": "f1a0c37f-815d-4be3-bfbe-59024552477f",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 6,
+    "title": "6. Hafta",
+    "created_at": "2026-01-24T14:20:56.827089+00:00",
+    "start_date": "2026-03-16",
+    "end_date": "2026-03-22",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "dc2506b8-7a3e-485e-80aa-bcba0c67dcca",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 10,
+    "title": "10. Hafta",
+    "created_at": "2026-01-24T14:21:02.292705+00:00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-04-19",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 88,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "32a64769-4cda-4145-ae23-b968d8901e79",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-01-26T09:12:23.825002+00:00",
+    "start_date": "2026-01-26",
+    "end_date": "2026-02-01",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 67,
+    "assigned_diet_type_id": "315a03f5-552c-4211-9d5d-31dd18628976",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "2a601f8c-a14f-43cf-970e-6c1488aed8da",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 4,
+    "title": "4. Hafta",
+    "created_at": "2026-01-26T09:12:40.43998+00:00",
+    "start_date": "2026-02-16",
+    "end_date": "2026-02-22",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "7b7f3394-3d95-41b4-a872-7e3d2c797f1a",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 7,
+    "title": "7. Hafta",
+    "created_at": "2026-01-26T09:12:56.44867+00:00",
+    "start_date": "2026-03-09",
+    "end_date": "2026-03-15",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "de4fe0f4-df3d-49d6-86d9-7e47fb25b86a",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 10,
+    "title": "10. Hafta",
+    "created_at": "2026-01-26T09:13:11.287111+00:00",
+    "start_date": "2026-03-30",
+    "end_date": "2026-04-05",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "13b22ae3-615e-49a0-94f5-fcd6d6a68177",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 13,
+    "title": "13. Hafta",
+    "created_at": "2026-01-26T09:13:27.897776+00:00",
+    "start_date": "2026-04-20",
+    "end_date": "2026-04-26",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "6d5104f2-e85b-438b-a2dc-9943272eb72e",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 16,
+    "title": "16. Hafta",
+    "created_at": "2026-01-26T09:13:45.779611+00:00",
+    "start_date": "2026-05-11",
+    "end_date": "2026-05-17",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "c52fdc86-3964-4edb-af97-d84eb0905eb4",
+    "diet_plan_id": "d8db46da-8392-4345-b5aa-b528a2f148ad",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T07:55:32.872725+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      },
+      {
+        "name": "özel öğün",
+        "max_items": 4,
+        "min_items": 2
+      }
+    ]
+  },
+  {
+    "id": "cee23871-1ab1-4c90-8c9b-87036e7f3fbe",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 2,
+    "title": "2. Hafta",
+    "created_at": "2026-01-24T14:20:51.579189+00:00",
+    "start_date": "2026-01-26",
+    "end_date": "2026-02-01",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 67,
+    "assigned_diet_type_id": "97e9a368-6505-4b8c-93c3-cb07fe6f64b0",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "7363f5c8-70c5-49b0-85cb-b86b871475e4",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 14,
+    "title": "14. Hafta",
+    "created_at": "2026-01-24T14:21:07.875979+00:00",
+    "start_date": "2026-05-11",
+    "end_date": "2026-05-17",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 88,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "b1dee891-a735-4103-9a1f-741aa03e7575",
+    "diet_plan_id": "e344e0ac-6cc5-4a46-98a2-59559c69f428",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T21:53:32.804881+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "00d4a08e-d7c2-484c-9d7e-e1ff544e6645",
+    "diet_plan_id": "65222ab8-d73e-454f-9d4c-8a02cf99ae46",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T21:57:35.826287+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "11857404-502c-4718-ba60-3e66e8df68e4",
+    "diet_plan_id": "48b58d87-8dc5-4e25-9013-65fc4bb8cd68",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T21:59:29.437105+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "90288ad0-0f76-4404-8a0c-0a3c073540cb",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 7,
+    "title": "7. Hafta",
+    "created_at": "2026-01-24T14:20:58.205833+00:00",
+    "start_date": "2026-03-23",
+    "end_date": "2026-03-29",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "29855893-a05f-4522-a71a-2ce69c348ed2",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 9,
+    "title": "9. Hafta",
+    "created_at": "2026-01-24T14:21:01.003164+00:00",
+    "start_date": "2026-04-06",
+    "end_date": "2026-04-12",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "2114441c-53b6-4e3e-a145-2aba558d3553",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 15,
+    "title": "15. Hafta",
+    "created_at": "2026-01-24T14:21:09.293487+00:00",
+    "start_date": "2026-05-18",
+    "end_date": "2026-05-24",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "76cab06a-0fe6-4caf-9d4b-cff6c9cbe231",
+    "diet_plan_id": "949e8a0f-d6fe-4ee3-aced-97173aab37ac",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T22:02:19.657017+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "280113af-ac77-4cee-829a-d9bd1e85e424",
+    "diet_plan_id": "3a42ce5d-cf99-4ea2-9f51-a4ad30c379d8",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T22:05:29.219507+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "7498597a-53a0-4874-9c91-53867742eceb",
+    "diet_plan_id": "7e372923-30a2-4927-a41a-9130a8e61042",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T22:08:15.934696+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "54727e01-acae-41e7-90fc-11e8c8581ff9",
+    "diet_plan_id": "44d42e52-b7f5-4465-9f3e-13d12f7bbcf0",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T06:39:02.051624+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "df33b611-f96e-4ea3-801b-8aa7cdd046fc",
+    "diet_plan_id": "ef6406c1-ae25-4eef-889e-df1635530878",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T06:46:04.050191+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 66,
+    "assigned_diet_type_id": "315a03f5-552c-4211-9d5d-31dd18628976",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 5,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "c3059aa2-98c6-4936-884f-fd9cd111345b",
+    "diet_plan_id": "3429f82a-c1a9-4e95-b18f-afcfcbe39aa2",
+    "week_number": 2,
+    "title": "2. Hafta",
+    "created_at": "2026-02-08T14:46:55.588552+00:00",
+    "start_date": "2026-02-09",
+    "end_date": "2026-02-15",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": "315a03f5-552c-4211-9d5d-31dd18628976",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      }
+    ]
+  },
+  {
+    "id": "24a8eb19-7fa1-4a1a-abad-d0ed7631cb06",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 2,
+    "title": "2. Hafta",
+    "created_at": "2026-02-10T19:33:14.746919+00:00",
+    "start_date": "2026-02-16",
+    "end_date": "2026-02-22",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "315a03f5-552c-4211-9d5d-31dd18628976",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "ef7139c8-641b-4133-b413-1cd13d8e2fd2",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 2,
+    "title": "2. Hafta",
+    "created_at": "2026-01-26T09:12:29.579617+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "315a03f5-552c-4211-9d5d-31dd18628976",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "fe88f6e6-3e81-469f-96e2-08cce25825d0",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 5,
+    "title": "5. Hafta",
+    "created_at": "2026-01-26T09:12:46.196223+00:00",
+    "start_date": "2026-02-23",
+    "end_date": "2026-03-01",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "22290bc4-e1b0-4d94-85e6-17f75ab9cbfd",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 8,
+    "title": "8. Hafta",
+    "created_at": "2026-01-26T09:13:01.47853+00:00",
+    "start_date": "2026-03-16",
+    "end_date": "2026-03-22",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "78b1bc73-2904-48a0-9d4a-967e0c308f09",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 11,
+    "title": "11. Hafta",
+    "created_at": "2026-01-26T09:13:16.678433+00:00",
+    "start_date": "2026-04-06",
+    "end_date": "2026-04-12",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "9cfe69dd-aa13-4111-8c65-88e99073c82c",
+    "diet_plan_id": "53627ba8-ef70-457e-978a-69f296012673",
+    "week_number": 14,
+    "title": "14. Hafta",
+    "created_at": "2026-01-26T09:13:34.026935+00:00",
+    "start_date": "2026-04-27",
+    "end_date": "2026-05-03",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "4914e83a-bc02-401b-85e4-7166bf01f1ea",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 3,
+    "title": "3. Hafta",
+    "created_at": "2026-01-24T14:20:53.014926+00:00",
+    "start_date": "2026-02-23",
+    "end_date": "2026-03-01",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM"
+    ],
+    "weight_log": 88,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      }
+    ]
+  },
+  {
+    "id": "850944b9-28c8-4e6a-80a4-71f3a2fec681",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 4,
+    "title": "4. Hafta",
+    "created_at": "2026-02-10T19:33:18.388462+00:00",
+    "start_date": "2026-03-02",
+    "end_date": "2026-03-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "41b1cde9-0542-48f7-a785-a08ab8b7a3d9",
+    "diet_plan_id": "493eeab2-c355-49fc-8829-f1dfe3b9578a",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T21:53:54.290654+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "05d765f3-6747-4afa-8587-f01a07922d2c",
+    "diet_plan_id": "4597e8cf-e250-4865-a20c-7d21a918623a",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T21:57:35.823998+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "ab22d29c-fe3e-4d0d-8c51-05e22cae7705",
+    "diet_plan_id": "1094ac3b-3ce9-4d67-87a7-e2efc0c95cef",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T22:00:22.356183+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "dbdd11fc-94a8-4dfc-81fb-c13986915d8b",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 5,
+    "title": "5. Hafta",
+    "created_at": "2026-01-24T14:20:55.576524+00:00",
+    "start_date": "2026-03-09",
+    "end_date": "2026-03-15",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "53fe776d-adeb-4801-bd88-b0904d35cff5",
+    "diet_plan_id": "499e0493-ac9e-4a66-869b-baea2684ef3c",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T22:02:44.315852+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "decb3ef6-9123-4052-a7bd-7aed09b71b14",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 12,
+    "title": "12. Hafta",
+    "created_at": "2026-01-24T14:21:05.248494+00:00",
+    "start_date": "2026-04-27",
+    "end_date": "2026-05-03",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "7ebc4a30-b476-4ecb-8662-b57acf1d4239",
+    "diet_plan_id": "4d17c9ce-a6bf-4215-9fa7-0e3740ab6a81",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-06T22:05:29.220603+00:00",
+    "start_date": "2026-02-01",
+    "end_date": "2026-02-07",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "18da5473-7694-4c5c-9f64-62280a5586f9",
+    "diet_plan_id": "934c5e83-7553-4bd1-ad1e-757467ba0a75",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T06:34:53.123477+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "e7fff4fb-0e2b-486b-a564-1e0a06183c65",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 13,
+    "title": "13. Hafta",
+    "created_at": "2026-01-24T14:21:06.514386+00:00",
+    "start_date": "2026-05-04",
+    "end_date": "2026-05-10",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "392ffe08-4087-42d7-8f66-67a62c5ff42e",
+    "diet_plan_id": "0500fc40-056b-4d48-85d7-cff1ccef65d4",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T06:39:43.497533+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": 66,
+    "assigned_diet_type_id": "315a03f5-552c-4211-9d5d-31dd18628976",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 3
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 3
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "6e201e11-185c-48f8-8b97-b955c85a92dd",
+    "diet_plan_id": "3fa4d84d-263b-4811-b395-4d4103926310",
+    "week_number": 8,
+    "title": "8. Hafta",
+    "created_at": "2026-01-24T14:32:58.222207+00:00",
+    "start_date": "2026-03-23",
+    "end_date": "2026-03-29",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "ARA ÖĞÜN"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "dc864a58-a161-4a00-aaeb-f4f99c38e70a",
+    "diet_plan_id": "fbeb7210-b34e-46a3-b8a6-849a5ca91096",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-08T08:03:19.509411+00:00",
+    "start_date": "2026-02-02",
+    "end_date": "2026-02-08",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": 0,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      },
+      {
+        "name": "özel öğün",
+        "max_items": 4,
+        "min_items": 2
+      }
+    ]
+  },
+  {
+    "id": "cb7e3a66-4329-4a76-8cef-c4903954e763",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 3,
+    "title": "3. Hafta",
+    "created_at": "2026-02-10T19:33:17.054429+00:00",
+    "start_date": "2026-02-23",
+    "end_date": "2026-03-01",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "eb293240-493b-4226-ba63-1739c194b9a1",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 5,
+    "title": "5. Hafta",
+    "created_at": "2026-02-10T19:33:20.224234+00:00",
+    "start_date": "2026-03-09",
+    "end_date": "2026-03-15",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "933aa3a6-edf2-48a3-99e8-04ef0c1f44a9",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 6,
+    "title": "6. Hafta",
+    "created_at": "2026-02-10T19:33:22.169602+00:00",
+    "start_date": "2026-03-16",
+    "end_date": "2026-03-22",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "9ceb914e-c9df-4dfd-9010-4809007a61db",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 7,
+    "title": "7. Hafta",
+    "created_at": "2026-02-10T19:33:24.62857+00:00",
+    "start_date": "2026-03-23",
+    "end_date": "2026-03-29",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "c6cce1b6-255c-4cd7-b55f-8b832de8f88b",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 8,
+    "title": "8. Hafta",
+    "created_at": "2026-02-10T19:33:26.956307+00:00",
+    "start_date": "2026-03-30",
+    "end_date": "2026-04-05",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "cc0f1f3e-7608-4064-b7a9-ed446e8770e1",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 10,
+    "title": "10. Hafta",
+    "created_at": "2026-02-10T19:33:30.716486+00:00",
+    "start_date": "2026-04-13",
+    "end_date": "2026-04-19",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "3bcf2e66-d8cb-4bce-b4d7-fac1dd691e0f",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 9,
+    "title": "9. Hafta",
+    "created_at": "2026-02-10T19:33:28.854927+00:00",
+    "start_date": "2026-04-06",
+    "end_date": "2026-04-12",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "362a9912-797e-4919-9cb4-b60bc1e8a3e4",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 11,
+    "title": "11. Hafta",
+    "created_at": "2026-02-10T19:33:32.541861+00:00",
+    "start_date": "2026-04-20",
+    "end_date": "2026-04-26",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "caa0ae47-1391-4a75-acae-61ec92513396",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 12,
+    "title": "12. Hafta",
+    "created_at": "2026-02-10T19:33:34.250537+00:00",
+    "start_date": "2026-04-27",
+    "end_date": "2026-05-03",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "ccb24319-7005-4bab-9278-ccb49f760e7a",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 13,
+    "title": "13. Hafta",
+    "created_at": "2026-02-10T19:33:36.699857+00:00",
+    "start_date": "2026-05-04",
+    "end_date": "2026-05-10",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "658e5449-7c79-4744-af9d-ff3f7216eca0",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 14,
+    "title": "14. Hafta",
+    "created_at": "2026-02-10T19:33:38.664318+00:00",
+    "start_date": "2026-05-11",
+    "end_date": "2026-05-17",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "5ff5f066-3fbb-4cfb-bc8c-c90b4048e7b5",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 15,
+    "title": "15. Hafta",
+    "created_at": "2026-02-10T19:33:40.255395+00:00",
+    "start_date": "2026-05-18",
+    "end_date": "2026-05-24",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "5fabdf21-d8ef-42b2-a5ca-c1d8df8addda",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 16,
+    "title": "16. Hafta",
+    "created_at": "2026-02-10T19:33:41.944748+00:00",
+    "start_date": "2026-05-25",
+    "end_date": "2026-05-31",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM",
+      "özel öğün"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": null,
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "26654c7c-e741-4836-bd16-75adae5e846f",
+    "diet_plan_id": "ec84dc0a-f2bb-4cee-8fa0-2dbb0edbb5f3",
+    "week_number": 1,
+    "title": "1. Hafta",
+    "created_at": "2026-02-10T19:33:12.029834+00:00",
+    "start_date": "2026-02-09",
+    "end_date": "2026-02-15",
+    "meal_types": [
+      "KAHVALTI",
+      "ÖĞLEN",
+      "AKŞAM"
+    ],
+    "weight_log": null,
+    "assigned_diet_type_id": "315a03f5-552c-4211-9d5d-31dd18628976",
+    "activity_level_log": 3,
+    "activity_level_inherited": false,
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 5,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      }
+    ]
+  }
+]

@@ -1,0 +1,305 @@
+[
+  {
+    "id": "e56d6872-17ee-402e-98be-c5f5fe6433f8",
+    "full_name": "dene 5",
+    "notes": null,
+    "created_at": "2026-02-06T21:48:14.254369+00:00",
+    "birth_date": "1960-01-01",
+    "height": 166,
+    "weight": 66,
+    "gender": "male",
+    "activity_level": 3,
+    "liked_foods": [],
+    "disliked_foods": [],
+    "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": "e56d6872-17ee-402e-98be-c5f5fe6433f8",
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 4
+    },
+    "email": "dene5@dene.bes",
+    "updated_at": "2026-02-06T21:48:14.254369+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {},
+    "dismissed_global_rule_ids": []
+  },
+  {
+    "id": "acac1b59-3d79-4395-860d-d1c3029a2adb",
+    "full_name": "GÜLİN HAZER",
+    "notes": null,
+    "created_at": "2026-02-10T19:24:46.285373+00:00",
+    "birth_date": "1972-01-01",
+    "height": 163,
+    "weight": 67,
+    "gender": "female",
+    "activity_level": 3,
+    "liked_foods": [],
+    "disliked_foods": [
+      "sakatat"
+    ],
+    "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": "acac1b59-3d79-4395-860d-d1c3029a2adb",
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 4
+    },
+    "email": "gulinhazer@demo.com",
+    "updated_at": "2026-02-10T19:24:46.285373+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {},
+    "dismissed_global_rule_ids": []
+  },
+  {
+    "id": "819a517b-bf79-4a8a-baa9-653795cf759e",
+    "full_name": "dene 4",
+    "notes": null,
+    "created_at": "2026-02-06T21:42:24.287076+00:00",
+    "birth_date": "1993-01-01",
+    "height": 155,
+    "weight": 66,
+    "gender": "male",
+    "activity_level": 3,
+    "liked_foods": [],
+    "disliked_foods": [],
+    "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": "819a517b-bf79-4a8a-baa9-653795cf759e",
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 4
+    },
+    "email": "dene4@dene4.com",
+    "updated_at": "2026-02-06T21:42:24.287076+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {},
+    "dismissed_global_rule_ids": []
+  },
+  {
+    "id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "full_name": "dene dokuzz",
+    "notes": null,
+    "created_at": "2026-02-08T08:32:13.908899+00:00",
+    "birth_date": "1959-01-01",
+    "height": 166,
+    "weight": 76,
+    "gender": "female",
+    "activity_level": 3,
+    "liked_foods": [
+      "tavuk"
+    ],
+    "disliked_foods": [
+      "domates"
+    ],
+    "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 4
+    },
+    "email": "dene9@demo.com",
+    "updated_at": "2026-02-08T08:32:13.908899+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {
+      "is_dashboard_visible": true
+    },
+    "dismissed_global_rule_ids": []
+  },
+  {
+    "id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "full_name": "HACER YILBAŞI",
+    "notes": null,
+    "created_at": "2026-01-24T11:32:48.165782+00:00",
+    "birth_date": "1982-01-01",
+    "height": 156,
+    "weight": 99,
+    "gender": "female",
+    "activity_level": 2,
+    "liked_foods": [
+      "KABAK"
+    ],
+    "disliked_foods": [
+      "DOMATES"
+    ],
+    "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 4
+    },
+    "email": "hacer3@demo.com",
+    "updated_at": "2026-01-24T11:32:48.165782+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {
+      "is_dashboard_visible": true
+    },
+    "dismissed_global_rule_ids": [
+      "48366015-1be1-4682-9b50-62af89c28c0b",
+      "c6178ddb-1bef-4e6c-a642-65d98d092c8d"
+    ]
+  },
+  {
+    "id": "900f1498-d008-42f3-87fd-b66787817e96",
+    "full_name": "Dene Altı",
+    "notes": null,
+    "created_at": "2026-02-08T07:43:15.229556+00:00",
+    "birth_date": "1960-01-01",
+    "height": 177,
+    "weight": 77,
+    "gender": "female",
+    "activity_level": 3,
+    "liked_foods": [
+      "domates"
+    ],
+    "disliked_foods": [
+      "tavuk"
+    ],
+    "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": "900f1498-d008-42f3-87fd-b66787817e96",
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 4
+    },
+    "email": "dene6@demo.com",
+    "updated_at": "2026-02-08T07:43:15.229556+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {},
+    "dismissed_global_rule_ids": []
+  },
+  {
+    "id": "172245e4-6e49-4ad9-855d-5600704f07bd",
+    "full_name": "Dene Yedi",
+    "notes": null,
+    "created_at": "2026-02-08T07:55:23.032422+00:00",
+    "birth_date": "1960-01-01",
+    "height": 167,
+    "weight": 77,
+    "gender": "female",
+    "activity_level": 3,
+    "liked_foods": [
+      "tavuk"
+    ],
+    "disliked_foods": [
+      "domates"
+    ],
+    "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": "172245e4-6e49-4ad9-855d-5600704f07bd",
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 4
+    },
+    "email": "dene7@demo.com",
+    "updated_at": "2026-02-08T07:55:23.032422+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {},
+    "dismissed_global_rule_ids": []
+  },
+  {
+    "id": "c524b263-ff07-4b0a-bb4f-4361f007e7fd",
+    "full_name": "Hasta 2",
+    "notes": null,
+    "created_at": "2026-01-25T06:51:33.720869+00:00",
+    "birth_date": "1971-01-01",
+    "height": 164,
+    "weight": 77,
+    "gender": "female",
+    "activity_level": 3,
+    "liked_foods": [
+      "ıspanak"
+    ],
+    "disliked_foods": [
+      "lahana"
+    ],
+    "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": "c524b263-ff07-4b0a-bb4f-4361f007e7fd",
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 1
+    },
+    "email": "hasta2@demo.com",
+    "updated_at": "2026-01-25T06:51:33.720869+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {},
+    "dismissed_global_rule_ids": []
+  },
+  {
+    "id": "bac0ebbc-7cb7-43a7-86e8-e0279fbd3534",
+    "full_name": "dene sekiz",
+    "notes": null,
+    "created_at": "2026-02-08T08:03:07.37086+00:00",
+    "birth_date": "1960-01-01",
+    "height": 176,
+    "weight": 91,
+    "gender": "female",
+    "activity_level": 3,
+    "liked_foods": [
+      "ıspanak"
+    ],
+    "disliked_foods": [
+      "tavuk"
+    ],
+    "program_template_id": "9ddbef6b-1685-46bc-b831-e4ee80d071bc",
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": "bac0ebbc-7cb7-43a7-86e8-e0279fbd3534",
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 4
+    },
+    "email": "dene8@demo.com",
+    "updated_at": "2026-02-08T08:03:07.37086+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {},
+    "dismissed_global_rule_ids": []
+  },
+  {
+    "id": "073e6ba6-d15a-484a-9659-9bf256f0c907",
+    "full_name": "Test User",
+    "notes": null,
+    "created_at": "2026-01-25T20:11:14.505512+00:00",
+    "birth_date": null,
+    "height": null,
+    "weight": null,
+    "gender": null,
+    "activity_level": 3,
+    "liked_foods": null,
+    "disliked_foods": null,
+    "program_template_id": null,
+    "status": "active",
+    "show_meal_badges": true,
+    "sidebar_sort_preference": null,
+    "user_id": null,
+    "visibility_settings": {
+      "allow_past": true,
+      "max_future_weeks": 1
+    },
+    "email": "device_test_1769372100761@example.com",
+    "updated_at": "2026-01-25T20:11:14.505512+00:00",
+    "macro_target_mode": "calculated",
+    "preferences": {},
+    "dismissed_global_rule_ids": []
+  }
+]

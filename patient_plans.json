@@ -1,0 +1,54 @@
+[
+  {
+    "plan_id": "8f0f4448-74de-4a53-847e-9153697d2f6e",
+    "status": "active",
+    "week_count": 1,
+    "week_numbers": [
+      1
+    ]
+  },
+  {
+    "plan_id": "3bcbb643-672e-4812-bac0-83a841890de0",
+    "status": "active",
+    "week_count": 3,
+    "week_numbers": [
+      1,
+      3,
+      4
+    ]
+  },
+  {
+    "plan_id": "8d04bac6-b018-4fbb-bf12-2c16866dda4b",
+    "status": "active",
+    "week_count": 1,
+    "week_numbers": [
+      2
+    ]
+  },
+  {
+    "plan_id": "fe202806-a9f3-4b7a-9ad5-35b7e24af624",
+    "status": "active",
+    "week_count": 2,
+    "week_numbers": [
+      3,
+      4
+    ]
+  },
+  {
+    "plan_id": "862d51a2-b729-4eef-8eac-fd6f25614718",
+    "status": "active",
+    "week_count": 1,
+    "week_numbers": [
+      5
+    ]
+  },
+  {
+    "plan_id": "ee5c73c2-ae3d-484d-afdb-0458faa7e1cd",
+    "status": "active",
+    "week_count": 2,
+    "week_numbers": [
+      1,
+      2
+    ]
+  }
+]
