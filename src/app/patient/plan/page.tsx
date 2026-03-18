@@ -82,6 +82,7 @@ import { PhotoMealLogModal } from "@/components/diet/photo-meal-log-modal"
 import { FoodSearchSelector } from "@/components/diet/food-search-selector"
 import { sortFoodsByRole } from "@/utils/food-sorter"
 import AppStartupLoader from "@/components/ui/app-startup-loader"
+import { BalanceConfirmModal, BalanceChange } from "@/components/diet/balance-confirm-modal"
 
 // Types
 type DietFood = {
@@ -335,7 +336,7 @@ function MacroDashboard({ totals, targets, isVisible, onClose, days }: MacroDash
     const wCalPct = tCals > 0 ? Math.round((wAvg.calories / tCals) * 100) : 0
 
     return (
-        <div className="sticky top-[102px] z-10 px-1 sm:px-0">
+        <div className="relative w-full px-1 sm:px-0 z-20">
             <Card className="overflow-hidden shadow-sm border border-gray-100 bg-white backdrop-blur-md rounded-xl p-1 sm:p-2.5 mx-0 sm:mx-1 mb-2 min-w-0">
                 <div className="flex flex-col gap-2">
                     {/* Top Row: Daily and Weekly Rings Side by Side */}
@@ -810,6 +811,37 @@ export default function PatientPlanPage() {
     const [dashboardTab, setDashboardTab] = useState<'daily' | 'weekly'>('daily')
     const [isDashboardVisible, setIsDashboardVisible] = useState(true)
 
+    // Patient Weight & Activity Edit State
+    const [isWeightModalOpen, setIsWeightModalOpen] = useState(false)
+    const [editWeight, setEditWeight] = useState<string>('')
+    const [editActivity, setEditActivity] = useState<string>('3')
+
+    const openWeightModal = () => {
+        setEditWeight((activeWeek?.weight_log || patientInfo?.weight || '').toString())
+        setEditActivity((activeWeek?.activity_level_log || activeWeek?.activity_level || patientInfo?.activity_level || 3).toString())
+        setIsWeightModalOpen(true)
+    }
+
+    const saveWeightActivity = async () => {
+        if (!activeWeek?.id) return
+        try {
+            const { error } = await supabase
+                .from('diet_weeks')
+                .update({ 
+                    weight_log: parseFloat(editWeight) || null,
+                    activity_level_log: parseInt(editActivity) || null
+                })
+                .eq('id', activeWeek.id)
+            if (error) throw error
+            
+            setIsWeightModalOpen(false)
+            setRefreshTrigger(prev => prev + 1)
+        } catch (err: any) {
+            console.error(err)
+            await showAppModal('Hata', 'Kaydedilirken hata oluştu: ' + err.message, 'alert')
+        }
+    }
+
     // Auto-Plan & History States
     const [isGeneratingPlan, setIsGeneratingPlan] = useState(false)
     const [isApplyingPlan, setIsApplyingPlan] = useState(false)
@@ -846,7 +878,33 @@ export default function PatientPlanPage() {
         });
     };
 
+    // Balance Confirmation Modal State
+    const [balanceModal, setBalanceModal] = useState<{
+        isOpen: boolean;
+        title: string;
+        changes: BalanceChange[];
+        initialTotals: { calories: number; protein: number; fat: number; carbs: number; };
+        targetMacros: { calories: number; protein: number; fat: number; carbs: number; };
+        resolve: ((approvedChanges: BalanceChange[] | null) => void) | null;
+    }>({
+        isOpen: false,
+        title: '',
+        changes: [],
+        initialTotals: { calories: 0, protein: 0, fat: 0, carbs: 0 },
+        targetMacros: { calories: 0, protein: 0, fat: 0, carbs: 0 },
+        resolve: null
+    })
 
+    const showBalanceModal = (
+        title: string,
+        changes: BalanceChange[],
+        initialTotals: { calories: number; protein: number; fat: number; carbs: number; },
+        targetMacros: { calories: number; protein: number; fat: number; carbs: number; }
+    ): Promise<BalanceChange[] | null> => {
+        return new Promise((resolve) => {
+            setBalanceModal({ isOpen: true, title, changes, initialTotals, targetMacros, resolve })
+        })
+    }
 
     // Foods database for adding new meals
     const [allFoods, setAllFoods] = useState<any[]>([])
@@ -3390,7 +3448,9 @@ export default function PatientPlanPage() {
             maxMult: number,
             step: number,
             isFixed: boolean,
-            isCustom: boolean
+            isCustom: boolean,
+            slotName: string,
+            role: string
         }
 
         const mutableFoods: MutableFood[] = []
@@ -3421,7 +3481,9 @@ export default function PatientPlanPage() {
                     maxMult: f.max_quantity ?? 2.0,
                     step: f.step ?? 0.5,
                     isFixed: !!f.portion_fixed,
-                    isCustom: !!f.is_custom
+                    isCustom: !!f.is_custom,
+                    slotName: slot.meal_time || slot.time || '',
+                    role: f.role || (f as any).foods?.role || f.category || (f as any).foods?.kategori || ''
                 })
             })
         })
@@ -3521,7 +3583,7 @@ export default function PatientPlanPage() {
         }
 
         // 4. Compile Actions
-        const changes: { type: string, foodId?: string, foodName: string, detail: string, newMultiplier?: number, newFood?: any, slotName?: string }[] = []
+        const changes: BalanceChange[] = []
         let finalCals = 0, finalProt = 0, finalFat = 0, finalCarbs = 0
 
         for (let i = 0; i < mutableFoods.length; i++) {
@@ -3535,12 +3597,20 @@ export default function PatientPlanPage() {
 
             if (Math.abs(finalMult - f.currentMult) > 0.01) {
                 const dir = finalMult > f.currentMult ? '↑' : '↓'
+                
+                const multDiff = finalMult - f.currentMult
+                
                 changes.push({
+                    id: Math.random().toString(36).substring(7),
                     type: 'portion',
                     foodId: f.id,
                     foodName: f.name,
                     newMultiplier: finalMult,
-                    detail: `x${f.currentMult} → x${finalMult} (${dir})`
+                    detail: `x${f.currentMult} → x${finalMult} (${dir})`,
+                    diffCals: f.baseCals * multDiff,
+                    diffProt: f.baseProt * multDiff,
+                    diffFat: f.baseFat * multDiff,
+                    diffCarbs: f.baseCarbs * multDiff
                 })
             }
         }
@@ -3582,11 +3652,16 @@ export default function PatientPlanPage() {
 
                 if (topUpFood) {
                     changes.push({
+                        id: Math.random().toString(36).substring(7),
                         type: 'add',
                         foodName: topUpFood.name,
                         detail: `Eklenecek (${topUpSlot}): ${Math.round(topUpFood.calories)} kcal`,
                         newFood: topUpFood,
-                        slotName: topUpSlot
+                        slotName: topUpSlot,
+                        diffCals: topUpFood.calories || 0,
+                        diffProt: topUpFood.protein || 0,
+                        diffFat: topUpFood.fat || topUpFood.fats || 0,
+                        diffCarbs: topUpFood.carbs || 0
                     })
 
                     finalCals += topUpFood.calories || 0;
@@ -3605,45 +3680,94 @@ export default function PatientPlanPage() {
         }
         // -------------------------------------------------------------------------------
 
-        // --- TRIM DOWN LOGIC: Remove excessively caloric snacks if > 110% ---
-        if (fCalsPct > 110) {
-            // Find a scalable snack or side dish that we can just remove completely
-            const removalCandidates = currentDay.diet_meals
-                .flatMap((m: any) => m.diet_foods.map((f: any) => ({ ...f, slotName: m.meal_time })))
-                .filter((f: any) => !f.portion_fixed && !f.is_custom)
-                .filter((f: any) => {
-                    const r = f.foods?.role || f.role || '';
-                    return ['snack', 'drink', 'dessert', 'sideDish', 'nuts'].includes(r) || f.slotName === 'ARA ÖĞÜN';
-                })
-                .sort((a: any, b: any) => (b.calories * b.amount) - (a.calories * a.amount)); // biggest calorie first
+        // --- STAGE 2: ALTERNATIVE TWEAKS (Holistic Macro Balancing) ---
+        const deviations = [
+            { macro: 'Kalori', pct: fCalsPct, diff: fCalsPct - 100, field: 'baseCals' as const },
+            { macro: 'Protein', pct: fProtPct, diff: fProtPct - 100, field: 'baseProt' as const },
+            { macro: 'Karb', pct: fCarbsPct, diff: fCarbsPct - 100, field: 'baseCarbs' as const },
+            { macro: 'Yağ', pct: fFatPct, diff: fFatPct - 100, field: 'baseFat' as const }
+        ];
 
-            if (removalCandidates.length > 0) {
-                const targetRemoval = removalCandidates[0];
-                const removedCals = targetRemoval.calories * targetRemoval.amount;
+        // Sort by absolute deviation (worst offender first)
+        deviations.sort((a, b) => Math.abs(b.diff) - Math.abs(a.diff));
+        
+        const worstDeviation = deviations[0];
 
-                // If removing it doesn't drop us below 85% Cals, it's safe to remove
-                if (((finalCals - removedCals) / targetCals) > 0.85) {
-                    changes.push({
-                        type: 'remove',
-                        foodId: targetRemoval.id,
-                        foodName: targetRemoval.food_name || targetRemoval.foods?.name,
-                        detail: `Çıkarılacak (${targetRemoval.slotName}): ${Math.round(removedCals)} kcal azaltıldı`,
-                        slotName: targetRemoval.slotName
+        // If the worst deviation is substantial (> 10% off target)
+        if (Math.abs(worstDeviation.diff) > 10) {
+            
+            if (worstDeviation.diff > 0) {
+                // IT IS TOO HIGH: Find optional removals, prioritizing items high in the offending macro
+                const removalCandidates = mutableFoods
+                    .filter((f: any) => {
+                        return ['snack', 'drink', 'dessert', 'sideDish', 'nuts'].includes(f.role) || f.slotName === 'ARA ÖĞÜN' || f.role.includes('yan');
+                    })
+                    .sort((a: any, b: any) => {
+                        const valA = a[worstDeviation.field] * a.currentMult;
+                        const valB = b[worstDeviation.field] * b.currentMult;
+                        return valB - valA;
                     });
 
-                    finalCals -= removedCals;
-                    finalProt -= targetRemoval.protein * targetRemoval.amount;
-                    finalFat -= (targetRemoval.fat || targetRemoval.fats || targetRemoval.amount) * targetRemoval.amount; // fallback
-                    finalCarbs -= targetRemoval.carbs * targetRemoval.amount;
+                // Offer up to 3 optional candidate removals
+                const topCandidates = removalCandidates.slice(0, 3);
+                
+                for (const targetRemoval of topCandidates) {
+                    // Only add if not already scheduled for removal
+                    if (changes.some(c => c.type === 'remove' && c.foodId === targetRemoval.id)) continue;
 
-                    fProtPct = targetProt > 0 ? Math.round((finalProt / targetProt) * 100) : 100
-                    fFatPct = targetFat > 0 ? Math.round((finalFat / targetFat) * 100) : 100
-                    fCarbsPct = targetCarbs > 0 ? Math.round((finalCarbs / targetCarbs) * 100) : 100
-                    fCalsPct = targetCals > 0 ? Math.round((finalCals / targetCals) * 100) : 100
+                    changes.push({
+                        id: Math.random().toString(36).substring(7),
+                        type: 'remove',
+                        foodId: targetRemoval.id,
+                        foodName: targetRemoval.name,
+                        detail: `Aşırı Yüksek ${worstDeviation.macro} Düşürmek İçin Alternatif Çıkarma (${targetRemoval.slotName})`,
+                        slotName: targetRemoval.slotName,
+                        diffCals: -(targetRemoval.baseCals * targetRemoval.currentMult),
+                        diffProt: -(targetRemoval.baseProt * targetRemoval.currentMult),
+                        diffFat: -(targetRemoval.baseFat * targetRemoval.currentMult),
+                        diffCarbs: -(targetRemoval.baseCarbs * targetRemoval.currentMult),
+                        isAlternative: true
+                    });
+                }
+            } else {
+                // IT IS TOO LOW: Find optional portion increases, prioritizing items high in the needed macro
+                const increaseCandidates = mutableFoods
+                    .sort((a: any, b: any) => {
+                        const valA = a[worstDeviation.field];
+                        const valB = b[worstDeviation.field];
+                        return valB - valA; // Sort by density of that macro
+                    });
 
-                    // Remove the portion edit task for this food
-                    const portionIdx = changes.findIndex(c => c.type === 'portion' && c.foodId === targetRemoval.id);
-                    if (portionIdx >= 0) changes.splice(portionIdx, 1);
+                const topCandidates = increaseCandidates.slice(0, 2); // Offer up to 2 portion increases
+                
+                for (const targetIncrease of topCandidates) {
+                    // Suggest increasing portion by 50% or smaller depending on size
+                    let extraMult = 0.5;
+                    if (targetIncrease.currentMult < 0.5) extraMult = 0.25;
+
+                    // If we ALREADY have a primary portion change for this food, we increment on top of the 'newMultiplier'
+                    let baseMultToUse = targetIncrease.currentMult;
+                    const existingChange = changes.find(c => c.type === 'portion' && c.foodId === targetIncrease.id && !c.isAlternative);
+                    if (existingChange && existingChange.newMultiplier) {
+                        baseMultToUse = existingChange.newMultiplier;
+                    }
+
+                    const finalProposedMult = baseMultToUse + extraMult;
+
+                    changes.push({
+                        id: Math.random().toString(36).substring(7),
+                        type: 'portion',
+                        foodId: targetIncrease.id,
+                        foodName: targetIncrease.name,
+                        detail: `Eksik ${worstDeviation.macro} Tamamlamak İçin Porsiyon Artırma (x${baseMultToUse} → x${finalProposedMult} ↑)`,
+                        slotName: targetIncrease.slotName,
+                        newMultiplier: finalProposedMult,
+                        diffCals: targetIncrease.baseCals * extraMult,
+                        diffProt: targetIncrease.baseProt * extraMult,
+                        diffFat: targetIncrease.baseFat * extraMult,
+                        diffCarbs: targetIncrease.baseCarbs * extraMult,
+                        isAlternative: true
+                    });
                 }
             }
         }
@@ -3656,20 +3780,18 @@ export default function PatientPlanPage() {
             return
         }
 
-        const summary = changes.map(c => `⚖️ ${c.foodName} ${c.detail}`).join('\n')
-        const confirmed = await showAppModal('Yeni Denge Onayı',
-            `📊 ${currentDay.day_name} İyileştirildi:\n` +
-            `Kalori: %${iCalsPct} ➔ %${fCalsPct}\n` +
-            `Protein: %${iProtPct} ➔ %${fProtPct}\n` +
-            `Karb: %${iCarbsPct} ➔ %${fCarbsPct}\n` +
-            `Yağ: %${iFatPct} ➔ %${fFatPct}\n\n` +
-            `Değişikler:\n${summary}`, 'confirm')
+        const approvedChanges = await showBalanceModal(
+            `${currentDay.day_name} İyileştirilecek`,
+            changes,
+            { calories: initialCals, protein: initialProt, fat: initialFat, carbs: initialCarbs },
+            { calories: targetCals, protein: targetProt, fat: targetFat, carbs: targetCarbs }
+        )
 
-        if (!confirmed) return
+        if (!approvedChanges || approvedChanges.length === 0) return
 
         try {
             let applied = 0
-            for (const c of changes) {
+            for (const c of approvedChanges) {
                 if (c.type === 'portion' && c.newMultiplier !== undefined && c.foodId) {
                     const { error } = await supabase.from('diet_meals').update({ portion_multiplier: c.newMultiplier }).eq('id', c.foodId)
                     if (!error) applied++
@@ -3856,13 +3978,25 @@ export default function PatientPlanPage() {
 
                     <div className="flex flex-col min-w-0 flex-1">
                         {/* Line 1: İsim (Beslenme programı) */}
-                        <div className="flex items-center gap-1.5 mb-1.5 sm:mb-2">
+                        <div className="flex items-center gap-1.5 mb-1.5 sm:mb-2 text-slate-800">
                             <h1 className="text-base sm:text-lg md:text-xl font-extrabold text-gray-900 leading-none truncate flex items-baseline">
                                 {profile?.full_name || patientInfo?.full_name || 'Diyet Planım'}
                                 <span className="text-xs sm:text-sm font-semibold text-gray-500 ml-2 whitespace-nowrap">
-                                    (Beslenme Programı)
+                                    ({patientProgram?.name || 'Beslenme Programı'})
                                 </span>
                             </h1>
+                            
+                            {/* Kilo / Aktivite Edit */}
+                            {(activeWeek?.weight_log || patientInfo?.weight) && (
+                                <div className="flex items-center ml-2 bg-slate-100/80 px-2 flex-shrink-0 h-6 sm:h-7 items-center justify-center rounded-lg border border-slate-200" title="Kilo ve Aktiviteyi Güncelle">
+                                    <span className="text-xs sm:text-sm font-bold text-slate-700 mt-[1px]">
+                                        {activeWeek?.weight_log || patientInfo?.weight} kg
+                                    </span>
+                                    <Button variant="ghost" className="h-6 w-6 ml-1 p-0 rounded-md text-slate-400 hover:text-emerald-600 hover:bg-emerald-50 shrink-0" onClick={openWeightModal}>
+                                        <Edit2 className="w-3 h-3" />
+                                    </Button>
+                                </div>
+                            )}
                         </div>
 
                         {/* Line 2: Diyet türü ve 1. Hafta 9-15 mart 2026 */}
@@ -4097,58 +4231,54 @@ export default function PatientPlanPage() {
                 return (
                     <>
 
-                        {/* Day Selector - Clean & Compact - MOVED ABOVE DASHBOARD */}
-                        <div className="bg-white border-b px-4 py-1 sticky top-[53px] z-20 flex flex-col gap-2 shadow-sm rounded-b-xl">
-                            <div className="flex gap-1 sm:gap-2 overflow-x-auto snap-x no-scrollbar justify-start sm:justify-between">
-                                {weekDays.map((day, index) => (
-                                    <button
-                                        key={day.id}
-                                        onClick={() => setSelectedDayIndex(index)}
-                                        className={cn(
-                                            "flex flex-col items-center justify-center flex-1 min-w-0 sm:min-w-[3.5rem] shrink-0 h-10 rounded-xl border transition-all snap-start",
-                                            selectedDayIndex === index
-                                                ? "bg-green-600 border-green-600 text-white shadow-lg shadow-green-200"
-                                                : "bg-white border-gray-200 text-gray-500 hover:border-green-300"
-                                        )}
-                                    >
-                                        <span className={cn("text-sm font-bold uppercase tracking-wide", selectedDayIndex === index ? "opacity-100" : "opacity-80")}>
-                                            {day.day_name.slice(0, 3)}
-                                        </span>
-                                    </button>
-                                ))}
+                        {/* ── STICKY TOP REGION (Day Selector + Dashboard + Menu Header) ── */}
+                        <div className="sticky top-[73px] sm:top-[74px] z-[40] bg-gray-50 flex flex-col shadow-[0_4px_10px_-5px_rgba(0,0,0,0.1)] rounded-b-xl border-b border-gray-200/60 pb-1.5 transition-all">
+                            
+                            {/* Day Selector - Clean & Compact */}
+                            <div className="bg-white border-b border-gray-100 px-4 py-1.5 flex flex-col gap-2 rounded-t-xl sm:rounded-none shadow-sm mb-1.5 z-50">
+                                <div className="flex gap-1 sm:gap-2 overflow-x-auto snap-x no-scrollbar justify-start sm:justify-between">
+                                    {weekDays.map((day, index) => (
+                                        <button
+                                            key={day.id}
+                                            onClick={() => setSelectedDayIndex(index)}
+                                            className={cn(
+                                                "flex flex-col items-center justify-center flex-1 min-w-0 sm:min-w-[3.5rem] shrink-0 h-10 rounded-xl border transition-all snap-start",
+                                                selectedDayIndex === index
+                                                    ? "bg-green-600 border-green-600 text-white shadow-lg shadow-green-200"
+                                                    : "bg-white border-gray-200 text-gray-500 hover:border-green-300 hover:bg-green-50"
+                                            )}
+                                        >
+                                            <span className={cn("text-sm font-bold uppercase tracking-wide", selectedDayIndex === index ? "opacity-100" : "opacity-80")}>
+                                                {day.day_name.slice(0, 3)}
+                                            </span>
+                                        </button>
+                                    ))}
+                                </div>
                             </div>
 
-                            {/* Daily Total Calories Badge - Removed (Moved into MacroDashboard) */}
-                        </div>
+                            {/* Macro Dashboard */}
+                            <div className="px-1 z-40 relative">
+                                <MacroDashboard
+                                    totals={currentTotals}
+                                    targets={dailyTargets}
+                                    macroTargetMode="fixed"
+                                    activeTab={dashboardTab}
+                                    onTabChange={setDashboardTab}
+                                    isVisible={isDashboardVisible}
+                                    onClose={() => setIsDashboardVisible(false)}
+                                    days={weekDays}
+                                    patientInfo={patientInfo}
+                                    activeWeek={activeWeek}
+                                    activeDietType={activeDietType}
+                                />
+                            </div>
 
-                        <MacroDashboard
-                            totals={currentTotals}
-                            targets={dailyTargets}
-                            macroTargetMode="fixed"
-                            activeTab={dashboardTab}
-                            onTabChange={setDashboardTab}
-                            isVisible={isDashboardVisible}
-                            onClose={() => setIsDashboardVisible(false)}
-                            days={weekDays}
-                            patientInfo={patientInfo}
-                            activeWeek={activeWeek}
-                            activeDietType={activeDietType}
-                        />
-
-
-
-
-
-                        {/* (Old onboarding removed - now handled above) */}
-
-                        {/* Meals List - Cohesive Design */}
-                        <div className="space-y-2 px-1 pb-2">
-                            <div className="flex items-center justify-between px-1 mb-0 mt-1">
+                            {/* Menu Header (Cuma Menüsü) */}
+                            <div className="flex items-center justify-between px-3 pt-1.5 pb-0.5 bg-gray-50 z-30 relative">
                                 <h2 className="text-base font-bold text-gray-800">
                                     {currentDay?.day_name} Menüsü
                                 </h2>
                                 <div className="flex items-center gap-2">
-                                    {/* Select All Toggle Button for the entire day */}
                                     {(() => {
                                         const allDayConsumed = currentDay?.diet_meals.every(m =>
                                             m.diet_foods.every(f => f.is_consumed)
@@ -4157,40 +4287,41 @@ export default function PatientPlanPage() {
                                             <button
                                                 onClick={() => toggleAllDayConsumed(!allDayConsumed)}
                                                 className={cn(
-                                                    "h-7 px-3 rounded-lg text-[10px] font-bold transition-all flex items-center gap-1.5 border shadow-sm",
+                                                    "h-7 px-3 rounded-lg text-[10px] font-bold transition-all flex items-center gap-1.5 border shadow-sm cursor-pointer",
                                                     allDayConsumed
                                                         ? "bg-green-100 border-green-200 text-green-700 hover:bg-green-200"
-                                                        : "bg-gray-50 border-gray-200 text-gray-600 hover:bg-gray-100"
+                                                        : "bg-white border-gray-200 text-gray-600 hover:bg-gray-100 hover:border-gray-300"
                                                 )}
                                                 title={allDayConsumed ? "Tümünü Kaldır" : "Tümünü Seç"}
                                             >
                                                 <CheckCheck size={12} />
-                                                <span>TÜMÜNÜ SEÇ</span>
+                                                <span className="hidden sm:inline">TÜMÜNÜ SEÇ</span>
+                                                <span className="sm:hidden">SEÇ</span>
                                             </button>
                                         )
                                     })()}
-
-                                    {/* Dengele button moved to MacroDashboard */}
 
                                     <Button
                                         variant="outline"
                                         size="sm"
                                         onClick={toggleDashboard}
                                         className={cn(
-                                            "h-7 px-3 font-bold transition-all rounded-lg border flex items-center gap-1.5 text-[10px]",
+                                            "h-7 px-3 font-bold transition-all rounded-lg border flex items-center gap-1.5 text-[10px] shadow-sm",
                                             isDashboardVisible
-                                                // OPEN (Sade ve gri)
-                                                ? "bg-gray-50 border-gray-200 text-gray-500 hover:bg-gray-100 hover:text-gray-600 shadow-none border-dashed bg-opacity-50"
-                                                // CLOSED (Mor ve belirgin)
+                                                ? "bg-white border-gray-200 text-gray-600 hover:bg-gray-50 border-solid"
                                                 : "bg-purple-600 border-purple-700 text-white hover:bg-purple-700 shadow-[0_2px_10px_-2px_rgba(147,51,234,0.4)]"
                                         )}
                                     >
                                         <BarChart3 size={12} />
                                         <span>ÖZET</span>
-                                        {isDashboardVisible ? <ChevronUp size={12} /> : <ChevronDown size={12} />}
+                                        {isDashboardVisible ? <ChevronUp size={12} className="hidden sm:block" /> : <ChevronDown size={12} className="hidden sm:block" />}
                                     </Button>
                                 </div>
                             </div>
+                        </div>
+
+                        {/* Meals List - Contents */}
+                        <div className="space-y-3 px-1.5 pb-24 mt-3" style={{ zIndex: 1, position: 'relative' }}>
 
                             {currentDay?.diet_meals.map((meal: any, mealIdx) => (
                                 <Card key={meal.id} className="overflow-hidden border border-gray-200 shadow-sm bg-white mb-0 p-0 gap-0">
@@ -5008,6 +5139,61 @@ export default function PatientPlanPage() {
                 </div>
             )}
 
-        </div >
+            {/* Weight / Activity Modal */}
+            <Dialog open={isWeightModalOpen} onOpenChange={setIsWeightModalOpen}>
+                <DialogContent className="sm:max-w-[400px]">
+                    <DialogHeader>
+                        <DialogTitle>Kilo ve Aktivite Güncelle</DialogTitle>
+                    </DialogHeader>
+                    <div className="space-y-4 py-4">
+                        <div className="space-y-2">
+                            <Label>Güncel Kilonuz (kg)</Label>
+                            <Input 
+                                type="number" 
+                                value={editWeight} 
+                                onChange={e => setEditWeight(e.target.value)} 
+                                placeholder="Örn: 75"
+                            />
+                        </div>
+                        <div className="space-y-2">
+                            <Label>Günlük Aktivite Seviyeniz</Label>
+                            <Select value={editActivity} onValueChange={setEditActivity}>
+                                <SelectTrigger>
+                                    <SelectValue placeholder="Seçiniz..." />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="1">Sedanter (Masa başı iş, az egzersiz)</SelectItem>
+                                    <SelectItem value="2">Hafif Aktif (Hafif egzersiz/spor 1-3 gün/hafta)</SelectItem>
+                                    <SelectItem value="3">Orta Aktif (Orta egzersiz/spor 3-5 gün/hafta)</SelectItem>
+                                    <SelectItem value="4">Çok Aktif (Sert egzersiz/spor 6-7 gün/hafta)</SelectItem>
+                                    <SelectItem value="5">Aşırı Aktif (Çok sert egzersiz veya fiziksel iş)</SelectItem>
+                                </SelectContent>
+                            </Select>
+                        </div>
+                    </div>
+                    <DialogFooter>
+                        <Button variant="outline" onClick={() => setIsWeightModalOpen(false)}>İptal</Button>
+                        <Button onClick={saveWeightActivity} className="bg-emerald-600 hover:bg-emerald-700 text-white">Kaydet</Button>
+                    </DialogFooter>
+                </DialogContent>
+            </Dialog>
+
+            {/* Balance Confirm Modal */}
+            <BalanceConfirmModal
+                isOpen={balanceModal.isOpen}
+                title={balanceModal.title}
+                changes={balanceModal.changes}
+                initialTotals={balanceModal.initialTotals}
+                targetMacros={balanceModal.targetMacros}
+                onClose={() => {
+                    balanceModal.resolve?.(null)
+                    setBalanceModal(prev => ({ ...prev, isOpen: false }))
+                }}
+                onConfirm={(approvedChanges) => {
+                    balanceModal.resolve?.(approvedChanges)
+                    setBalanceModal(prev => ({ ...prev, isOpen: false }))
+                }}
+            />
+        </div>
     )
 }

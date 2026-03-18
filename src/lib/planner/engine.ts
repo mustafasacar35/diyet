@@ -1086,6 +1086,7 @@ export class Planner {
                 }
             }
 
+
             // ── NUTRITIONAL RULES (MACRO CONDITIONS) ──
             // Process macro conditional rules (e.g., if protein < target - 10g, add Collagen to target slot)
             if (targetMacros && this.rules.length > 0) {
@@ -1112,45 +1113,112 @@ export class Planner {
                             conditionMet = true // We have a surplus larger than the threshold
                         }
 
-                        if (conditionMet && def.action.type === 'add' && def.action.target.type === 'food_id') {
-                            const foodId = def.action.target.value
-                            const foodToAdd = this.allFoods.find(f => f.id === foodId)
+                        if (conditionMet && def.action.type === 'add') {
+                            const targetSlot = def.target_slot
+                            if (!slots[targetSlot]) slots[targetSlot] = []
 
-                            if (foodToAdd) {
-                                // Add it to the target slot
-                                const targetSlot = def.target_slot
-                                if (!slots[targetSlot]) slots[targetSlot] = []
+                            // Build candidate food ID list: multi-food rotation or single food (backward compat)
+                            const candidateFoodIds: string[] =
+                                (def.action.foods && def.action.foods.length > 0)
+                                    ? def.action.foods
+                                    : (def.action.target?.type === 'food_id' && def.action.target.value)
+                                        ? [def.action.target.value]
+                                        : []
 
-                                // Prevent adding multiple times on the same day if rule runs multiple times (though we only run once here)
-                                const alreadyAdded = slots[targetSlot].some((m: any) => m.food?.id === foodId && m.food?.source?.rule_id === rule.id)
+                            if (candidateFoodIds.length === 0) continue
 
-                                if (!alreadyAdded) {
-                                    const clonedFood = { ...foodToAdd, name: this.capitalize(foodToAdd.name) }
-                                    clonedFood.source = { type: 'nutritional_rule', rule: rule.name, rule_id: rule.id }
+                            // Rotation: determine start index for this rule
+                            const rotKey = `nutritional-${rule.id}`
+                            const startIdx = this.rotationIndices.get(rotKey) || 0
 
-                                    slots[targetSlot].push({ slot: targetSlot, food: clonedFood })
-                                    plan.meals.push({
-                                        day: i + 1, dayName, slot: targetSlot,
-                                        food: clonedFood,
-                                        source: clonedFood.source
+                            // Collect tag words from all foods already in this slot for collision check
+                            const slotTagWords = new Set<string>()
+                            for (const item of slots[targetSlot]) {
+                                const f = item.food
+                                if (!f) continue
+                                // Extract words from food name
+                                const nameWords = (f.name || '').toLocaleLowerCase('tr-TR').split(/\s+/)
+                                nameWords.forEach((w: string) => { if (w.length > 2) slotTagWords.add(w) })
+                                // Extract words from tags
+                                if (Array.isArray(f.tags)) {
+                                    f.tags.forEach((t: string) => {
+                                        const tagWords = (t || '').toLocaleLowerCase('tr-TR').split(/\s+/)
+                                        tagWords.forEach((w: string) => { if (w.length > 2) slotTagWords.add(w) })
                                     })
-
-                                    // Update context
-                                    dailyContext.dailyMacros.calories += clonedFood.calories || 0
-                                    dailyContext.dailyMacros.protein += clonedFood.protein || 0
-                                    dailyContext.dailyMacros.carbs += clonedFood.carbs || 0
-                                    dailyContext.dailyMacros.fat += clonedFood.fat || 0
-
-                                    this.log(i + 1, targetSlot, 'select',
-                                        `Nutritional Rule '${rule.name}' triggered (Deficit: ${diff.toFixed(1)} > limit ${def.condition.value}). Added ${clonedFood.name}.`,
-                                        clonedFood.name)
-
-                                    // Update currentDayMacros for subsequent rules if they exist
-                                    currentDayMacros.calories += clonedFood.calories || 0
-                                    currentDayMacros.protein += clonedFood.protein || 0
-                                    currentDayMacros.carbs += clonedFood.carbs || 0
-                                    currentDayMacros.fat += clonedFood.fat || 0
                                 }
+                            }
+
+                            // Try each candidate (rotate through list, skip on tag collision)
+                            let added = false
+                            for (let attempt = 0; attempt < candidateFoodIds.length; attempt++) {
+                                const idx = (startIdx + attempt) % candidateFoodIds.length
+                                const foodId = candidateFoodIds[idx]
+                                const foodToAdd = this.allFoods.find(f => f.id === foodId)
+                                if (!foodToAdd) continue
+
+                                // Prevent adding same food+rule multiple times on same day
+                                const alreadyAdded = slots[targetSlot].some((m: any) => m.food?.id === foodId && m.food?.source?.rule_id === rule.id)
+                                if (alreadyAdded) continue
+
+                                // Tag collision check: extract words from candidate food name + tags
+                                const candidateWords = new Set<string>()
+                                const cNameWords = (foodToAdd.name || '').toLocaleLowerCase('tr-TR').split(/\s+/)
+                                cNameWords.forEach((w: string) => { if (w.length > 2) candidateWords.add(w) })
+                                if (Array.isArray(foodToAdd.tags)) {
+                                    foodToAdd.tags.forEach((t: string) => {
+                                        const tw = (t || '').toLocaleLowerCase('tr-TR').split(/\s+/)
+                                        tw.forEach((w: string) => { if (w.length > 2) candidateWords.add(w) })
+                                    })
+                                }
+
+                                // Check for overlap
+                                let hasCollision = false
+                                for (const word of candidateWords) {
+                                    if (slotTagWords.has(word)) {
+                                        hasCollision = true
+                                        this.log(i + 1, targetSlot, 'info',
+                                            `Nutritional Rule '${rule.name}': Skipped ${foodToAdd.name} — tag collision on word "${word}"`)
+                                        break
+                                    }
+                                }
+                                if (hasCollision) continue // Try next alternative
+
+                                // No collision — add food to slot
+                                const clonedFood = { ...foodToAdd, name: this.capitalize(foodToAdd.name) }
+                                clonedFood.source = { type: 'nutritional_rule', rule: rule.name, rule_id: rule.id }
+
+                                slots[targetSlot].push({ slot: targetSlot, food: clonedFood })
+                                plan.meals.push({
+                                    day: i + 1, dayName, slot: targetSlot,
+                                    food: clonedFood,
+                                    source: clonedFood.source
+                                })
+
+                                // Update context
+                                dailyContext.dailyMacros.calories += clonedFood.calories || 0
+                                dailyContext.dailyMacros.protein += clonedFood.protein || 0
+                                dailyContext.dailyMacros.carbs += clonedFood.carbs || 0
+                                dailyContext.dailyMacros.fat += clonedFood.fat || 0
+
+                                this.log(i + 1, targetSlot, 'select',
+                                    `Nutritional Rule '${rule.name}' triggered (Deficit: ${diff.toFixed(1)} > limit ${def.condition.value}). Added ${clonedFood.name} [rotation idx=${idx}].`,
+                                    clonedFood.name)
+
+                                // Update currentDayMacros for subsequent rules
+                                currentDayMacros.calories += clonedFood.calories || 0
+                                currentDayMacros.protein += clonedFood.protein || 0
+                                currentDayMacros.carbs += clonedFood.carbs || 0
+                                currentDayMacros.fat += clonedFood.fat || 0
+
+                                // Advance rotation index for next day
+                                this.rotationIndices.set(rotKey, idx + 1)
+                                added = true
+                                break // Successfully added, stop trying alternatives
+                            }
+
+                            if (!added && candidateFoodIds.length > 0) {
+                                this.log(i + 1, targetSlot, 'info',
+                                    `Nutritional Rule '${rule.name}': All ${candidateFoodIds.length} candidates had tag collisions. Skipped.`)
                             }
                         }
                     }
@@ -1183,7 +1251,7 @@ export class Planner {
             yesterdaySelectedIds = new Set(dailyContext.dailySelectedIds)
         }
 
-        // 4. POST-PROCESSING: Frequency Flex (adjust minâ†”max counts based on calorie gap)
+        // 4. POST-PROCESSING: Frequency Flex (adjust min↔max counts based on calorie gap)
         if (targetMacros && this.rules.length > 0) {
             this.adjustFrequencyForMacros(plan, targetMacros, mealTypes, effectiveSlotConfig)
         }
@@ -1194,6 +1262,19 @@ export class Planner {
         // 5. POST-PROCESSING: Portion Adjustment (if enabled)
         if (this.settings?.portion_settings) {
             this.adjustWeekPortions(plan)
+        }
+
+        // 6. POST-PROCESSING: Smart Balance (auto-balance macros)
+        if (targetMacros) {
+            console.log('[AUTO-BALANCE] Smart Balance starting as post-processing step...')
+            this.log(0, 'AUTO-BALANCE', 'info', 'Running Smart Balance as post-processing step...')
+            try {
+                const { plan: balancedPlan } = await this.balancePlan(plan, 'weekly')
+                console.log('[AUTO-BALANCE] Smart Balance completed successfully')
+                return balancedPlan
+            } catch (err) {
+                console.error('[AUTO-BALANCE] Smart Balance failed:', err)
+            }
         }
 
         return plan
@@ -2247,8 +2328,11 @@ export class Planner {
                     if (selectedFoods.length >= config.maxItems && !forceInclusion) break
 
                     // Prevention: Don't add multiple items for same Category/Role rule in the same slot
+                    // UNLESS explicitly configured to have >1 min_count per_meal
                     if (k > 0 && (def.target.type === 'category' || def.target.type === 'role')) {
-                        break
+                        if (!(period === 'per_meal' && (def.min_count || 1) > 1)) {
+                            break
+                        }
                     }
 
                     // Allow budget overflow if force_inclusion is ON
@@ -2551,11 +2635,10 @@ export class Planner {
             }
         }
 
-        // Final safety net: enforce slot minItems even under strict budget/score pressure.
         if (selectedFoods.length < config.minItems) {
-            const emergencyRoles = ['sideDish', 'salad', 'soup', 'bread']
+            const emergencyRoles = ['sideDish', 'salad', 'soup', 'bread', 'drink', 'fruit', 'snack', 'dessert']
             let guard = 0
-            while (selectedFoods.length < config.minItems && guard < 12) {
+            while (selectedFoods.length < config.minItems && guard < 16) {
                 guard++
                 let added = false
                 for (const emergencyRole of emergencyRoles) {
@@ -2564,12 +2647,15 @@ export class Planner {
                         continue
                     }
 
+                    // If we've tried all options once (guard > length), drop tag conflict rules to guarantee fill
+                    const effectiveSlotTags = guard > emergencyRoles.length ? new Set<string>() : slotTags;
+
                     const emergencyFood = await this.selectBestFoodByRole(
                         category,
                         emergencyRole,
                         context,
                         selectedIds,
-                        slotTags,
+                        effectiveSlotTags,
                         context.slotMainDish,
                         99999,
                         true,
@@ -3694,11 +3780,14 @@ export class Planner {
         const triggerExists = triggerPool.some((f: any) => this.matchesTarget(f, def.trigger))
         const outcomeExists = triggerPool.some((f: any) => this.matchesTarget(f, def.outcome))
 
+        const isTwoWay = def.direction === 'two-way' || (def.direction === undefined && def.association === 'forbidden')
+
         if (def.association === 'forbidden') {
-            // Bidirectional conflict:
-            // - Outcome candidate blocked if trigger already selected
-            // - Trigger candidate blocked if outcome already selected
-            const hasConflict = (isOutcome && triggerExists) || (isTrigger && outcomeExists)
+            // Conflict check based on directionality
+            const hasConflict = isTwoWay
+                ? ((isOutcome && triggerExists) || (isTrigger && outcomeExists)) // Çift Yönlü: İkisi de birbirini bloke eder
+                : (isOutcome && triggerExists) // Tek Yönlü: Sadece tetikleyici varsa sonuç engellenir
+
             if (!hasConflict) return 0
 
             // %0: no effect
@@ -3711,8 +3800,12 @@ export class Planner {
             return -(IMPACT * 10 * prob)
         }
 
-        // Non-forbidden affinity relations remain trigger -> outcome
-        if (isOutcome && triggerExists) {
+        // Non-forbidden affinity relations (boost, mandatory, reduce)
+        const isTriggered = isTwoWay
+            ? ((isOutcome && triggerExists) || (isTrigger && outcomeExists))
+            : (isOutcome && triggerExists)
+
+        if (isTriggered) {
             if (def.association === 'boost') return IMPACT * prob
             if (def.association === 'mandatory') return IMPACT * 10
             if (def.association === 'reduce') return -IMPACT * prob

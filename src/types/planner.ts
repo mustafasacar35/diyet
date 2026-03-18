@@ -25,6 +25,7 @@ export interface AffinityDefinition {
     outcome: RuleTarget // Then this...
     association: 'mandatory' | 'forbidden' | 'boost' | 'reduce'
     probability?: number // 0-100 (For boost/reduce/affinity score)
+    direction?: 'one-way' | 'two-way' // Defaults to one-way for positive, two-way for forbidden
 }
 
 // 3. Consistency/Lock Logic Definition
@@ -61,7 +62,9 @@ export interface NutritionalDefinition {
     }
     action: {
         type: 'add' | 'swap';
-        target: RuleTarget; // e.g., food_id of Collagen
+        target: RuleTarget; // e.g., food_id of Collagen (backward compat)
+        foods?: string[];   // Multiple food IDs for rotation
+        selection_mode?: 'single' | 'rotate'; // default 'single'
     }
     target_slot: string; // e.g., "AKŞAM"
 }

@@ -123,7 +123,24 @@ export function AffinityEditor({ value, onChange, categories = [], roles = [] }:
                         onValueChange={(vals) => handleChange('probability', vals[0])}
                     />
                 </div>
-                <p className="text-xs text-muted-foreground mt-2">
+                
+                <div className="flex gap-4 items-center mt-4">
+                    <Label className="w-[180px] text-xs text-muted-foreground">İlişki Yönü</Label>
+                    <Select 
+                        value={value.direction || (value.association === 'forbidden' ? 'two-way' : 'one-way')} 
+                        onValueChange={(v) => handleChange('direction', v)}
+                    >
+                        <SelectTrigger className="flex-1">
+                            <SelectValue />
+                        </SelectTrigger>
+                        <SelectContent>
+                            <SelectItem value="one-way">Tek Yönlü (1 ➡️ 2)</SelectItem>
+                            <SelectItem value="two-way">Çift Yönlü (1 ↔️ 2)</SelectItem>
+                        </SelectContent>
+                    </Select>
+                </div>
+                
+                <p className="text-xs text-muted-foreground mt-4">
                     %0 etkisi yok demektir. %100 mutlaka uygula demektir. Pozitif (Tercih Et) veya Negatif (Yasakla) yönü soldan seçin.
                 </p>
             </div>
