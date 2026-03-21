@@ -63,6 +63,18 @@ export class Planner {
     private patientDislikedFoods: string[] = []
     private patientLikedFoods: string[] = []
 
+    // ROTATION ENGINE STATE - tracks cross-week rotation generators
+    private rotationStates = new Map<string, {
+        ruleId: string;
+        ruleName: string;
+        target: any;
+        mode: 'sequential' | 'random_no_repeat';
+        non_consecutive: boolean;
+        items: { food_id: string; food_name: string }[];
+        history: string[];
+        sessionUsed: string[];
+    }>()
+
     constructor(
         private patientId: string,
         private userId: string
@@ -466,6 +478,9 @@ export class Planner {
         await this.init()
         this.prepareEligibleFoods(weekDietType, bannedTags)
 
+        // ROTATION RULES: Initialize generators from DB history
+        await this.initRotationGenerators()
+
         // Populate frequency trackers
         this.currentWeekFoods = existingWeekFoods
         const weeklySelectedIds = new Map<string, number>()
@@ -744,10 +759,10 @@ export class Planner {
             // ── Compute compensated daily macro targets (cross-day debt spread) ──
             const remainingDays = dayCount - i
             const compensatedDailyMacros = targetMacros ? {
-                calories: Math.max(targetMacros.calories * 0.8, targetMacros.calories + (macroDebt.calories / remainingDays)),
-                protein: Math.max(0, targetMacros.protein + (macroDebt.protein / remainingDays)),
-                fat: Math.max(0, targetMacros.fat + (macroDebt.fat / remainingDays)),
-                carbs: Math.max(0, targetMacros.carbs + (macroDebt.carbs / remainingDays)),
+                calories: Math.max(targetMacros.calories * 0.85, targetMacros.calories + (macroDebt.calories / remainingDays)),
+                protein: Math.max(targetMacros.protein * 0.85, targetMacros.protein + (macroDebt.protein / remainingDays)),
+                fat: Math.max(targetMacros.fat * 0.85, targetMacros.fat + (macroDebt.fat / remainingDays)),
+                carbs: Math.max(targetMacros.carbs * 0.85, targetMacros.carbs + (macroDebt.carbs / remainingDays)),
             } : null
 
             if (compensatedDailyMacros && i > 0 && (Math.abs(macroDebt.protein) > 1 || Math.abs(macroDebt.fat) > 1)) {
@@ -1733,10 +1748,21 @@ export class Planner {
                     const minCount = def.min_count || 0
                     const canReduce = current - minCount
                     const avgCal = avgCaloriesForRule(rule)
-                    return { rule, def, current, minCount, canReduce, avgCal }
+                    // Rule hierarchy: sort_order (lower = higher priority, harder to remove)
+                    const sortOrder = Number.isFinite(Number((rule as any).sort_order)) ? Number((rule as any).sort_order) : 9999
+                    const rulePriority = rule.priority || 0
+                    return { rule, def, current, minCount, canReduce, avgCal, sortOrder, rulePriority }
                 })
                 .filter(r => r.canReduce > 0 && r.avgCal > 0)
-                .sort((a, b) => b.avgCal - a.avgCal) // Highest cal first for fastest reduction
+                // Remove LOWEST priority rules first (highest sort_order = lowest priority)
+                .sort((a, b) => {
+                    // Higher sort_order = lower priority = remove first
+                    if (a.sortOrder !== b.sortOrder) return b.sortOrder - a.sortOrder
+                    // Lower rule priority = remove first
+                    if (a.rulePriority !== b.rulePriority) return a.rulePriority - b.rulePriority
+                    // Tie-break: highest cal first for fastest reduction
+                    return b.avgCal - a.avgCal
+                })
 
             for (const reducible of reducibleRules) {
                 if (flexCount >= MAX_FLEX_ITERATIONS) break
@@ -1774,6 +1800,11 @@ export class Planner {
                                     || effectiveSlotConfig['ÖĞLEN']
                                     || effectiveSlotConfig['KAHVALTI']
                                     || Object.values(effectiveSlotConfig)[0]
+
+                                // GUARD: Don't remove if slot would drop below minItems
+                                const slotMealsCount = plan.meals.filter((sm: any) => sm.day === d && sm.slot === m.slot).length
+                                if (slotMealsCount <= (slotConfig?.minItems || 1)) return false
+
                                 const requiredRoles = (slotConfig?.requiredRoles || []).map((r: string) => normalizeCategory(r === 'corba' ? 'soup' : r))
                                 if (requiredRoles.length === 0) return true
 
@@ -2051,6 +2082,9 @@ export class Planner {
             } else {
                 this.log(context.dayIndex + 1, slotName, 'error', `Fixed meal not found: ${foodName}`)
             }
+        }
+        if (fixedFoods.length > 0) {
+            return selectedFoods
         }
         // ===== END FIXED MEAL RULES =====
 
@@ -2595,8 +2629,14 @@ export class Planner {
                     if (food._compatibilityMatchedTag) ruleName += ` (Uyumlu: ${this.capitalize(food._compatibilityMatchedTag)})`
                     selectedFoods[selectedFoods.length - 1].source = this.decorateSourceWithLockMetadata(food, { type: 'optional_round_robin', rule: ruleName })
                 } else {
-                    // Food is too caloric, try to find a lower calorie alternative
+                    // Food is too caloric — but if we still haven't reached minItems, try a different role rather than stopping
                     this.log(context.dayIndex + 1, slotName, 'reject', `Optional food over budget or limits`, food.name)
+                    if (selectedFoods.length < config.minItems) {
+                        // Remove this role and try a different one instead of giving up
+                        dedupedOptionalRoles.splice(roleIndex, 1)
+                        if (dedupedOptionalRoles.length === 0) break
+                        continue
+                    }
                     break
                 }
             } else {
@@ -2686,7 +2726,20 @@ export class Planner {
                     added = true
                     break
                 }
-                if (!added) break
+                if (!added && guard > emergencyRoles.length) {
+                    const fallback = this.allFoods.find((f: any) => !selectedIds.has(f.id) && f.role !== 'mainDish' && f.role !== 'breakfast_main');
+                    if (fallback) {
+                        selectedFoods.push(fallback);
+                        selectedIds.add(fallback.id);
+                        this.addFoodMacros(slotMacros, fallback);
+                        this.addFoodTags(slotTags, fallback);
+                        selectedFoods[selectedFoods.length - 1].source = { type: 'required_role', rule: 'Min Öğün Satırı (Son Çare)' };
+                        this.log(context.dayIndex + 1, slotName, 'select', `Last resort minItems fill`, fallback.name);
+                        added = true;
+                    } else {
+                        break;
+                    }
+                }
             }
         }
 
@@ -2796,6 +2849,16 @@ export class Planner {
                 }
                 return consistencyLockedFood
             }
+        }
+
+
+        // ROTATION RULE CHECK: If a rotation rule targets this role/category, use the rotation generator
+        const rotationResult = this.getNextRotationFood(category, lockRole, context, new Set(this.eligibleFoods.map(f => f.id)), excludeIds, slotTags, isMealTypeCompatible)
+        if (rotationResult) {
+            const rotFood = { ...rotationResult.food, _rotationRuleId: rotationResult.state.ruleId, _rotationRuleName: rotationResult.state.ruleName }
+            rotationResult.state.sessionUsed.push(rotFood.id)
+            this.log(context.dayIndex + 1, category, 'info', `Rotation rule '${rotationResult.state.ruleName}' selected '${rotFood.name}'`)
+            return rotFood
         }
 
         // Map slot names to meal_types values already defined above
@@ -4402,10 +4465,178 @@ export class Planner {
         })
     }
 
-    // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+    // ========================================================================
+    // ROTATION LOGIC: Cross-week rotation rule support
+    // ========================================================================
+
+    private async fetchRotationHistory(): Promise<Map<string, string[]>> {
+        const history = new Map<string, string[]>()
+        if (!this.patientId) return history
+        try {
+            const { data: plan } = await supabase.from('diet_plans').select('id').eq('patient_id', this.patientId).eq('status', 'active').maybeSingle()
+            if (!plan?.id) return history
+
+            const { data: weeks } = await supabase
+                .from('diet_weeks')
+                .select('id, week_number, diet_days ( id, day_number, diet_meals ( id, meal_time, food_id, foods ( id, name, role, category, tags ) ) )')
+                .eq('diet_plan_id', plan.id)
+                .order('week_number', { ascending: true })
+                .limit(20)
+
+            if (!weeks) return history
+
+            for (const rule of this.rules) {
+                if (rule.rule_type !== 'rotation' || !rule.is_active) continue
+                const rawDef = rule.definition as any
+                const def = rawDef.data || rawDef
+                if (!def.target) continue
+
+                const key = `rotation_${rule.id}`
+                const usedFoodsSequence: string[] = []
+
+                for (const week of weeks) {
+                    const days = ((week as any).diet_days || []).sort((a: any, b: any) => a.day_number - b.day_number)
+                    for (const day of days) {
+                        for (const meal of (day as any).diet_meals || []) {
+                            const food = (meal as any).foods
+                            if (food && this.matchesTarget(food, def.target)) {
+                                usedFoodsSequence.push(food.id)
+                            }
+                        }
+                    }
+                }
+                history.set(key, usedFoodsSequence)
+            }
+        } catch (err) { console.warn('[Rotation] Failed to fetch history:', err) }
+        return history
+    }
+
+    private async initRotationGenerators() {
+        const rotationRules = this.rules.filter(r => r.rule_type === 'rotation' && r.is_active)
+        if (rotationRules.length === 0) return
+
+        const history = await this.fetchRotationHistory()
+
+        for (const rule of rotationRules) {
+            const rawDef = rule.definition as any
+            const def = rawDef.data || rawDef
+            if (!def.target || !def.items || def.items.length === 0) continue
+
+            const expandedItems: { food_id: string; food_name: string }[] = []
+            for (const item of def.items) {
+                const count = item.repeat_count || 1
+                for (let r = 0; r < count; r++) expandedItems.push({ food_id: item.food_id, food_name: item.food_name })
+            }
+            if (expandedItems.length === 0) continue
+
+            this.rotationStates.set(rule.id, {
+                ruleId: rule.id || '',
+                ruleName: rule.name || '',
+                target: def.target,
+                mode: def.mode || 'sequential',
+                non_consecutive: !!def.non_consecutive,
+                items: expandedItems,
+                history: history.get(`rotation_${rule.id}`) || [],
+                sessionUsed: []
+            })
+        }
+    }
+
+    private getNextRotationFood(
+        category: string,
+        lockRole: string,
+        context: any,
+        eligibleFoodIds: Set<string>,
+        excludeIds: Set<string>,
+        slotTags: Set<string>,
+        hasMealTypeSupport: (f: any) => boolean
+    ): { food: any; state: any } | null {
+        let activeRotState: any = null
+        for (const state of this.rotationStates.values()) {
+            if (state.target && state.target.type === 'role' && this.getCanonicalLockRole(state.target.value) === lockRole) { activeRotState = state; break }
+            if (state.target && state.target.type === 'category' && normalizeCategory(state.target.value) === normalizeCategory(category)) { activeRotState = state; break }
+        }
+
+        if (!activeRotState) return null
+
+        const combinedHistory = [...activeRotState.history, ...activeRotState.sessionUsed]
+
+        if (activeRotState.mode === 'sequential') {
+            let startIdx = 0
+            if (combinedHistory.length > 0) {
+                const lastUsedId = combinedHistory[combinedHistory.length - 1]
+                const lastIdx = activeRotState.items.findIndex((item: any) => item.food_id === lastUsedId)
+                startIdx = lastIdx >= 0 ? (lastIdx + 1) % activeRotState.items.length : 0
+            }
+
+            for (let attempt = 0; attempt < activeRotState.items.length; attempt++) {
+                const idx = (startIdx + attempt) % activeRotState.items.length
+                const candidate = activeRotState.items[idx]
+
+                if (excludeIds.has(candidate.food_id)) continue
+                if (!eligibleFoodIds.has(candidate.food_id)) continue
+                if (context.dailySelectedIds && context.dailySelectedIds.has(candidate.food_id)) continue
+                if (activeRotState.non_consecutive && combinedHistory.length > 0 && combinedHistory[combinedHistory.length - 1] === candidate.food_id) continue
+
+                const food = this.allFoods.find((f: any) => f.id === candidate.food_id)
+                if (!food) continue
+                if (this.hasTagConflict(food, slotTags)) continue
+                if (!hasMealTypeSupport(food)) continue
+                if (!this.checkSeasonalityHard(food, context.currentDate)) continue
+
+                return { food, state: activeRotState }
+            }
+        } else if (activeRotState.mode === 'random_no_repeat') {
+            const uniqueIds: string[] = [...new Set<string>(activeRotState.items.map((i: any) => String(i.food_id)))]
+            const cycleUsedCount = combinedHistory.length % uniqueIds.length
+            const recentSet = new Set<string>(cycleUsedCount === 0 ? [] : combinedHistory.slice(-cycleUsedCount))
+
+            let rotCandidates = uniqueIds.filter(id => !recentSet.has(id))
+            if (rotCandidates.length === 0) rotCandidates = uniqueIds
+
+            rotCandidates = rotCandidates.filter(id => {
+                if (excludeIds.has(id)) return false
+                if (!eligibleFoodIds.has(id)) return false
+                if (context.dailySelectedIds && context.dailySelectedIds.has(id)) return false
+                if (activeRotState.non_consecutive && combinedHistory.length > 0 && combinedHistory[combinedHistory.length - 1] === id) return false
+                const food = this.allFoods.find((f: any) => f.id === id)
+                if (!food) return false
+                if (this.hasTagConflict(food, slotTags)) return false
+                if (!hasMealTypeSupport(food)) return false
+                if (!this.checkSeasonalityHard(food, context.currentDate)) return false
+                return true
+            })
+
+            if (rotCandidates.length > 0) {
+                const pickedId = rotCandidates[Math.floor(Math.random() * rotCandidates.length)]
+                const food = this.allFoods.find((f: any) => f.id === pickedId)
+                if (food) return { food, state: activeRotState }
+            }
+        }
+        return null
+    }
+
+
+    // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
     // SMART BALANCE: Iteratively improve an existing plan's macro balance
     // Strategies: 1) Portion adjust  2) Food swap  3) Food add/remove
-    // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+    // â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+    private getSlotMinItemsFromPlan(slotName: string, plan: any): number {
+        // Find effectiveSlotConfig if passed, or use DEFAULT_SLOT_CONFIG
+        const defaultMin = DEFAULT_SLOT_CONFIG[normalizeSlotName(slotName)]?.minItems || 1;
+        
+        // Settings override
+        if (this.settings?.slot_config && Array.isArray(this.settings.slot_config)) {
+            const conf = this.settings.slot_config.find((c: any) => normalizeSlotName(c.name || '') === normalizeSlotName(slotName));
+            if (conf && typeof conf.min_items === 'number') return conf.min_items;
+        } else if (this.settings?.slot_config && typeof this.settings.slot_config === 'object') {
+            const conf = (this.settings.slot_config as any)[slotName] || (this.settings.slot_config as any)[normalizeSlotName(slotName)];
+            if (conf && typeof conf.minItems === 'number') return conf.minItems;
+        }
+        
+        return defaultMin;
+    }
+
     public async balancePlan(
         plan: any,
         mode: 'weekly' | 'daily' = 'weekly',
@@ -4657,15 +4888,19 @@ export class Planner {
                             let targetMeal: any = null
                             if (swapDev.isOver) {
                                 targetMeal = dayMeals
-                                    .filter((m: any) => !m.food?.portion_fixed && !m.food?.is_custom && m.food?.role !== 'mainDish' && !swappedSlots.has(`${m.slot}_${m.food?.id}`))
+                                    .filter((m: any) => !m.food?.portion_fixed && !m.food?.is_custom && m.source?.type !== 'fixed' && m.food?.role !== 'mainDish' && !swappedSlots.has(`${m.slot}_${m.food?.id}`))
                                     .sort((a: any, b: any) => {
+                                        // Protect high-priority rule items: prefer swapping items with no rule or lower-priority rules
+                                        const aRulePrio = (a.source?.type === 'rule' || a.source?.type === 'rule_preferred') ? 1 : 0
+                                        const bRulePrio = (b.source?.type === 'rule' || b.source?.type === 'rule_preferred') ? 1 : 0
+                                        if (aRulePrio !== bRulePrio) return aRulePrio - bRulePrio // Non-rule items first
                                         const valA = (swapMacro === 'carbs' ? (a.food?.carbs || 0) : (a.food?.[swapMacro] || 0)) * (a.portion_multiplier || 1)
                                         const valB = (swapMacro === 'carbs' ? (b.food?.carbs || 0) : (b.food?.[swapMacro] || 0)) * (b.portion_multiplier || 1)
                                         return valB - valA
                                     })[0]
                             } else {
                                 targetMeal = dayMeals
-                                    .filter((m: any) => !m.food?.portion_fixed && !m.food?.is_custom && !swappedSlots.has(`${m.slot}_${m.food?.id}`))
+                                    .filter((m: any) => !m.food?.portion_fixed && !m.food?.is_custom && m.source?.type !== 'fixed' && !swappedSlots.has(`${m.slot}_${m.food?.id}`))
                                     .sort((a: any, b: any) => {
                                         const valA = (swapMacro === 'carbs' ? (a.food?.carbs || 0) : (a.food?.[swapMacro] || 0)) * (a.portion_multiplier || 1)
                                         const valB = (swapMacro === 'carbs' ? (b.food?.carbs || 0) : (b.food?.[swapMacro] || 0)) * (b.portion_multiplier || 1)
@@ -4742,7 +4977,7 @@ export class Planner {
                             const addMacro = addDev.macro === 'calories' ? 'calories' : addDev.macro as 'protein' | 'carbs' | 'fat'
 
                             if (addDev.isUnder) {
-                                const slotsInDay = Array.from(new Set(dayMeals.map((m: any) => m.slot))) as string[]
+                                const slotsInDay = Array.from(new Set(dayMeals.filter((m: any) => m.source?.type !== 'fixed').map((m: any) => m.slot))) as string[]
                                 const bestSlot = slotsInDay[slotsInDay.length - 1] || 'AKŞAM'
                                 const excludeIds = new Set(dayMeals.map((m: any) => m.food?.id).filter(Boolean))
                                 const bestSlotMeals = dayMeals.filter((m: any) => m.slot === bestSlot)
@@ -4808,9 +5043,19 @@ export class Planner {
                                         if (m.food?.portion_fixed) return false
                                         if (m.food?.is_custom) return false
                                         if (m.food?.role === 'mainDish') return false
+                                        if (m.source?.type === 'fixed') return false
+                                        // GUARD: Don't remove if slot would drop below minItems
+                                        const mSlotNorm = normalizeSlotName(m.slot || '')
+                                        const mSlotConfig = this.getSlotMinItemsFromPlan(mSlotNorm, newPlan)
+                                        const slotMealsCount = dayMeals.filter((dm: any) => dm.slot === m.slot).length
+                                        if (slotMealsCount <= mSlotConfig) return false
                                         return true
                                     })
                                     .sort((a: any, b: any) => {
+                                        // Protect high-priority rule items: prefer removing items with no rule or lower-priority rules
+                                        const aRulePrio = (a.source?.type === 'rule' || a.source?.type === 'rule_preferred') ? 1 : 0
+                                        const bRulePrio = (b.source?.type === 'rule' || b.source?.type === 'rule_preferred') ? 1 : 0
+                                        if (aRulePrio !== bRulePrio) return aRulePrio - bRulePrio // Non-rule items first
                                         const valA = (addMacro === 'carbs' ? (a.food?.carbs || 0) : (a.food?.[addMacro] || 0)) * (a.portion_multiplier || 1)
                                         const valB = (addMacro === 'carbs' ? (b.food?.carbs || 0) : (b.food?.[addMacro] || 0)) * (b.portion_multiplier || 1)
                                         return valB - valA
