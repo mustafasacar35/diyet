@@ -1,0 +1,553 @@
+[
+  {
+    "id": "576ad3c1-6db1-4acb-8e8b-868407bc26b0",
+    "name": "B12 Vitamini",
+    "unit": "pg/mL",
+    "default_min": 200,
+    "default_max": 900,
+    "created_at": "2026-01-29T08:26:15.873934+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "b3d18430-3605-4ed3-87b8-3246c30de73b",
+    "name": "D Vitamini",
+    "unit": "ng/mL",
+    "default_min": 30,
+    "default_max": 100,
+    "created_at": "2026-01-29T08:26:15.873934+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "4e86a78e-6fc5-449d-8c90-cbfa4b411029",
+    "name": "Ferritin",
+    "unit": "ng/mL",
+    "default_min": 30,
+    "default_max": 400,
+    "created_at": "2026-01-29T08:26:15.873934+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "f981ba13-53b9-4e68-a97b-6afd94ab8b4f",
+    "name": "Magnezyum",
+    "unit": "mg/dL",
+    "default_min": 1.7,
+    "default_max": 2.2,
+    "created_at": "2026-01-29T08:26:15.873934+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "535f4c22-cc63-4e96-b65a-75d0e409dd3e",
+    "name": "Folat",
+    "unit": "ng/mL",
+    "default_min": 4,
+    "default_max": 20,
+    "created_at": "2026-01-29T08:26:15.873934+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "e38f6cbc-8012-460a-8c2c-f91468379306",
+    "name": "1-25 Dihidroksi D3",
+    "unit": "pg/mL",
+    "default_min": 20,
+    "default_max": 79,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [
+      {
+        "info": "[Öneri]: Haftada en az 2-3 kez ızgara veya buğulama olarak tüketilmelidir. Kızartma yapılırsa Omega-3 okside olur, faydası kalmaz.",
+        "keyword": "Somon",
+        "warning": "[Destekleyici]: Doğal kalsiferol (D3) kaynağıdır. Ancak daha önemlisi, içerdiği Omega-3 yağ asitleri VDR (Vitamin D Reseptörü) duyarlılığını artırarak mevcut vitaminin hücre içine girmesini sağlar.",
+        "match_type": "both"
+      }
+    ],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "3f78fbed-4cef-4392-b3ad-a4698ab4045f",
+    "name": "Folik Asit",
+    "unit": "ng/mL",
+    "default_min": 3.89,
+    "default_max": 26.8,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "c821c4d3-4a4c-42d1-892b-ee5922956d6d",
+    "name": "Demir Bağlama Kapasitesi",
+    "unit": "ug/dL",
+    "default_min": 250,
+    "default_max": 400,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "8d730101-8c9e-47fd-910a-e7423701ff58",
+    "name": "Mg",
+    "unit": "mg/dL",
+    "default_min": 1.6,
+    "default_max": 2.6,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "f2361ca7-447b-4742-afb5-ce7321c0bf68",
+    "name": "K",
+    "unit": "mEq/L",
+    "default_min": 3.5,
+    "default_max": 5.1,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "2741d8b3-0dca-4415-ab6e-503d7ee89172",
+    "name": "Na",
+    "unit": "mEq/L",
+    "default_min": 136,
+    "default_max": 145,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "530c74bc-b800-4a1a-86e6-a7771644ae0c",
+    "name": "Cl",
+    "unit": "mEq/L",
+    "default_min": 98,
+    "default_max": 106,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "17b63d65-dbef-4e5e-88af-3060b430bf28",
+    "name": "Hemogram",
+    "unit": "",
+    "default_min": null,
+    "default_max": null,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "9316754d-f8e0-4340-b07d-1d85bf7c4fdc",
+    "name": "PTZ",
+    "unit": "sn",
+    "default_min": 11,
+    "default_max": 13.5,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "42d28b37-98d0-49c5-9347-7cb99c39d091",
+    "name": "INR",
+    "unit": "",
+    "default_min": 0.85,
+    "default_max": 1.15,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "9314a391-e7eb-4ca8-bfe3-74888d6b53d9",
+    "name": "AST",
+    "unit": "U/L",
+    "default_min": 0,
+    "default_max": 40,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "482bd90b-f806-454b-ad02-c042e3933900",
+    "name": "ALT",
+    "unit": "U/L",
+    "default_min": 0,
+    "default_max": 41,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "2217c322-13fc-477a-a65c-796230ecf16a",
+    "name": "Üre",
+    "unit": "mg/dL",
+    "default_min": 17,
+    "default_max": 43,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "ea1979b6-ec24-4752-bdc1-7aa889f679f9",
+    "name": "Kreatinin",
+    "unit": "mg/dL",
+    "default_min": 0.7,
+    "default_max": 1.2,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "2927ec87-4070-4323-b36b-2c1ad724a621",
+    "name": "TSH",
+    "unit": "mIU/L",
+    "default_min": 0.27,
+    "default_max": 4.2,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "f53183fa-2aa5-464c-9062-18db1992db6e",
+    "name": "T3",
+    "unit": "ng/dL",
+    "default_min": 80,
+    "default_max": 200,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "5f0064de-d254-4f7f-994b-c37686743ccc",
+    "name": "T4",
+    "unit": "ug/dL",
+    "default_min": 5.1,
+    "default_max": 14.1,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "ae20074b-931e-4d88-a05e-43709ac2ae8e",
+    "name": "İnsülin",
+    "unit": "uIU/mL",
+    "default_min": 2.6,
+    "default_max": 24.9,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "49bbdfdb-40e3-4266-bca9-ba6a1bdf7717",
+    "name": "Glikoz",
+    "unit": "mg/dL",
+    "default_min": 74,
+    "default_max": 106,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "9c9abb29-4d96-476b-b1f7-4387f367c2ea",
+    "name": "HbA1c",
+    "unit": "%",
+    "default_min": 4,
+    "default_max": 5.6,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "b25f1729-66bf-4995-9138-ba88befa7a5f",
+    "name": "HOMA-IR",
+    "unit": "",
+    "default_min": null,
+    "default_max": 2.5,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "90960d48-91a1-424a-8b91-c3223067a2f7",
+    "name": "LDL",
+    "unit": "mg/dL",
+    "default_min": null,
+    "default_max": 100,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "50136b30-8e26-42a3-adf7-ba33436b2ef4",
+    "name": "HDL",
+    "unit": "mg/dL",
+    "default_min": 40,
+    "default_max": null,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "d237f2c8-3a5f-4e6e-85de-710b55c38ed0",
+    "name": "Trigliserid",
+    "unit": "mg/dL",
+    "default_min": null,
+    "default_max": 150,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "1d6e6bd1-faf0-466b-b106-76a8c3be7de2",
+    "name": "Total Kolesterol",
+    "unit": "mg/dL",
+    "default_min": null,
+    "default_max": 200,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "64b07662-3642-4ada-9d1a-35505be43c51",
+    "name": "CRP",
+    "unit": "mg/L",
+    "default_min": 0,
+    "default_max": 5,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "3fcd5ebc-229d-4f97-bf88-62b6ce8fa385",
+    "name": "Sedimentasyon",
+    "unit": "mm/saat",
+    "default_min": 0,
+    "default_max": 20,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "22169f2d-63f1-4dd5-a28d-61c48acb3018",
+    "name": "Total Protein",
+    "unit": "g/dL",
+    "default_min": 6.6,
+    "default_max": 8.3,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "29675d1b-6777-417e-9670-b7aa7d22c480",
+    "name": "Albümin",
+    "unit": "g/dL",
+    "default_min": 3.5,
+    "default_max": 5.2,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "c11d1c10-37ba-4860-a7c4-ae3f658e6fcc",
+    "name": "Anti-TPO",
+    "unit": "IU/mL",
+    "default_min": 0,
+    "default_max": 34,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "9c09a6b3-f52b-499d-8820-498ae4a59bc2",
+    "name": "Anti-TG",
+    "unit": "IU/mL",
+    "default_min": 0,
+    "default_max": 115,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "kan_tahlili",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "9e8e5b06-fe37-498b-8cd4-43fcf13760bb",
+    "name": "Selenyum",
+    "unit": "ug/L",
+    "default_min": 70,
+    "default_max": 150,
+    "created_at": "2026-01-31T18:13:48.028715+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "b88416cc-a579-4a27-acd0-fd4a583f1bc2",
+    "name": "Homosistein",
+    "unit": "umol/L",
+    "default_min": 5,
+    "default_max": 15,
+    "created_at": "2026-01-31T18:13:48.028715+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "6ce01cdd-8483-465f-ac5c-9bcc2c5b02e4",
+    "name": "İyot",
+    "unit": "ug/L",
+    "default_min": 100,
+    "default_max": 199,
+    "created_at": "2026-01-31T18:13:48.028715+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  },
+  {
+    "id": "599b3690-dc95-4f49-a113-f53f6d7c22a8",
+    "name": "Demir",
+    "unit": "mcg/dL",
+    "default_min": 60,
+    "default_max": 170,
+    "created_at": "2026-01-29T08:26:15.873934+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": [
+      {
+        "keyword": "Çay",
+        "match_type": "both"
+      }
+    ]
+  },
+  {
+    "id": "acc50ed9-b618-404a-80e8-d920946551d3",
+    "name": "b12",
+    "unit": "pg/mL",
+    "default_min": 200,
+    "default_max": 900,
+    "created_at": "2026-01-29T08:26:15.873934+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [
+      {
+        "info": "[Destekleyici]: Yüksek miktarda B12 vitamini içerir ve vücudun ihtiyacını karşılamaya yardımcı olur.; Haftada 1-2 kez 100-150 gram tüketilebilir.",
+        "keyword": "Karaciğer",
+        "match_type": "both"
+      },
+      {
+        "info": "[Destekleyici]: B12 vitamini açısından zengindir ve düzenli tüketimi B12 seviyelerini artırır.; Haftada 2-3 kez 150-200 gram tüketilebilir.",
+        "keyword": "Balık (Somon, Ton)",
+        "match_type": "both"
+      },
+      {
+        "info": "[Destekleyici]: B12 vitamini içerir ve özellikle sarısı B12 kaynağıdır. Aynı zamanda biotin içerdiği için B12 emilimini destekler.; Günde 1-2 adet tüketilebilir.",
+        "keyword": "Yumurta",
+        "match_type": "both"
+      },
+      {
+        "info": "[Destekleyici]: B12 vitamini içerir ve kalsiyum ile birlikte alındığında emilimi artar.; Günde 1-2 porsiyon süt, yoğurt veya peynir tüketilebilir.",
+        "keyword": "Süt ve süt ürünleri",
+        "match_type": "both"
+      }
+    ],
+    "incompatible_keywords": [
+      {
+        "info": "Metformin kullanan bireylerin düzenli olarak B12 seviyelerini kontrol ettirmesi ve gerekirse takviye alması önerilir.",
+        "keyword": "Metformin",
+        "warning": "Metformin, B12 vitamininin ince bağırsaktan emilimini azaltarak B12 eksikliğine neden olabilir.",
+        "match_type": "both"
+      },
+      {
+        "info": "Uzun süreli PPI kullanımı gerekiyorsa, B12 takviyesi alınması düşünülebilir.",
+        "keyword": "Proton Pompa İnhibitörleri (PPI)",
+        "warning": "PPI'lar mide asidini azaltarak B12'nin proteinlerden ayrılmasını ve emilimini zorlaştırır.",
+        "match_type": "both"
+      },
+      {
+        "info": "Uzun süreli H2 bloker kullanımı gerekiyorsa, B12 takviyesi alınması düşünülebilir.",
+        "keyword": "Histamin H2 Reseptör Antagonistleri",
+        "warning": "Mide asidini azaltarak B12'nin proteinlerden ayrılmasını ve emilimini zorlaştırır.",
+        "match_type": "both"
+      },
+      {
+        "info": "Alkol tüketimi sınırlandırılmalı veya tamamen bırakılmalıdır. B12 takviyesi alınması faydalı olabilir.",
+        "keyword": "Alkol",
+        "warning": "Alkol, mide ve bağırsak mukozasına zarar vererek B12 emilimini azaltır ve B12 depolarını tüketir.",
+        "match_type": "both"
+      },
+      {
+        "info": "Kahve tüketimi ile B12 takviyesi veya B12 içeren besinlerin tüketimi arasında en az 2 saat bırakılması önerilir.",
+        "keyword": "Kahve",
+        "warning": "Kahve, içeriğindeki bazı bileşenler nedeniyle B12 vitamininin emilimini azaltabilir.",
+        "match_type": "both"
+      }
+    ]
+  },
+  {
+    "id": "0301eeef-650c-480c-bc0a-7ff01dd692b7",
+    "name": "B12",
+    "unit": "pg/mL",
+    "default_min": 211,
+    "default_max": 911,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [
+      {
+        "info": "[Öneri]: Mantarları pişirmeden önce 30 dakika güneş ışığına maruz bırakırsanız D vitamini içeriği biyokimyasal olarak 10-20 katına çıkar.",
+        "keyword": "mantar",
+        "warning": "[Koşullu Destek]: Mantarlar Ergosterol (Pro-Vitamin D2) içerir. Ancak doğrudan D3 kadar etkili değildir.",
+        "match_type": "both"
+      }
+    ],
+    "incompatible_keywords": [
+      {
+        "info": "[Öneri]: Hücre zarı akışkanlığı için Zeytinyağı ve Tereyağı gibi sağlıklı yağlar kullanılmalıdır.",
+        "keyword": "margarin",
+        "warning": "[Reseptör Blokörü]: OLAUMUSZZZZZZZ::::::Hücre zarı yapısını bozarak D vitamininin hücre içine giriş kapısı olan VDR reseptörünün konformasyonunu bozar.",
+        "match_type": "both"
+      }
+    ]
+  },
+  {
+    "id": "31ee6530-343a-467d-961f-32f1585d07ee",
+    "name": "Ca",
+    "unit": "mg/dL",
+    "default_min": 8.6,
+    "default_max": 10.2,
+    "created_at": "2026-01-29T21:08:40.896352+00:00",
+    "category": "mikrobesin",
+    "compatible_keywords": [],
+    "incompatible_keywords": []
+  }
+]

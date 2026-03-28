@@ -1,0 +1,152 @@
+[
+  {
+    "id": "9eebbde1-cd53-4e99-85ec-e054d4c60772",
+    "medication_id": "e38c9217-9589-4f70-9812-b831281673e4",
+    "rule_type": "warning",
+    "keyword": "alkol",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "Laktik asidoz riski artabilir",
+    "created_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "3d2c1527-01ba-4e99-a8fe-f97f24653643",
+    "medication_id": "1b329259-9aa1-4813-8a11-88571860fba7",
+    "rule_type": "warning",
+    "keyword": "kalsiyum",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "Emilimi azaltabilir, 4 saat ara bırakın",
+    "created_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "eeb1ff07-9951-46cf-9c72-044f99a6798f",
+    "medication_id": "1b329259-9aa1-4813-8a11-88571860fba7",
+    "rule_type": "warning",
+    "keyword": "demir",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "Emilimi azaltabilir",
+    "created_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "562b2be6-f481-4ed4-8d6a-ad52be02b1c7",
+    "medication_id": "cf8a3f07-6d5c-43f5-84ab-7d8f7ef7153d",
+    "rule_type": "negative",
+    "keyword": "greyfurt",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "CYP3A4 enzimini bloke eder, ilaç seviyesini tehlikeli şekilde artırır",
+    "created_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "17f42238-1cfd-4909-89eb-4fbc51f2f650",
+    "medication_id": "f04868fe-4179-46ff-8280-e837e352d3e0",
+    "rule_type": "negative",
+    "keyword": "greyfurt",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "CYP3A4 enzimini bloke eder, ilaç seviyesini tehlikeli şekilde artırır",
+    "created_at": "2026-02-02T05:48:53.597682+00:00"
+  },
+  {
+    "id": "00cdf327-5495-41e8-9503-8a54c3bc93af",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "rule_type": "warning",
+    "keyword": "yumurta",
+    "match_name": true,
+    "match_tags": true,
+    "notes": null,
+    "created_at": "2026-02-02T09:52:50.207457+00:00"
+  },
+  {
+    "id": "a4ed980d-43cc-4aa1-98d8-04230c7b3300",
+    "medication_id": "e38c9217-9589-4f70-9812-b831281673e4",
+    "rule_type": "warning",
+    "keyword": "alkol",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "Laktik asidoz riski artabilir",
+    "created_at": "2026-02-02T10:05:35.02937+00:00"
+  },
+  {
+    "id": "d84b4fc4-b7d7-4b32-b878-99e719723ba6",
+    "medication_id": "1b329259-9aa1-4813-8a11-88571860fba7",
+    "rule_type": "warning",
+    "keyword": "kalsiyum",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "Emilimi azaltabilir, 4 saat ara bırakın",
+    "created_at": "2026-02-02T10:05:35.02937+00:00"
+  },
+  {
+    "id": "870f8139-ec16-42d0-8e18-85fe769f8a54",
+    "medication_id": "1b329259-9aa1-4813-8a11-88571860fba7",
+    "rule_type": "warning",
+    "keyword": "demir",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "Emilimi azaltabilir",
+    "created_at": "2026-02-02T10:05:35.02937+00:00"
+  },
+  {
+    "id": "6692d926-6bb6-4878-a6ed-8b88a1777758",
+    "medication_id": "cf8a3f07-6d5c-43f5-84ab-7d8f7ef7153d",
+    "rule_type": "negative",
+    "keyword": "greyfurt",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "CYP3A4 enzimini bloke eder, ilaç seviyesini tehlikeli şekilde artırır",
+    "created_at": "2026-02-02T10:05:35.02937+00:00"
+  },
+  {
+    "id": "18c0bf13-2000-438e-abe2-f4ad28c01818",
+    "medication_id": "f04868fe-4179-46ff-8280-e837e352d3e0",
+    "rule_type": "negative",
+    "keyword": "greyfurt",
+    "match_name": true,
+    "match_tags": true,
+    "notes": "CYP3A4 enzimini bloke eder, ilaç seviyesini tehlikeli şekilde artırır",
+    "created_at": "2026-02-02T10:05:35.02937+00:00"
+  },
+  {
+    "id": "3597b091-43f0-4d5d-8ac6-afbb3c08fa45",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "rule_type": "warning",
+    "keyword": "ekmek",
+    "match_name": true,
+    "match_tags": true,
+    "notes": null,
+    "created_at": "2026-02-02T10:26:31.227706+00:00"
+  },
+  {
+    "id": "583fe26e-9c54-465a-a8e2-cfda631bbba0",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "rule_type": "negative",
+    "keyword": "ekmeği",
+    "match_name": true,
+    "match_tags": true,
+    "notes": null,
+    "created_at": "2026-02-02T10:26:40.575429+00:00"
+  },
+  {
+    "id": "17d12829-d5d8-4be3-accc-20388f0e7116",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "rule_type": "positive",
+    "keyword": "domates",
+    "match_name": true,
+    "match_tags": true,
+    "notes": null,
+    "created_at": "2026-02-02T10:27:46.869636+00:00"
+  },
+  {
+    "id": "75b9c886-f510-4447-9e42-702dab0299d6",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "rule_type": "negative",
+    "keyword": "ekmek",
+    "match_name": true,
+    "match_tags": true,
+    "notes": null,
+    "created_at": "2026-02-02T10:26:14.334704+00:00"
+  }
+]

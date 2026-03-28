@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1eb12364-d6be-486c-b9bc-4b2c5ebbf90d",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-02",
+    "ended_at": "2026-02-02",
+    "notes": null,
+    "created_at": "2026-02-02T10:02:11.670683+00:00",
+    "updated_at": "2026-02-02T10:07:47.603037+00:00"
+  },
+  {
+    "id": "f622dda3-c4b1-47de-93c2-c031dd9f96c8",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-02",
+    "ended_at": "2026-02-03",
+    "notes": null,
+    "created_at": "2026-02-02T10:07:48.118628+00:00",
+    "updated_at": "2026-02-03T14:10:05.434646+00:00"
+  },
+  {
+    "id": "b199c0a3-a8db-4c98-b765-41f32fbc5ebb",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-03",
+    "ended_at": "2026-02-03",
+    "notes": null,
+    "created_at": "2026-02-03T14:10:06.171849+00:00",
+    "updated_at": "2026-02-03T14:10:23.264515+00:00"
+  },
+  {
+    "id": "e5eedb4e-5ff6-4791-986a-6f50c7d92739",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-03",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-03T14:10:23.677807+00:00",
+    "updated_at": "2026-02-03T14:10:23.677807+00:00"
+  },
+  {
+    "id": "08d0a672-c509-4c82-935f-e03a16a962f6",
+    "patient_id": "900f1498-d008-42f3-87fd-b66787817e96",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-08",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-08T07:43:17.51695+00:00",
+    "updated_at": "2026-02-08T07:43:17.51695+00:00"
+  },
+  {
+    "id": "18cb8f90-3093-49bf-a40f-9efa18ff8e29",
+    "patient_id": "172245e4-6e49-4ad9-855d-5600704f07bd",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-08",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-08T07:55:25.020526+00:00",
+    "updated_at": "2026-02-08T07:55:25.020526+00:00"
+  },
+  {
+    "id": "61f67376-c367-46cb-9102-bbcbcedc2712",
+    "patient_id": "bac0ebbc-7cb7-43a7-86e8-e0279fbd3534",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-08",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-08T08:03:10.191081+00:00",
+    "updated_at": "2026-02-08T08:03:10.191081+00:00"
+  },
+  {
+    "id": "497a3bb4-5879-4a1a-bce4-c7d268dbe8d3",
+    "patient_id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-08",
+    "ended_at": "2026-02-10",
+    "notes": null,
+    "created_at": "2026-02-08T08:32:16.354305+00:00",
+    "updated_at": "2026-02-10T12:06:49.020828+00:00"
+  },
+  {
+    "id": "346d3df0-9871-4b97-9580-75e619874c68",
+    "patient_id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-10",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-10T12:06:49.619038+00:00",
+    "updated_at": "2026-02-10T12:06:49.619038+00:00"
+  }
+]

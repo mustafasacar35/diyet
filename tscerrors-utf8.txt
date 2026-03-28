@@ -1,0 +1,12 @@
+﻿src/components/diet/food-sidebar.tsx(367,51): error TS2345: Argument of type '{ allowedTags: string[]; bannedKeywords: string[]; bannedTags?: string[] | undefined; dietName: string; }' is not assignable to parameter of type 'DietRules'.
+  Types of property 'bannedTags' are incompatible.
+    Type 'string[] | undefined' is not assignable to type 'string[]'.
+      Type 'undefined' is not assignable to type 'string[]'.
+src/components/diet/patient-profile-dialog.tsx(181,17): error TS2552: Cannot find name 'onUpdate'. Did you mean 'onpaste'?
+src/components/diet/patient-profile-dialog.tsx(181,27): error TS2552: Cannot find name 'onUpdate'. Did you mean 'onpaste'?
+src/components/diet/patient-profile-dialog.tsx(190,17): error TS2552: Cannot find name 'onUpdate'. Did you mean 'onpaste'?
+src/components/diet/patient-profile-dialog.tsx(190,27): error TS2552: Cannot find name 'onUpdate'. Did you mean 'onpaste'?
+src/components/diet/patient-profile-dialog.tsx(213,17): error TS2552: Cannot find name 'onUpdate'. Did you mean 'onpaste'?
+src/components/diet/patient-profile-dialog.tsx(213,27): error TS2552: Cannot find name 'onUpdate'. Did you mean 'onpaste'?
+src/hooks/use-recipe-manager.ts(150,9): error TS1117: An object literal cannot have multiple properties with the same name.
+src/hooks/use-recipe-manager.ts(151,9): error TS1117: An object literal cannot have multiple properties with the same name.

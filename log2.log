@@ -1,0 +1,1136 @@
+forward-logs-shared.ts:95 Download the React DevTools for a better development experience: https://react.dev/link/react-devtools
+forward-logs-shared.ts:95 [HMR] connected
+auth-context.tsx:113 🔄 Impersonation/User state update: {impersonatedId: null, userId: '9c691075-82c8-47f8-93a0-78f553fa2643'}
+auth-context.tsx:140 👤 Fetching Profile for: 9c691075-82c8-47f8-93a0-78f553fa2643 (Impersonated: null Auth: 9c691075-82c8-47f8-93a0-78f553fa2643 )
+auth-context.tsx:154 ✅ Profile fetched: Mustafa Sacar admin
+dashboard-layout.tsx:148 DashboardLayout Path Check: {pathname: '/patients/a97c9f5d-acac-464e-a0f8-322b0be9be5a', isPatientDetail: true}
+dashboard-layout.tsx:148 DashboardLayout Path Check: {pathname: '/patients/a97c9f5d-acac-464e-a0f8-322b0be9be5a', isPatientDetail: true}
+dashboard-layout.tsx:148 DashboardLayout Path Check: {pathname: '/patients/a97c9f5d-acac-464e-a0f8-322b0be9be5a', isPatientDetail: true}
+dashboard-layout.tsx:148 DashboardLayout Path Check: {pathname: '/patients/a97c9f5d-acac-464e-a0f8-322b0be9be5a', isPatientDetail: true}
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+unread-listener.tsx:17 🔔 UnreadListener: Starting for 9c691075-82c8-47f8-93a0-78f553fa2643
+unread-listener.tsx:17 🔔 UnreadListener: Starting for 9c691075-82c8-47f8-93a0-78f553fa2643
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:694 Mapped Patient Diseases: [{…}]
+page.tsx:711 Found diet plan: 3fa4d84d-263b-4811-b395-4d4103926310
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:694 Mapped Patient Diseases: [{…}]
+page.tsx:711 Found diet plan: 3fa4d84d-263b-4811-b395-4d4103926310
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:3253 fetchDays called for weekId: d1ad34eb-8518-434c-ae92-48ba232345ba
+use-gapi.ts:28 [GapiHook] Loading GAPI script...
+use-gapi.ts:28 [GapiHook] Loading GIS script...
+patient-profile-dialog.tsx:269 PatientProfileDialog mounted/updated false a97c9f5d-acac-464e-a0f8-322b0be9be5a false
+page.tsx:3253 fetchDays called for weekId: d1ad34eb-8518-434c-ae92-48ba232345ba
+use-gapi.ts:28 [GapiHook] Loading GAPI script...
+use-gapi.ts:28 [GapiHook] Loading GIS script...
+patient-profile-dialog.tsx:269 PatientProfileDialog mounted/updated false a97c9f5d-acac-464e-a0f8-322b0be9be5a false
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+use-gapi.ts:28 [GapiHook] GAPI script loaded.
+use-gapi.ts:28 [GapiHook] GAPI script loaded.
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:3277 fetchDays result: {data: Array(7), error: null}
+page.tsx:3296 Processed days with meals: (7) [{…}, {…}, {…}, {…}, {…}, {…}, {…}]
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gram kuzu kavurma, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gram kuzu kavurma, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kabak kavurması (1 adet kabak + 1 domates + 1 biber) + 1 yemek kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Mevsim Yeşillikleri (dereotu, roka, maydanoz, marul vs. + sirke, limon ve 1 tatlı kaşığı zeytinyağı ile ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kabak kavurması (1 adet kabak + 1 domates + 1 biber) + 1 yemek kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Mevsim Yeşillikleri (dereotu, roka, maydanoz, marul vs. + sirke, limon ve 1 tatlı kaşığı zeytinyağı ile ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram tavuk pirzola fırında (istenilen baharatlarla ile marine edilmiş), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: semizotu salatası (2 avuç semizotu,1 adet orta boy domates,1 adet salatalık,1 adet biber ve 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram tavuk pirzola fırında (istenilen baharatlarla ile marine edilmiş), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: semizotu salatası (2 avuç semizotu,1 adet orta boy domates,1 adet salatalık,1 adet biber ve 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Peynirli biber dolması (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Bakla Unlu Poğaça, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) ,cherry domates (2 adet), 4-5 dal roka, 4-5 dal tere, 2 adet küçük yeşil biber, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Peynirli biber dolması (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Bakla Unlu Poğaça, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) ,cherry domates (2 adet), 4-5 dal roka, 4-5 dal tere, 2 adet küçük yeşil biber, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kıymalı Patlıcan Kapama, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Cevizli Kaşık Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kıymalı Patlıcan Kapama, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Cevizli Kaşık Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, turp  vs. + sirke ve limon+1 tatlı kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, turp  vs. + sirke ve limon+1 tatlı kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram köfte, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, çeyrek soğan vs. + 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram köfte, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, çeyrek soğan vs. + 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta ya da sahanda (2 yumurta - 1 tatlı kaşığı tereyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: badem unlu krep (1 yumurta ve 1 çorba kaşığı badem ununu çırpın. i̇stediğiniz baharatları ekleyin1 tatlı kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + orta boy domates + 4-5 yaprak marul, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta ya da sahanda (2 yumurta - 1 tatlı kaşığı tereyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: badem unlu krep (1 yumurta ve 1 çorba kaşığı badem ununu çırpın. i̇stediğiniz baharatları ekleyin1 tatlı kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + orta boy domates + 4-5 yaprak marul, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Izgara biftek ya da tavuk (150 gram), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil Salata (marul, dereotu, roka, kırmızı lahana, 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Izgara biftek ya da tavuk (150 gram), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil Salata (marul, dereotu, roka, kırmızı lahana, 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yoğurtlu Kırmızı Pancar Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: yeşillikler (dereotu, roka, maydanoz, marul vs. sirke, limon ve 1 yemek kaşığı zeytinyağı ile, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yoğurtlu Kırmızı Pancar Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: yeşillikler (dereotu, roka, maydanoz, marul vs. sirke, limon ve 1 yemek kaşığı zeytinyağı ile, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gr. ızgara ya da fırında balık (çupra, levrek, alabalık vs.), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 5 adet fındık turp, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gr. ızgara ya da fırında balık (çupra, levrek, alabalık vs.), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 5 adet fındık turp, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Sucuklu yumurta (60 gram kasap sucuk  + 1 yumurta ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, turp, sirke ve limon ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Sucuklu yumurta (60 gram kasap sucuk  + 1 yumurta ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, turp, sirke ve limon ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kuzu Güveç (1 porsiyon), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kuzu Güveç (1 porsiyon), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:3277 fetchDays result: {data: Array(7), error: null}
+page.tsx:3296 Processed days with meals: (7) [{…}, {…}, {…}, {…}, {…}, {…}, {…}]
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+page.tsx:466 mealCounts size: 0 allPatientMeals: 0
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gram kuzu kavurma, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gram kuzu kavurma, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kabak kavurması (1 adet kabak + 1 domates + 1 biber) + 1 yemek kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Mevsim Yeşillikleri (dereotu, roka, maydanoz, marul vs. + sirke, limon ve 1 tatlı kaşığı zeytinyağı ile ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kabak kavurması (1 adet kabak + 1 domates + 1 biber) + 1 yemek kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Mevsim Yeşillikleri (dereotu, roka, maydanoz, marul vs. + sirke, limon ve 1 tatlı kaşığı zeytinyağı ile ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram tavuk pirzola fırında (istenilen baharatlarla ile marine edilmiş), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: semizotu salatası (2 avuç semizotu,1 adet orta boy domates,1 adet salatalık,1 adet biber ve 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram tavuk pirzola fırında (istenilen baharatlarla ile marine edilmiş), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: semizotu salatası (2 avuç semizotu,1 adet orta boy domates,1 adet salatalık,1 adet biber ve 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Peynirli biber dolması (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Bakla Unlu Poğaça, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) ,cherry domates (2 adet), 4-5 dal roka, 4-5 dal tere, 2 adet küçük yeşil biber, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Peynirli biber dolması (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Bakla Unlu Poğaça, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) ,cherry domates (2 adet), 4-5 dal roka, 4-5 dal tere, 2 adet küçük yeşil biber, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kıymalı Patlıcan Kapama, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Cevizli Kaşık Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kıymalı Patlıcan Kapama, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Cevizli Kaşık Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, turp  vs. + sirke ve limon+1 tatlı kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, turp  vs. + sirke ve limon+1 tatlı kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram köfte, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, çeyrek soğan vs. + 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram köfte, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, çeyrek soğan vs. + 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta ya da sahanda (2 yumurta - 1 tatlı kaşığı tereyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: badem unlu krep (1 yumurta ve 1 çorba kaşığı badem ununu çırpın. i̇stediğiniz baharatları ekleyin1 tatlı kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + orta boy domates + 4-5 yaprak marul, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta ya da sahanda (2 yumurta - 1 tatlı kaşığı tereyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: badem unlu krep (1 yumurta ve 1 çorba kaşığı badem ununu çırpın. i̇stediğiniz baharatları ekleyin1 tatlı kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + orta boy domates + 4-5 yaprak marul, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Izgara biftek ya da tavuk (150 gram), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil Salata (marul, dereotu, roka, kırmızı lahana, 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Izgara biftek ya da tavuk (150 gram), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil Salata (marul, dereotu, roka, kırmızı lahana, 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yoğurtlu Kırmızı Pancar Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: yeşillikler (dereotu, roka, maydanoz, marul vs. sirke, limon ve 1 yemek kaşığı zeytinyağı ile, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yoğurtlu Kırmızı Pancar Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: yeşillikler (dereotu, roka, maydanoz, marul vs. sirke, limon ve 1 yemek kaşığı zeytinyağı ile, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gr. ızgara ya da fırında balık (çupra, levrek, alabalık vs.), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 5 adet fındık turp, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gr. ızgara ya da fırında balık (çupra, levrek, alabalık vs.), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 5 adet fındık turp, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Sucuklu yumurta (60 gram kasap sucuk  + 1 yumurta ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, turp, sirke ve limon ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Sucuklu yumurta (60 gram kasap sucuk  + 1 yumurta ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, turp, sirke ve limon ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kuzu Güveç (1 porsiyon), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kuzu Güveç (1 porsiyon), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+use-gapi.ts:28 [GapiHook] GIS script loaded.
+use-gapi.ts:28 [GapiHook] GIS script loaded.
+page.tsx:627 fetchAllPatientMeals success: 887 meals
+page.tsx:466 mealCounts size: 40 allPatientMeals: 887
+page.tsx:466 mealCounts size: 40 allPatientMeals: 887
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gram kuzu kavurma, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gram kuzu kavurma, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kabak kavurması (1 adet kabak + 1 domates + 1 biber) + 1 yemek kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Mevsim Yeşillikleri (dereotu, roka, maydanoz, marul vs. + sirke, limon ve 1 tatlı kaşığı zeytinyağı ile ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kabak kavurması (1 adet kabak + 1 domates + 1 biber) + 1 yemek kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Mevsim Yeşillikleri (dereotu, roka, maydanoz, marul vs. + sirke, limon ve 1 tatlı kaşığı zeytinyağı ile ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram tavuk pirzola fırında (istenilen baharatlarla ile marine edilmiş), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: semizotu salatası (2 avuç semizotu,1 adet orta boy domates,1 adet salatalık,1 adet biber ve 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram tavuk pirzola fırında (istenilen baharatlarla ile marine edilmiş), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: semizotu salatası (2 avuç semizotu,1 adet orta boy domates,1 adet salatalık,1 adet biber ve 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Peynirli biber dolması (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Bakla Unlu Poğaça, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) ,cherry domates (2 adet), 4-5 dal roka, 4-5 dal tere, 2 adet küçük yeşil biber, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Peynirli biber dolması (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Bakla Unlu Poğaça, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) ,cherry domates (2 adet), 4-5 dal roka, 4-5 dal tere, 2 adet küçük yeşil biber, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kıymalı Patlıcan Kapama, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Cevizli Kaşık Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kıymalı Patlıcan Kapama, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Cevizli Kaşık Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, turp  vs. + sirke ve limon+1 tatlı kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, turp  vs. + sirke ve limon+1 tatlı kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram köfte, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, çeyrek soğan vs. + 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram köfte, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, çeyrek soğan vs. + 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta ya da sahanda (2 yumurta - 1 tatlı kaşığı tereyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: badem unlu krep (1 yumurta ve 1 çorba kaşığı badem ununu çırpın. i̇stediğiniz baharatları ekleyin1 tatlı kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + orta boy domates + 4-5 yaprak marul, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta ya da sahanda (2 yumurta - 1 tatlı kaşığı tereyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: badem unlu krep (1 yumurta ve 1 çorba kaşığı badem ununu çırpın. i̇stediğiniz baharatları ekleyin1 tatlı kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + orta boy domates + 4-5 yaprak marul, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Izgara biftek ya da tavuk (150 gram), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil Salata (marul, dereotu, roka, kırmızı lahana, 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Izgara biftek ya da tavuk (150 gram), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil Salata (marul, dereotu, roka, kırmızı lahana, 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yoğurtlu Kırmızı Pancar Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: yeşillikler (dereotu, roka, maydanoz, marul vs. sirke, limon ve 1 yemek kaşığı zeytinyağı ile, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yoğurtlu Kırmızı Pancar Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: yeşillikler (dereotu, roka, maydanoz, marul vs. sirke, limon ve 1 yemek kaşığı zeytinyağı ile, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gr. ızgara ya da fırında balık (çupra, levrek, alabalık vs.), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 5 adet fındık turp, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gr. ızgara ya da fırında balık (çupra, levrek, alabalık vs.), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 5 adet fındık turp, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Sucuklu yumurta (60 gram kasap sucuk  + 1 yumurta ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, turp, sirke ve limon ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Sucuklu yumurta (60 gram kasap sucuk  + 1 yumurta ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, turp, sirke ve limon ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kuzu Güveç (1 porsiyon), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kuzu Güveç (1 porsiyon), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:627 fetchAllPatientMeals success: 887 meals
+page.tsx:466 mealCounts size: 40 allPatientMeals: 887
+page.tsx:466 mealCounts size: 40 allPatientMeals: 887
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gram kuzu kavurma, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gram kuzu kavurma, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil salata (marul, dereotu, roka, kırmızı lahana, 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kabak kavurması (1 adet kabak + 1 domates + 1 biber) + 1 yemek kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Mevsim Yeşillikleri (dereotu, roka, maydanoz, marul vs. + sirke, limon ve 1 tatlı kaşığı zeytinyağı ile ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kabak kavurması (1 adet kabak + 1 domates + 1 biber) + 1 yemek kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Mevsim Yeşillikleri (dereotu, roka, maydanoz, marul vs. + sirke, limon ve 1 tatlı kaşığı zeytinyağı ile ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram tavuk pirzola fırında (istenilen baharatlarla ile marine edilmiş), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: semizotu salatası (2 avuç semizotu,1 adet orta boy domates,1 adet salatalık,1 adet biber ve 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram tavuk pirzola fırında (istenilen baharatlarla ile marine edilmiş), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: semizotu salatası (2 avuç semizotu,1 adet orta boy domates,1 adet salatalık,1 adet biber ve 1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Peynirli biber dolması (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Bakla Unlu Poğaça, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) ,cherry domates (2 adet), 4-5 dal roka, 4-5 dal tere, 2 adet küçük yeşil biber, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Peynirli biber dolması (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Bakla Unlu Poğaça, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) ,cherry domates (2 adet), 4-5 dal roka, 4-5 dal tere, 2 adet küçük yeşil biber, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kıymalı Patlıcan Kapama, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Cevizli Kaşık Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kıymalı Patlıcan Kapama, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Cevizli Kaşık Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, turp  vs. + sirke ve limon+1 tatlı kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: sahanda yumurta (2 yumurta, 1 tatlı kaşığı tereyağ), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Zeytin (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, turp  vs. + sirke ve limon+1 tatlı kaşığı zeytinyağı ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: tavuk sote (150 gr tavuk fleto,1adet orta boy domates,1 adet yeşil biber ,1 yemek kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram köfte, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, çeyrek soğan vs. + 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 150 gram köfte, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, marul, çeyrek soğan vs. + 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta ya da sahanda (2 yumurta - 1 tatlı kaşığı tereyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: badem unlu krep (1 yumurta ve 1 çorba kaşığı badem ununu çırpın. i̇stediğiniz baharatları ekleyin1 tatlı kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + orta boy domates + 4-5 yaprak marul, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: haşlanmış yumurta ya da sahanda (2 yumurta - 1 tatlı kaşığı tereyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: badem unlu krep (1 yumurta ve 1 çorba kaşığı badem ununu çırpın. i̇stediğiniz baharatları ekleyin1 tatlı kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + orta boy domates + 4-5 yaprak marul, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Izgara biftek ya da tavuk (150 gram), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil Salata (marul, dereotu, roka, kırmızı lahana, 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Izgara biftek ya da tavuk (150 gram), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşil Salata (marul, dereotu, roka, kırmızı lahana, 1 tatlı kaşığı zeytinyağı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: turşu (organik, ev yapımı), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yoğurtlu Kırmızı Pancar Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: yeşillikler (dereotu, roka, maydanoz, marul vs. sirke, limon ve 1 yemek kaşığı zeytinyağı ile, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yoğurtlu Kırmızı Pancar Salatası, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: yeşillikler (dereotu, roka, maydanoz, marul vs. sirke, limon ve 1 yemek kaşığı zeytinyağı ile, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Çiğ badem  (20 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gr. ızgara ya da fırında balık (çupra, levrek, alabalık vs.), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 5 adet fındık turp, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: 200 gr. ızgara ya da fırında balık (çupra, levrek, alabalık vs.), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 5 adet fındık turp, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Ceviz (3 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Sucuklu yumurta (60 gram kasap sucuk  + 1 yumurta ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, turp, sirke ve limon ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Sucuklu yumurta (60 gram kasap sucuk  + 1 yumurta ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Haşhaş ezmesi ekmeği (1 dilim), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Yeşillikler (dereotu, roka, maydanoz, turp, sirke ve limon ile), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kuzu Güveç (1 porsiyon), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Kuzu Güveç (1 porsiyon), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: roka salatası (yarım bağ roka, 1 adet küçük salatalık, 3 adet cherry domates, yarım kırmızı soğan + limon, 1 yemek kaşığı zeytinyağı, patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: zeytin (5 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: Pırasalı Pankek, patientLabs count: 5 (2) [{…}, {…}]
+page.tsx:2986 [PANKEK DEBUG] meal.foods: {id: '530ac3d8-008e-499e-9fae-ae49f716d81e', fat: 24, keto: true, meta: {…}, name: 'Pırasalı Pankek', …}
+page.tsx:2987 [PANKEK DEBUG] meal.foods.tags: (3) ['pırasa', 'pankek', 'çay']
+page.tsx:2988 [PANKEK DEBUG] patientLabs (first 2): (2) [{…}, {…}]
+page.tsx:2989 [PANKEK DEBUG] patientLabs[0].micronutrients: {name: 'Demir', unit: 'mcg/dL'}
+page.tsx:2990 [PANKEK DEBUG] compatibility result: {compatible: true, recommended: false, diseaseName: ''}
+compatibility-checker.ts:92 [MicroDebug-START] Food: salatalık (orta boy) + cherry domates (2 adet), patientLabs count: 5 (2) [{…}, {…}]
+compatibility-checker.ts:92 [MicroDebug-START] Food: çiğ badem (10 adet), patientLabs count: 5 (2) [{…}, {…}]
+dialog.tsx:60 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+warn @ forward-logs-shared.ts:95
+DescriptionWarning.useEffect @ dialog.tsx:543
+react_stack_bottom_frame @ react-dom-client.development.js:28123
+runWithFiberInDEV @ react-dom-client.development.js:986
+commitHookEffectListMount @ react-dom-client.development.js:13692
+commitHookPassiveMountEffects @ react-dom-client.development.js:13779
+commitPassiveMountOnFiber @ react-dom-client.development.js:16733
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16753
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16753
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16753
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16753
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:17010
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16753
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16725
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+commitPassiveMountOnFiber @ react-dom-client.development.js:16753
+recursivelyTraversePassiveMountEffects @ react-dom-client.development.js:16678
+<DescriptionWarning>
+exports.jsx @ react-jsx-runtime.development.js:342
+(anonymous) @ dialog.tsx:418
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<ForwardRef>
+exports.jsx @ react-jsx-runtime.development.js:342
+(anonymous) @ dialog.tsx:272
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<ForwardRef>
+exports.jsx @ react-jsx-runtime.development.js:342
+DialogContent @ dialog.tsx:242
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<DialogContent>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+DialogContent @ dialog.tsx:60
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<DialogContent>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+FoodEditDialog @ food-sidebar.tsx:830
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<FoodEditDialog>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+DroppableMealSlot @ page.tsx:3173
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+dialog.tsx:60 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+warn @ forward-logs-shared.ts:95
+DescriptionWarning.useEffect @ dialog.tsx:543
+react_stack_bottom_frame @ react-dom-client.development.js:28123
+runWithFiberInDEV @ react-dom-client.development.js:986
+commitHookEffectListMount @ react-dom-client.development.js:13692
+commitHookPassiveMountEffects @ react-dom-client.development.js:13779
+reconnectPassiveEffects @ react-dom-client.development.js:17124
+recursivelyTraverseReconnectPassiveEffects @ react-dom-client.development.js:17076
+reconnectPassiveEffects @ react-dom-client.development.js:17177
+recursivelyTraverseReconnectPassiveEffects @ react-dom-client.development.js:17076
+reconnectPassiveEffects @ react-dom-client.development.js:17116
+recursivelyTraverseReconnectPassiveEffects @ react-dom-client.development.js:17076
+reconnectPassiveEffects @ react-dom-client.development.js:17116
+recursivelyTraverseReconnectPassiveEffects @ react-dom-client.development.js:17076
+reconnectPassiveEffects @ react-dom-client.development.js:17116
+recursivelyTraverseReconnectPassiveEffects @ react-dom-client.development.js:17076
+reconnectPassiveEffects @ react-dom-client.development.js:17116
+recursivelyTraverseReconnectPassiveEffects @ react-dom-client.development.js:17076
+reconnectPassiveEffects @ react-dom-client.development.js:17116
+recursivelyTraverseReconnectPassiveEffects @ react-dom-client.development.js:17076
+reconnectPassiveEffects @ react-dom-client.development.js:17116
+recursivelyTraverseReconnectPassiveEffects @ react-dom-client.development.js:17076
+reconnectPassiveEffects @ react-dom-client.development.js:17116
+recursivelyTraverseReconnectPassiveEffects @ react-dom-client.development.js:17076
+reconnectPassiveEffects @ react-dom-client.development.js:17177
+doubleInvokeEffectsOnFiber @ react-dom-client.development.js:20130
+runWithFiberInDEV @ react-dom-client.development.js:989
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20094
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+recursivelyTraverseAndDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20100
+commitDoubleInvokeEffectsInDEV @ react-dom-client.development.js:20139
+flushPassiveEffects @ react-dom-client.development.js:19866
+flushPendingEffects @ react-dom-client.development.js:19785
+flushSpawnedWork @ react-dom-client.development.js:19741
+commitRoot @ react-dom-client.development.js:19335
+commitRootWhenReady @ react-dom-client.development.js:18178
+performWorkOnRoot @ react-dom-client.development.js:18054
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<DescriptionWarning>
+exports.jsx @ react-jsx-runtime.development.js:342
+(anonymous) @ dialog.tsx:418
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<ForwardRef>
+exports.jsx @ react-jsx-runtime.development.js:342
+(anonymous) @ dialog.tsx:272
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<ForwardRef>
+exports.jsx @ react-jsx-runtime.development.js:342
+DialogContent @ dialog.tsx:242
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateForwardRef @ react-dom-client.development.js:10059
+beginWork @ react-dom-client.development.js:12475
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<DialogContent>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+DialogContent @ dialog.tsx:60
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<DialogContent>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+FoodEditDialog @ food-sidebar.tsx:830
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418
+<FoodEditDialog>
+exports.jsxDEV @ react-jsx-dev-runtime.development.js:342
+DroppableMealSlot @ page.tsx:3173
+react_stack_bottom_frame @ react-dom-client.development.js:28038
+renderWithHooksAgain @ react-dom-client.development.js:8084
+renderWithHooks @ react-dom-client.development.js:7996
+updateFunctionComponent @ react-dom-client.development.js:10501
+beginWork @ react-dom-client.development.js:12136
+runWithFiberInDEV @ react-dom-client.development.js:986
+performUnitOfWork @ react-dom-client.development.js:18997
+workLoopSync @ react-dom-client.development.js:18825
+renderRootSync @ react-dom-client.development.js:18806
+performWorkOnRoot @ react-dom-client.development.js:17835
+performSyncWorkOnRoot @ react-dom-client.development.js:20399
+flushSyncWorkAcrossRoots_impl @ react-dom-client.development.js:20241
+processRootScheduleInMicrotask @ react-dom-client.development.js:20280
+(anonymous) @ react-dom-client.development.js:20418

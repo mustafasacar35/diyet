@@ -1,0 +1,9 @@
+Reading SQL file: C:\Users\Mustafa\Downloads\diyet_plan\diet-app\Supabase_Fix_DeviceLimit_v46.sql
+Connecting to DB...
+SQL Execution Failed: Error: getaddrinfo ENOTFOUND db.edcxbjneplsktmlrkvix.supabase.co
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'db.edcxbjneplsktmlrkvix.supabase.co'
+}

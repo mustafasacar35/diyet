@@ -1,0 +1,14 @@
+[
+  {
+    "food_id": "9d0ac179-2b9f-4ce5-88a0-11ed863711ae",
+    "micronutrient_id": "576ad3c1-6db1-4acb-8e8b-868407bc26b0"
+  },
+  {
+    "food_id": "9cf698f6-0876-42c0-a706-824b96b12350",
+    "micronutrient_id": "576ad3c1-6db1-4acb-8e8b-868407bc26b0"
+  },
+  {
+    "food_id": "2fda1425-d66b-4a58-a50e-e6b930e9e266",
+    "micronutrient_id": "acc50ed9-b618-404a-80e8-d920946551d3"
+  }
+]

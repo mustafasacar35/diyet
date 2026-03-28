@@ -1,0 +1,5 @@
+ALTER TABLE foods ADD COLUMN IF NOT EXISTS max_weekly_freq INTEGER DEFAULT NULL;
+ALTER TABLE planner_settings ADD COLUMN IF NOT EXISTS variety_mode TEXT DEFAULT 'hybrid';
+ALTER TABLE planner_settings ADD COLUMN IF NOT EXISTS cooldown_strength INTEGER DEFAULT 5;
+ALTER TABLE planner_settings ADD COLUMN IF NOT EXISTS liked_boost INTEGER DEFAULT 3000;
+ALTER TABLE planner_settings ADD COLUMN IF NOT EXISTS max_weekly_default INTEGER DEFAULT 3;

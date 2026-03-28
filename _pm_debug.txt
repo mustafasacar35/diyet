@@ -1,0 +1,307 @@
+ALL PATIENT_MEDICATIONS:
+[
+  {
+    "id": "1eb12364-d6be-486c-b9bc-4b2c5ebbf90d",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-02",
+    "ended_at": "2026-02-02",
+    "notes": null,
+    "created_at": "2026-02-02T10:02:11.670683+00:00",
+    "updated_at": "2026-02-02T10:07:47.603037+00:00"
+  },
+  {
+    "id": "f622dda3-c4b1-47de-93c2-c031dd9f96c8",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-02",
+    "ended_at": "2026-02-03",
+    "notes": null,
+    "created_at": "2026-02-02T10:07:48.118628+00:00",
+    "updated_at": "2026-02-03T14:10:05.434646+00:00"
+  },
+  {
+    "id": "b199c0a3-a8db-4c98-b765-41f32fbc5ebb",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-03",
+    "ended_at": "2026-02-03",
+    "notes": null,
+    "created_at": "2026-02-03T14:10:06.171849+00:00",
+    "updated_at": "2026-02-03T14:10:23.264515+00:00"
+  },
+  {
+    "id": "e5eedb4e-5ff6-4791-986a-6f50c7d92739",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-03",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-03T14:10:23.677807+00:00",
+    "updated_at": "2026-02-03T14:10:23.677807+00:00"
+  },
+  {
+    "id": "08d0a672-c509-4c82-935f-e03a16a962f6",
+    "patient_id": "900f1498-d008-42f3-87fd-b66787817e96",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-08",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-08T07:43:17.51695+00:00",
+    "updated_at": "2026-02-08T07:43:17.51695+00:00"
+  },
+  {
+    "id": "18cb8f90-3093-49bf-a40f-9efa18ff8e29",
+    "patient_id": "172245e4-6e49-4ad9-855d-5600704f07bd",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-08",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-08T07:55:25.020526+00:00",
+    "updated_at": "2026-02-08T07:55:25.020526+00:00"
+  },
+  {
+    "id": "61f67376-c367-46cb-9102-bbcbcedc2712",
+    "patient_id": "bac0ebbc-7cb7-43a7-86e8-e0279fbd3534",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-08",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-08T08:03:10.191081+00:00",
+    "updated_at": "2026-02-08T08:03:10.191081+00:00"
+  },
+  {
+    "id": "497a3bb4-5879-4a1a-bce4-c7d268dbe8d3",
+    "patient_id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-08",
+    "ended_at": "2026-02-10",
+    "notes": null,
+    "created_at": "2026-02-08T08:32:16.354305+00:00",
+    "updated_at": "2026-02-10T12:06:49.020828+00:00"
+  },
+  {
+    "id": "84171bca-8c7a-4367-962f-fde582a52d5c",
+    "patient_id": "c524b263-ff07-4b0a-bb4f-4361f007e7fd",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-10",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-10T15:35:16.162319+00:00",
+    "updated_at": "2026-02-10T15:35:16.162319+00:00"
+  },
+  {
+    "id": "346d3df0-9871-4b97-9580-75e619874c68",
+    "patient_id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-10",
+    "ended_at": "2026-02-10",
+    "notes": null,
+    "created_at": "2026-02-10T12:06:49.619038+00:00",
+    "updated_at": "2026-02-10T15:35:37.889162+00:00"
+  },
+  {
+    "id": "a31dd0ae-4f90-42d0-a115-5268af67fe41",
+    "patient_id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-10",
+    "ended_at": "2026-02-10",
+    "notes": null,
+    "created_at": "2026-02-10T15:35:38.343044+00:00",
+    "updated_at": "2026-02-10T15:35:51.160291+00:00"
+  },
+  {
+    "id": "3a8aa038-eaf0-4ca3-a897-4e4be10a745e",
+    "patient_id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "medication_id": "0ac398a6-a0bf-4518-9d9f-e7559e2d23b0",
+    "medication_name": "Coumadin",
+    "dosage": null,
+    "started_at": "2026-02-10",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-10T15:35:51.620399+00:00",
+    "updated_at": "2026-02-10T15:35:51.620399+00:00"
+  },
+  {
+    "id": "2f82cf82-e43b-444c-b246-e2edf8c0b566",
+    "patient_id": "acac1b59-3d79-4395-860d-d1c3029a2adb",
+    "medication_id": "bbdb752b-a07d-4641-990b-5462d4262ca5",
+    "medication_name": "aspirin",
+    "dosage": null,
+    "started_at": "2026-02-10",
+    "ended_at": "2026-02-11",
+    "notes": null,
+    "created_at": "2026-02-10T19:24:49.268841+00:00",
+    "updated_at": "2026-02-11T07:09:33.25089+00:00"
+  },
+  {
+    "id": "979ad161-bc9c-42a1-9e36-8ec2897a1114",
+    "patient_id": "acac1b59-3d79-4395-860d-d1c3029a2adb",
+    "medication_id": "bbdb752b-a07d-4641-990b-5462d4262ca5",
+    "medication_name": "Aspirin",
+    "dosage": null,
+    "started_at": "2026-02-11",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-11T07:09:34.075373+00:00",
+    "updated_at": "2026-02-11T07:09:34.075373+00:00"
+  },
+  {
+    "id": "88da176f-563a-4218-9b0f-b493d60a2389",
+    "patient_id": "acac1b59-3d79-4395-860d-d1c3029a2adb",
+    "medication_id": "ee5f6127-94fe-4b88-9370-860b5ebca96a",
+    "medication_name": "Desal",
+    "dosage": null,
+    "started_at": "2026-02-11",
+    "ended_at": null,
+    "notes": null,
+    "created_at": "2026-02-11T07:09:34.075373+00:00",
+    "updated_at": "2026-02-11T07:09:34.075373+00:00"
+  }
+]
+
+ALL MEDICATION_INTERACTIONS (first 20):
+[
+  {
+    "id": "3a8079ed-9fc3-4321-b49d-cca47bc7a5e5",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "warning",
+    "keyword": "Yemek"
+  },
+  {
+    "id": "ef610c40-2c11-421e-8e16-79ba35126d26",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "warning",
+    "keyword": "Öğün"
+  },
+  {
+    "id": "84146443-adb6-40bf-b524-35e618b5a2f4",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "warning",
+    "keyword": "Kahvaltı"
+  },
+  {
+    "id": "c8835d40-7202-49b7-9e07-091dd73ea66b",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "warning",
+    "keyword": "Akşam Yemeği"
+  },
+  {
+    "id": "9eebbde1-cd53-4e99-85ec-e054d4c60772",
+    "medication_id": "e38c9217-9589-4f70-9812-b831281673e4",
+    "rule_type": "warning",
+    "keyword": "alkol"
+  },
+  {
+    "id": "3d2c1527-01ba-4e99-a8fe-f97f24653643",
+    "medication_id": "1b329259-9aa1-4813-8a11-88571860fba7",
+    "rule_type": "warning",
+    "keyword": "kalsiyum"
+  },
+  {
+    "id": "eeb1ff07-9951-46cf-9c72-044f99a6798f",
+    "medication_id": "1b329259-9aa1-4813-8a11-88571860fba7",
+    "rule_type": "warning",
+    "keyword": "demir"
+  },
+  {
+    "id": "562b2be6-f481-4ed4-8d6a-ad52be02b1c7",
+    "medication_id": "cf8a3f07-6d5c-43f5-84ab-7d8f7ef7153d",
+    "rule_type": "negative",
+    "keyword": "greyfurt"
+  },
+  {
+    "id": "17f42238-1cfd-4909-89eb-4fbc51f2f650",
+    "medication_id": "f04868fe-4179-46ff-8280-e837e352d3e0",
+    "rule_type": "negative",
+    "keyword": "greyfurt"
+  },
+  {
+    "id": "c63d94ea-0e0d-4a75-95d1-ca351a605751",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "warning",
+    "keyword": "Alkol"
+  },
+  {
+    "id": "a182bd60-e31d-4f2a-8ddb-2481a31d82eb",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "warning",
+    "keyword": "Bira"
+  },
+  {
+    "id": "3d7f2a06-e998-4849-a547-0e220953c4b7",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "warning",
+    "keyword": "Şarap"
+  },
+  {
+    "id": "7a362c82-ae10-458b-ae9b-a8feefe5f416",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "warning",
+    "keyword": "Rakı"
+  },
+  {
+    "id": "3c10eb87-ebf9-4acd-9730-b6538fc0a4fc",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "warning",
+    "keyword": "Votka"
+  },
+  {
+    "id": "a4ed980d-43cc-4aa1-98d8-04230c7b3300",
+    "medication_id": "e38c9217-9589-4f70-9812-b831281673e4",
+    "rule_type": "warning",
+    "keyword": "alkol"
+  },
+  {
+    "id": "d84b4fc4-b7d7-4b32-b878-99e719723ba6",
+    "medication_id": "1b329259-9aa1-4813-8a11-88571860fba7",
+    "rule_type": "warning",
+    "keyword": "kalsiyum"
+  },
+  {
+    "id": "870f8139-ec16-42d0-8e18-85fe769f8a54",
+    "medication_id": "1b329259-9aa1-4813-8a11-88571860fba7",
+    "rule_type": "warning",
+    "keyword": "demir"
+  },
+  {
+    "id": "6692d926-6bb6-4878-a6ed-8b88a1777758",
+    "medication_id": "cf8a3f07-6d5c-43f5-84ab-7d8f7ef7153d",
+    "rule_type": "negative",
+    "keyword": "greyfurt"
+  },
+  {
+    "id": "18c0bf13-2000-438e-abe2-f4ad28c01818",
+    "medication_id": "f04868fe-4179-46ff-8280-e837e352d3e0",
+    "rule_type": "negative",
+    "keyword": "greyfurt"
+  },
+  {
+    "id": "eebada78-fba6-4b02-9f31-3dc1e2a94961",
+    "medication_id": "093d1c61-adc0-40fb-ba14-5996e648ed5c",
+    "rule_type": "positive",
+    "keyword": "Turunçgiller"
+  }
+]

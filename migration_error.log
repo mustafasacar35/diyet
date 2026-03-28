@@ -1,0 +1,7 @@
+Migration failed: getaddrinfo ENOTFOUND db.edcxbjneplsktmlrkvix.supabase.co
+{
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "db.edcxbjneplsktmlrkvix.supabase.co"
+}

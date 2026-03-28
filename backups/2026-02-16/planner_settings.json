@@ -1,0 +1,359 @@
+[
+  {
+    "id": "d47803c3-87f8-4d9e-95bd-b211a341fcdd",
+    "user_id": "9c691075-82c8-47f8-93a0-78f553fa2643",
+    "scope": "global",
+    "patient_id": null,
+    "weights": [
+      {
+        "id": "macro_targets",
+        "weight": 100
+      },
+      {
+        "id": "variety",
+        "weight": 100
+      },
+      {
+        "id": "diet_type",
+        "weight": 100
+      },
+      {
+        "id": "liked_food",
+        "weight": 65
+      },
+      {
+        "id": "disliked_food",
+        "weight": 70
+      },
+      {
+        "id": "med_interactions",
+        "weight": 100
+      },
+      {
+        "id": "allergen",
+        "weight": 835
+      },
+      {
+        "id": "seasonality",
+        "weight": 55
+      },
+      {
+        "id": "micronutrients",
+        "weight": 75
+      }
+    ],
+    "created_at": "2026-02-02T16:57:58.849838+00:00",
+    "updated_at": "2026-02-08T07:46:11.908696+00:00",
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ],
+    "exempt_tags": [],
+    "portion_settings": {
+      "global_max": 2,
+      "global_min": 0.5,
+      "step_value": 0.5,
+      "strategies": {
+        "macro_convergence": true,
+        "max_limit_protection": true
+      },
+      "scalable_units": [
+        "gram",
+        "adet",
+        "tane",
+        "yaprak",
+        "yemek kaşığı",
+        "tatlı kaşığı",
+        "çay kaşığı",
+        "dilim",
+        "dal",
+        "demet",
+        "kase"
+      ],
+      "max_calorie_percentage": 40,
+      "max_adjusted_items_per_day": 5
+    },
+    "enable_name_similarity_check": true,
+    "name_similarity_exempt_words": [
+      "kaşık",
+      "kaşığı",
+      "demet",
+      "soslu"
+    ],
+    "macro_priorities": {
+      "fat": 5,
+      "carb": 5,
+      "protein": 6
+    },
+    "variety_preference": "balanced",
+    "slot_config": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 3
+      },
+      {
+        "name": "özel öğün",
+        "max_items": 4,
+        "min_items": 2
+      }
+    ]
+  },
+  {
+    "id": "303adcf6-235e-43e6-9f2b-0e6fbcf1da59",
+    "user_id": "9c691075-82c8-47f8-93a0-78f553fa2643",
+    "scope": "patient",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "weights": [
+      {
+        "id": "allergen",
+        "weight": 670
+      },
+      {
+        "id": "diet_type",
+        "weight": 100
+      },
+      {
+        "id": "med_interactions",
+        "weight": 90
+      },
+      {
+        "id": "macro_targets",
+        "weight": 100
+      },
+      {
+        "id": "disliked_food",
+        "weight": 80
+      },
+      {
+        "id": "seasonality",
+        "weight": 60
+      },
+      {
+        "id": "micronutrients",
+        "weight": 50
+      },
+      {
+        "id": "liked_food",
+        "weight": 40
+      },
+      {
+        "id": "variety",
+        "weight": 30
+      }
+    ],
+    "created_at": "2026-02-04T19:58:51.575529+00:00",
+    "updated_at": "2026-02-06T21:28:07.254689+00:00",
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 1,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 5,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 5,
+        "min_items": 2
+      }
+    ],
+    "exempt_tags": [
+      "keto",
+      "ketojenik",
+      "lowcarb",
+      "low carb"
+    ],
+    "portion_settings": {
+      "global_max": 2,
+      "global_min": 0.5,
+      "step_value": 0.5,
+      "strategies": {
+        "macro_convergence": true,
+        "max_limit_protection": true
+      },
+      "scalable_units": [
+        "litre",
+        "tane",
+        "adet",
+        "dilim",
+        "demet",
+        "dal"
+      ],
+      "max_calorie_percentage": 50,
+      "max_adjusted_items_per_day": 5
+    },
+    "enable_name_similarity_check": true,
+    "name_similarity_exempt_words": [
+      "kaşığı",
+      "kaşık",
+      "tane"
+    ],
+    "macro_priorities": {
+      "fat": 5,
+      "carb": 10,
+      "protein": 6
+    },
+    "variety_preference": "max_variety",
+    "slot_config": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 1
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 6,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 6,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 3,
+        "min_items": 1
+      }
+    ]
+  },
+  {
+    "id": "d501938b-a7b9-4789-a969-0f17b19f009c",
+    "user_id": "9c691075-82c8-47f8-93a0-78f553fa2643",
+    "scope": "patient",
+    "patient_id": "acac1b59-3d79-4395-860d-d1c3029a2adb",
+    "weights": [
+      {
+        "id": "macro_targets",
+        "weight": 100
+      },
+      {
+        "id": "variety",
+        "weight": 100
+      },
+      {
+        "id": "diet_type",
+        "weight": 100
+      },
+      {
+        "id": "liked_food",
+        "weight": 65
+      },
+      {
+        "id": "disliked_food",
+        "weight": 70
+      },
+      {
+        "id": "med_interactions",
+        "weight": 100
+      },
+      {
+        "id": "allergen",
+        "weight": 835
+      },
+      {
+        "id": "seasonality",
+        "weight": 55
+      },
+      {
+        "id": "micronutrients",
+        "weight": 75
+      }
+    ],
+    "created_at": "2026-02-10T19:44:37.75443+00:00",
+    "updated_at": "2026-02-10T19:44:37.75443+00:00",
+    "slot_configs": [
+      {
+        "name": "KAHVALTI",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ÖĞLEN",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "AKŞAM",
+        "max_items": 4,
+        "min_items": 2
+      },
+      {
+        "name": "ARA ÖĞÜN",
+        "max_items": 2,
+        "min_items": 1
+      }
+    ],
+    "exempt_tags": [],
+    "portion_settings": {
+      "global_max": 2,
+      "global_min": 0.5,
+      "step_value": 0.5,
+      "strategies": {
+        "macro_convergence": true,
+        "max_limit_protection": true
+      },
+      "scalable_units": [
+        "gram",
+        "adet",
+        "tane",
+        "yaprak",
+        "yemek kaşığı",
+        "tatlı kaşığı",
+        "çay kaşığı",
+        "dilim",
+        "dal",
+        "demet",
+        "kase"
+      ],
+      "max_calorie_percentage": 40,
+      "max_adjusted_items_per_day": 5
+    },
+    "enable_name_similarity_check": true,
+    "name_similarity_exempt_words": [
+      "kaşık",
+      "kaşığı",
+      "demet",
+      "soslu"
+    ],
+    "macro_priorities": {
+      "fat": 5,
+      "carb": 5,
+      "protein": 6
+    },
+    "variety_preference": "balanced",
+    "slot_config": {}
+  }
+]

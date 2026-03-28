@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Diyet App</string>
+    <string name="title_activity_main">Diyet App</string>
+    <string name="package_name">com.diyetapp.mobile</string>
+    <string name="custom_url_scheme">com.diyetapp.mobile</string>
+</resources>

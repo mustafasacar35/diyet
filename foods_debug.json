@@ -1,0 +1,61 @@
+{
+  "food1": [
+    {
+      "name": "Tarhana Çorbası",
+      "category": "ÇORBALAR",
+      "role": "salad",
+      "meal_types": [
+        "dinner"
+      ]
+    },
+    {
+      "name": "200 gr tarhana çorbası",
+      "category": "ÇORBALAR",
+      "role": "soup",
+      "meal_types": [
+        "dinner"
+      ]
+    }
+  ],
+  "food2": [
+    {
+      "name": "Kırmızı Lahanalı Alabaş Salatası",
+      "category": "SALATALAR",
+      "role": "sideDish",
+      "meal_types": [
+        "dinner"
+      ]
+    },
+    {
+      "name": "Alabaş Kızartma",
+      "category": "AKŞAM",
+      "role": "sideDish",
+      "meal_types": []
+    },
+    {
+      "name": "Etli Alabaş Yemeği",
+      "category": "AKŞAM",
+      "role": "mainDish",
+      "meal_types": [
+        "breakfast",
+        "lunch"
+      ]
+    },
+    {
+      "name": "Alabaş Salatası",
+      "category": "SALATALAR",
+      "role": "sideDish",
+      "meal_types": [
+        "dinner"
+      ]
+    },
+    {
+      "name": "Yoğurtlu Alabaş Salatası",
+      "category": "SALATALAR",
+      "role": "sideDish",
+      "meal_types": [
+        "dinner"
+      ]
+    }
+  ]
+}

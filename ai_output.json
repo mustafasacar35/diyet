@@ -1,0 +1,64 @@
+{
+  "category": "mikrobesin",
+  "unit": "µg/dL",
+  "default_min": 60,
+  "default_max": 170,
+  "compatible_foods": [
+    {
+      "keyword": "Kırmızı et",
+      "mechanism": "[Destekleyici]: Hem demir içerdiği için vücut tarafından kolayca emilir.",
+      "advice": "[Öneri]: Haftada 2-3 porsiyon tüketilmesi demir ihtiyacının karşılanmasına yardımcı olur.",
+      "match_type": "compatible"
+    },
+    {
+      "keyword": "C vitamini",
+      "mechanism": "[Destekleyici]: C vitamini, demirin emilimini artırır. Demir, ince bağırsakta çözünürlüğü düşük bir formda bulunur ve C vitamini, demiri daha çözünür bir forma indirgeyerek emilimini kolaylaştırır.",
+      "advice": "[Öneri]: Demir takviyesi veya demir açısından zengin besinler tüketirken aynı anda C vitamini içeren besinler (örneğin portakal suyu, çilek, kırmızı biber) tüketmek emilimi artırır.",
+      "match_type": "compatible"
+    },
+    {
+      "keyword": "Pekmez",
+      "mechanism": "[Destekleyici]: Yüksek demir içeriği sayesinde demir eksikliğini gidermeye yardımcı olur.",
+      "advice": "[Öneri]: Günde 1-2 yemek kaşığı tüketilebilir. Ancak şeker içeriği yüksek olduğu için porsiyon kontrolüne dikkat edilmelidir.",
+      "match_type": "compatible"
+    },
+    {
+      "keyword": "Kuruyemişler (kabak çekirdeği, badem)",
+      "mechanism": "[Destekleyici]: Demir, bakır ve manganez gibi mineraller içerir. Bu mineraller demir metabolizmasında rol oynar ve demirin vücutta daha iyi kullanılmasını destekler.",
+      "advice": "[Öneri]: Günde bir avuç (yaklaşık 30 gram) kuruyemiş tüketmek demir alımına katkıda bulunur. Tuzsuz ve çiğ olanları tercih edilmelidir.",
+      "match_type": "compatible"
+    }
+  ],
+  "incompatible_foods": [
+    {
+      "keyword": "Çay",
+      "mechanism": "[Uyarı]: Çayda bulunan tanenler demir ile bağlanarak emilimini azaltır.",
+      "advice": "[Öneri]: Yemeklerle birlikte veya hemen sonrasında çay tüketmekten kaçının. Yemeklerden en az 1 saat önce veya sonra çay tüketin.",
+      "match_type": "incompatible"
+    },
+    {
+      "keyword": "Süt ve süt ürünleri",
+      "mechanism": "[Uyarı]: Sütte bulunan kalsiyum, demir emilimini azaltabilir.",
+      "advice": "[Öneri]: Demir takviyesi veya demir açısından zengin besinler tüketirken aynı anda süt ve süt ürünleri tüketmekten kaçının. Aralarında en az 2 saat bırakın.",
+      "match_type": "incompatible"
+    },
+    {
+      "keyword": "Fitik asit (Tahıllar, Baklagiller)",
+      "mechanism": "[Uyarı]: Fitik asit, demir ile bağlanarak çözünmeyen kompleksler oluşturur ve emilimini engeller.",
+      "advice": "[Öneri]: Tahılları ve baklagilleri ıslatarak, filizlendirerek veya fermente ederek fitik asit içeriğini azaltabilirsiniz. Bu işlemler, fitik asidin demir ile bağlanma yeteneğini azaltır ve demir emilimini artırır.",
+      "match_type": "incompatible"
+    },
+    {
+      "keyword": "Kalsiyum takviyeleri",
+      "mechanism": "[Uyarı]: Yüksek dozda kalsiyum takviyesi kullanımı demir emilimini engelleyebilir.",
+      "advice": "[Öneri]: Kalsiyum takviyesi kullanıyorsanız, demir takviyesi ile aynı anda almayın. Aralarında en az 2-3 saat bırakın.",
+      "match_type": "incompatible"
+    },
+    {
+      "keyword": "Antasitler",
+      "mechanism": "[Uyarı]: Mide asidini azaltarak demir emilimini olumsuz etkileyebilirler. Demir, asidik ortamda daha iyi çözünür ve emilir.",
+      "advice": "[Öneri]: Antasit kullanmanız gerekiyorsa, demir takviyesi almadan önce veya sonra en az 2 saat bekleyin.",
+      "match_type": "incompatible"
+    }
+  ]
+}

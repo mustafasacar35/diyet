@@ -1,0 +1,262 @@
+[
+  {
+    "id": "35568693-85ca-4be2-aa1a-c45cb70de82f",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "53942cc5-4544-45c6-b789-4fece39c7c00",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "dd07f281-996a-4af8-a5e2-58eb1cd2475b",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "5e7b7ec8-646a-40b3-8855-2214c26d8d21",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "181b9c75-4da7-44ce-8ba8-f1a61f078923",
+    "name": "ekmek x börek",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "tag",
+          "value": "ekmek"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "börek"
+        },
+        "association": "forbidden",
+        "probability": 0
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "00101d3f-01d0-4ecb-bb7c-9cc64f10038e",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "f77d3457-f8ea-44e4-8302-fc9b75bf15c1",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "3895f347-277e-4bc5-b413-8da82ea7caf5",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "78e58229-d3ea-48b1-9d67-3eb7322b6436",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "c78d4068-7563-4134-921e-66cf6a923834",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "824ffbd9-d7c8-4c31-82f6-5ee54e405f8a",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "c91d9229-8d62-492b-b716-0e962082abbb",
+    "name": "balık - > tahin",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "food_id",
+          "value": "tahin"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "balık"
+        },
+        "association": "boost",
+        "probability": 70
+      },
+      "type": "affinity"
+    }
+  },
+  {
+    "id": "b4067b43-cff2-4227-b961-96bb9381ceac",
+    "name": "tost-ekmek yasak",
+    "is_active": true,
+    "definition": {
+      "data": {
+        "outcome": {
+          "type": "tag",
+          "value": "ekmek"
+        },
+        "trigger": {
+          "type": "tag",
+          "value": "tost"
+        },
+        "association": "forbidden",
+        "probability": 0
+      },
+      "type": "affinity"
+    }
+  }
+]

@@ -1,0 +1,14 @@
+--- DEBUGGING DIET RULES ---
+Found 0 rules in total:
+
+--- INSPECTING TARGET FOODS ---
+
+No items found with role='nuts'
+
+No items found with category like 'kuruyemiş'
+
+--- ALL DISTINCT ROLES IN DB ---
+sideDish, supplement, mainDish, drink, snack, bread, fruit, salad, corba, dessert
+
+--- ALL DISTINCT CATEGORIES IN DB ---
+ÖĞLEN, DİĞER, SALATALAR, EKMEKLER, MEYVELER, AKŞAM, ÇORBALAR, ATIŞTIRMALIK, MEZELER, TOSTLAR, Diğer, ATIŞTIRILMALIKLAR, KURUYEMİŞLER, GENEL, TATLILAR, KOLLAJEN, MEYVE, İÇECEKLER, diğer, AKSAM, APERATIF, KAHVALTI

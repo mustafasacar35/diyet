@@ -1,0 +1,211 @@
+[
+  {
+    "id": "315a03f5-552c-4211-9d5d-31dd18628976",
+    "name": "Eliminasyonlu Ketojenik",
+    "description": "Süt ürünleri yok",
+    "carb_factor": 0.3,
+    "protein_factor": 0.8,
+    "fat_factor": 1.2,
+    "is_system_default": false,
+    "created_at": "2026-01-18T08:35:10.04526+00:00",
+    "abbreviation": "EK",
+    "allowed_food_diet_types": [
+      "eliminasyonlu_ketojenik",
+      "ketojenik"
+    ],
+    "banned_keywords": [
+      "peynir"
+    ],
+    "allowed_tags": [
+      "KETOGENIC",
+      "ELIMINASYONLU_KETOJENIK"
+    ],
+    "banned_tags": [
+      "bulgur",
+      "Gluten (Buğday, Arpa, Çavdar, Bulgur)",
+      "Soya (Tofu, Edamame, Soya Sütü)",
+      "Çiğ Lahana",
+      "Brokoli",
+      "Karnabahar",
+      "Brüksel Lahanası",
+      "İşlenmiş Şeker ve Tatlılar",
+      "Süt ve Süt Ürünleri (Laktoz",
+      "Kazein)",
+      "Yer Fıstığı",
+      "Çam Fıstığı",
+      "Mısır",
+      "Mısır Şurubu",
+      "Kanola",
+      "Ayçiçek Yağı",
+      "Florürlü Su",
+      "Çay"
+    ],
+    "patient_id": null,
+    "parent_diet_type_id": null,
+    "banned_details": {
+      "Çay": {
+        "info": "İçme suyu arıtılmış olmalı, siyah çay yerine florür içeriği düşük bitki çayları tercih edilmelidir.",
+        "warning": "Florür ve Klor, halojen grubu elementlerdir ve İyot ile yarışırlar. Tiroid bezindeki reseptörlere iyot yerine bağlanıp bezi \"kilitlerler\"."
+      },
+      "Kanola": {
+        "info": "Soğuk sıkım sızma zeytinyağı veya Hindistan cevizi yağı (MCT içeriği metabolizmayı destekler) kullanılmalıdır.",
+        "warning": "Yüksek Omega-6 içeriği vücuttaki genel yangıyı (inflamasyonu) artırır. Tiroid bezi inflamasyona çok hassastır."
+      },
+      "bulgur": {
+        "info": "Glutensiz, antikorları yükseltmeyen Karabuğday (Greçka), Kinoa veya sebze bazlı karbonhidratlar tercih edilmelidir.",
+        "warning": "Gliadin proteini moleküler yapı olarak tiroid dokusuna benzer. Bağışıklık sistemi glutene saldırırken yanlışlıkla tiroide de saldırır (Moleküler Mimikri)."
+      },
+      "Brokoli": {
+        "info": "Bu sebzeler mutlaka fermente edilerek (turşu) veya buharda iyice pişirilerek tüketilmelidir. Pişirme işlemi goitrojenleri %70-80 oranında azaltır.",
+        "warning": "Çiğ hallerinde yüksek \"Goitrin\" içerirler. Bu madde iyot emilimini engelleyerek tiroidin çalışmasını yavaşlatır (Guatr etkisi)."
+      },
+      "Kazein)": {
+        "info": "Eğer gaz/şişkinlik yapıyorsa tamamen kesilmelidir. Keçi/Koyun ürünleri (A2 Kazein) bazen tolere edilebilir ancak eliminasyon sürecinde önerilmez.",
+        "warning": "Hashimoto hastalarında laktoz intoleransı ve kazein hassasiyeti sıktır. Bağırsak florasını bozarak otoimmüniteyi alevlendirebilir."
+      },
+      "Mısır": {
+        "info": "Mısır yerine kök sebzeler (ölçülü havuç, pancar) daha güvenli karbonhidrat kaynaklarıdır.",
+        "warning": "Genetiği değiştirilmiş (GDO) yapısı ve yüksek nişasta içeriği bağırsak geçirgenliğini tetikleyebilir."
+      },
+      "Karnabahar": {
+        "info": "Bu sebzeler mutlaka fermente edilerek (turşu) veya buharda iyice pişirilerek tüketilmelidir. Pişirme işlemi goitrojenleri %70-80 oranında azaltır.",
+        "warning": "Çiğ hallerinde yüksek \"Goitrin\" içerirler. Bu madde iyot emilimini engelleyerek tiroidin çalışmasını yavaşlatır (Guatr etkisi)."
+      },
+      "Çiğ Lahana": {
+        "info": "Bu sebzeler mutlaka fermente edilerek (turşu) veya buharda iyice pişirilerek tüketilmelidir. Pişirme işlemi goitrojenleri %70-80 oranında azaltır.",
+        "warning": "Çiğ hallerinde yüksek \"Goitrin\" içerirler. Bu madde iyot emilimini engelleyerek tiroidin çalışmasını yavaşlatır (Guatr etkisi)."
+      },
+      "Florürlü Su": {
+        "info": "İçme suyu arıtılmış olmalı, siyah çay yerine florür içeriği düşük bitki çayları tercih edilmelidir.",
+        "warning": "Florür ve Klor, halojen grubu elementlerdir ve İyot ile yarışırlar. Tiroid bezindeki reseptörlere iyot yerine bağlanıp bezi \"kilitlerler\"."
+      },
+      "Mısır Şurubu": {
+        "info": "Mısır yerine kök sebzeler (ölçülü havuç, pancar) daha güvenli karbonhidrat kaynaklarıdır.",
+        "warning": "Genetiği değiştirilmiş (GDO) yapısı ve yüksek nişasta içeriği bağırsak geçirgenliğini tetikleyebilir."
+      },
+      "Yer Fıstığı": {
+        "info": "Selenyum kaynağı olan Brezilya Cevizi veya Çiğ Kabak Çekirdeği (Çinko kaynağı) ile değiştirilmelidir.",
+        "warning": "Hem goitrojenik aktivitesi vardır hem de aflatoksin (küf) riski yüksektir. İnflamasyonu artırabilir."
+      },
+      "Ayçiçek Yağı": {
+        "info": "Soğuk sıkım sızma zeytinyağı veya Hindistan cevizi yağı (MCT içeriği metabolizmayı destekler) kullanılmalıdır.",
+        "warning": "Yüksek Omega-6 içeriği vücuttaki genel yangıyı (inflamasyonu) artırır. Tiroid bezi inflamasyona çok hassastır."
+      },
+      "Çam Fıstığı": {
+        "info": "Selenyum kaynağı olan Brezilya Cevizi veya Çiğ Kabak Çekirdeği (Çinko kaynağı) ile değiştirilmelidir.",
+        "warning": "Hem goitrojenik aktivitesi vardır hem de aflatoksin (küf) riski yüksektir. İnflamasyonu artırabilir."
+      },
+      "Brüksel Lahanası": {
+        "info": "Bu sebzeler mutlaka fermente edilerek (turşu) veya buharda iyice pişirilerek tüketilmelidir. Pişirme işlemi goitrojenleri %70-80 oranında azaltır.",
+        "warning": "Çiğ hallerinde yüksek \"Goitrin\" içerirler. Bu madde iyot emilimini engelleyerek tiroidin çalışmasını yavaşlatır (Guatr etkisi)."
+      },
+      "Süt ve Süt Ürünleri (Laktoz": {
+        "info": "Eğer gaz/şişkinlik yapıyorsa tamamen kesilmelidir. Keçi/Koyun ürünleri (A2 Kazein) bazen tolere edilebilir ancak eliminasyon sürecinde önerilmez.",
+        "warning": "Hashimoto hastalarında laktoz intoleransı ve kazein hassasiyeti sıktır. Bağırsak florasını bozarak otoimmüniteyi alevlendirebilir."
+      },
+      "İşlenmiş Şeker ve Tatlılar": {
+        "info": "Tatlı krizi durumunda 1-2 adet Brezilya Cevizi (Selenyum deposu) veya yaban mersini tercih edilebilir.",
+        "warning": "Kan şekerindeki ani dalgalanmalar kortizolü yükseltir. Yüksek kortizol, aktif tiroid hormonuna (T3) dönüşümü (Deiyodinaz enzimi) baskılar."
+      },
+      "Soya (Tofu, Edamame, Soya Sütü)": {
+        "info": "Protein kaynağı olarak organik tavuk, balık veya kuzu eti tercih edilmelidir.",
+        "warning": "Soya izoflavonları (Genistein), tiroid hormonu sentezleyen TPO enzimini bloke edebilir. İlaç (Levotiroksin) emilimini bozar."
+      },
+      "Gluten (Buğday, Arpa, Çavdar, Bulgur)": {
+        "info": "Glutensiz, antikorları yükseltmeyen Karabuğday (Greçka), Kinoa veya sebze bazlı karbonhidratlar tercih edilmelidir.",
+        "warning": "Gliadin proteini moleküler yapı olarak tiroid dokusuna benzer. Bağışıklık sistemi glutene saldırırken yanlışlıkla tiroide de saldırır (Moleküler Mimikri)."
+      }
+    }
+  },
+  {
+    "id": "f06bf9f6-b6a2-4b02-a082-ef2be43c8305",
+    "name": "Ketojenik",
+    "description": "Standart ketojenik beslenme",
+    "carb_factor": 0.3,
+    "protein_factor": 0.8,
+    "fat_factor": 1.2,
+    "is_system_default": true,
+    "created_at": "2026-01-17T19:56:47.704141+00:00",
+    "abbreviation": "K",
+    "allowed_food_diet_types": [
+      "ketojenik",
+      "eliminasyonlu_ketojenik"
+    ],
+    "banned_keywords": [],
+    "allowed_tags": [
+      "ELIMINASYONLU_KETOJENIK",
+      "KETOGENIC"
+    ],
+    "banned_tags": [],
+    "patient_id": null,
+    "parent_diet_type_id": null,
+    "banned_details": {}
+  },
+  {
+    "id": "1bd2d410-2a63-44b8-9d34-07b8e4040682",
+    "name": "Low Carb",
+    "description": "Düşük karbonhidratlı beslenme",
+    "carb_factor": 0.6,
+    "protein_factor": 0.8,
+    "fat_factor": 1,
+    "is_system_default": true,
+    "created_at": "2026-01-17T19:56:47.704141+00:00",
+    "abbreviation": "L",
+    "allowed_food_diet_types": [
+      "lowcarb",
+      "ketojenik",
+      "eliminasyonlu_ketojenik"
+    ],
+    "banned_keywords": [],
+    "allowed_tags": [
+      "LOW_CARB",
+      "KETOGENIC",
+      "ELIMINASYONLU_KETOJENIK"
+    ],
+    "banned_tags": [],
+    "patient_id": null,
+    "parent_diet_type_id": null,
+    "banned_details": {}
+  },
+  {
+    "id": "d9e8bd9d-7bd9-4a43-bb4b-5d22b1646ed1",
+    "name": "Genel",
+    "description": "",
+    "carb_factor": 0.8,
+    "protein_factor": 0.8,
+    "fat_factor": 1,
+    "is_system_default": false,
+    "created_at": "2026-01-29T17:01:11.698395+00:00",
+    "abbreviation": "G",
+    "allowed_food_diet_types": [],
+    "banned_keywords": [],
+    "allowed_tags": [],
+    "banned_tags": [],
+    "patient_id": null,
+    "parent_diet_type_id": null,
+    "banned_details": {}
+  },
+  {
+    "id": "97e9a368-6505-4b8c-93c3-cb07fe6f64b0",
+    "name": "Eliminasyonlu Ketojenik",
+    "description": "Süt ürünleri yok",
+    "carb_factor": 0.3,
+    "protein_factor": 0.8,
+    "fat_factor": 1.4,
+    "is_system_default": false,
+    "created_at": "2026-01-29T17:24:06.853151+00:00",
+    "abbreviation": "EK",
+    "allowed_food_diet_types": [],
+    "banned_keywords": [
+      "peynir"
+    ],
+    "allowed_tags": [
+      "KETOGENIC",
+      "ELIMINASYONLU_KETOJENIK"
+    ],
+    "banned_tags": [],
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "parent_diet_type_id": "315a03f5-552c-4211-9d5d-31dd18628976",
+    "banned_details": {}
+  }
+]

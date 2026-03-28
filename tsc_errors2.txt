@@ -1,0 +1,424 @@
+﻿src/lib/planner/engine.ts(2129,21): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(2130,17): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(2159,13): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(2160,9): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(2161,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(2163,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(2163,32): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2163,38): error TS1005: ';' expected.
+src/lib/planner/engine.ts(2163,40): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(2173,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(2173,13): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(2174,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2175,16): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2176,19): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2177,15): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2178,6): error TS1005: ';' expected.
+src/lib/planner/engine.ts(2178,20): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(2179,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(2179,28): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2179,33): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2179,34): error TS1109: Expression expected.
+src/lib/planner/engine.ts(2179,36): error TS1005: ':' expected.
+src/lib/planner/engine.ts(2180,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2180,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(2181,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2181,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(2182,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2182,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(2183,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2183,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(2186,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2186,13): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2189,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2189,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(2190,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2190,14): error TS1359: Identifier expected. 'const' is a reserved word that cannot be used here.
+src/lib/planner/engine.ts(2190,20): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2190,29): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2190,32): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2209,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2209,23): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2209,34): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2209,36): error TS1136: Property assignment expected.
+src/lib/planner/engine.ts(2872,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(2878,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(2878,13): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(2879,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2880,13): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2881,16): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2882,19): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2883,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2884,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2885,23): error TS1109: Expression expected.
+src/lib/planner/engine.ts(2886,19): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2887,25): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2888,21): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2889,29): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2890,6): error TS1005: ';' expected.
+src/lib/planner/engine.ts(2892,18): error TS1005: ',' expected.
+src/lib/planner/engine.ts(2892,29): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3051,10): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3379,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3385,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3385,13): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3386,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3387,16): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3388,19): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3389,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3390,19): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3391,23): error TS1109: Expression expected.
+src/lib/planner/engine.ts(3392,6): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3393,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(3394,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3394,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(3395,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3395,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(3396,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3396,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(3399,22): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3402,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(3441,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3441,23): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3441,36): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3441,45): error TS1005: ':' expected.
+src/lib/planner/engine.ts(3444,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3444,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(3445,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3445,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(3477,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3477,19): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3514,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3514,16): error TS1005: ':' expected.
+src/lib/planner/engine.ts(3520,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3520,32): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3520,47): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3520,61): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3520,63): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3539,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3539,42): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3539,57): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3539,63): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3613,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3613,45): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3613,60): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3613,66): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3613,95): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3622,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3622,33): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3622,47): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3622,53): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3622,55): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3654,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3654,38): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3654,49): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3654,56): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3654,58): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3675,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3675,38): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3675,49): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3675,56): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3675,58): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3695,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3695,33): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3695,44): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3695,51): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3702,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3702,31): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3702,50): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3702,57): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3708,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3708,26): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3708,32): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(3708,34): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3708,40): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(3708,42): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3717,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3717,31): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3717,33): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3723,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3723,38): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3723,47): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3723,49): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3728,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3728,37): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3728,53): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3728,78): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3728,88): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3737,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3737,37): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3737,46): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3737,81): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3737,92): error TS1109: Expression expected.
+src/lib/planner/engine.ts(3737,99): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3744,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3744,48): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3744,61): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3744,67): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3744,69): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3760,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3760,35): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3760,41): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3760,50): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(3760,59): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3768,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3768,48): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3768,57): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3768,73): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3777,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3777,46): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3777,61): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3777,70): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3777,72): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3787,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3787,43): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3787,49): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3787,65): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3803,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3803,42): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3803,48): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3803,64): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3813,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3813,43): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3813,49): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3813,51): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3827,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3827,37): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3827,55): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3827,64): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3827,66): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3833,24): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3833,38): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3833,44): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3833,46): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3939,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3939,38): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3939,52): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3939,58): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3939,60): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3943,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3943,33): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3943,47): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3943,53): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3943,55): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3956,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3956,37): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3956,52): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3956,58): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(3956,69): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3956,78): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3956,80): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(3968,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(3968,35): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3968,55): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3968,69): error TS1005: ',' expected.
+src/lib/planner/engine.ts(3968,75): error TS1005: ';' expected.
+src/lib/planner/engine.ts(3968,77): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4019,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4019,36): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4019,56): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4019,70): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4019,76): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4019,78): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4067,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4067,52): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4067,75): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4067,81): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4067,83): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4090,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4090,51): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4090,65): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4090,71): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4090,73): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4111,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4111,41): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4111,55): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4111,61): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4111,63): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4127,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4127,40): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4127,55): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4127,64): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4127,73): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4127,75): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4142,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4142,37): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4142,41): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4142,48): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4142,57): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4142,61): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4142,63): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4159,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4159,36): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4159,50): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4159,63): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4159,83): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4159,85): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4178,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4178,31): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4178,44): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4178,50): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4178,52): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4207,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4207,42): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4207,56): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4207,70): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4207,76): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4207,78): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4249,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4249,42): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4249,60): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4249,69): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4249,78): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4249,80): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4309,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4309,49): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4309,67): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4309,84): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4309,90): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4309,112): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4309,123): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4309,132): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4386,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4386,27): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4386,36): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4386,38): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4395,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4395,35): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4395,49): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4395,66): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4395,72): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4395,85): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4500,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4501,18): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4502,16): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4503,19): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4504,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4505,6): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4505,19): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4587,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4587,42): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4587,48): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4587,61): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4587,70): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4587,72): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4587,78): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4587,80): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4612,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4612,13): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4612,41): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4612,70): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4613,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4614,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4614,13): error TS1003: Identifier expected.
+src/lib/planner/engine.ts(4614,18): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4614,28): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4614,37): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4615,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4615,13): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4616,19): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4617,13): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4617,17): error TS1003: Identifier expected.
+src/lib/planner/engine.ts(4617,22): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4617,28): error TS1005: '{' expected.
+src/lib/planner/engine.ts(4617,35): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4619,13): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4619,19): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4626,13): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4626,17): error TS1003: Identifier expected.
+src/lib/planner/engine.ts(4626,25): error TS1005: '{' expected.
+src/lib/planner/engine.ts(4626,32): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4628,13): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4628,18): error TS1359: Identifier expected. 'const' is a reserved word that cannot be used here.
+src/lib/planner/engine.ts(4628,24): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4628,29): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4628,32): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4628,36): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4628,42): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4628,44): error TS1136: Property assignment expected.
+src/lib/planner/engine.ts(4650,9): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4650,11): error TS1005: 'try' expected.
+src/lib/planner/engine.ts(4652,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4654,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4654,13): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4654,44): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4685,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4686,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4687,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4688,16): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4689,24): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4690,19): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4691,17): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4692,27): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4693,6): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4693,34): error TS1109: Expression expected.
+src/lib/planner/engine.ts(4693,41): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4764,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4764,45): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4764,59): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4764,65): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4764,67): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4780,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(4780,12): error TS1434: Unexpected keyword or identifier.
+src/lib/planner/engine.ts(4781,13): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4782,13): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4782,34): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4783,19): error TS1109: Expression expected.
+src/lib/planner/engine.ts(4784,6): error TS1005: ';' expected.
+src/lib/planner/engine.ts(4784,45): error TS1011: An element access expression should take an argument.
+src/lib/planner/engine.ts(4785,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4785,22): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4785,30): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4785,31): error TS1109: Expression expected.
+src/lib/planner/engine.ts(4785,33): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4786,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4786,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4787,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4787,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4788,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4788,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4794,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4794,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4795,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4795,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4796,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4796,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4797,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4797,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4798,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4798,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4801,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4801,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4801,28): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4801,36): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4801,37): error TS1109: Expression expected.
+src/lib/planner/engine.ts(4801,39): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4806,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4806,13): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4814,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4814,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4820,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4820,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4828,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4828,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4862,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4862,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4873,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4873,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4883,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4883,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4889,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4889,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4910,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4910,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4911,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4911,15): error TS1005: ':' expected.
+src/lib/planner/engine.ts(4913,9): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4913,18): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4913,32): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4913,45): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4913,62): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4913,74): error TS1005: ',' expected.
+src/lib/planner/engine.ts(4913,76): error TS1005: ';' expected.
+src/lib/planner/engine.ts(5261,5): error TS1128: Declaration or statement expected.
+src/lib/planner/engine.ts(5262,1): error TS1128: Declaration or statement expected.

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a20d0256-986f-44b4-a6ac-3bb923914cfc",
+    "patient_id": "a97c9f5d-acac-464e-a0f8-322b0be9be5a",
+    "disease_id": "b4c0d038-5763-4998-9e5c-c741b879afc3",
+    "created_at": "2026-02-03T14:10:23.047053+00:00"
+  },
+  {
+    "id": "44f49849-3ff2-45b1-af6a-8e7367761410",
+    "patient_id": "900f1498-d008-42f3-87fd-b66787817e96",
+    "disease_id": "b4c0d038-5763-4998-9e5c-c741b879afc3",
+    "created_at": "2026-02-08T07:43:16.764522+00:00"
+  },
+  {
+    "id": "9fc5df91-5ad2-410c-bfd2-2f78a10920da",
+    "patient_id": "172245e4-6e49-4ad9-855d-5600704f07bd",
+    "disease_id": "b4c0d038-5763-4998-9e5c-c741b879afc3",
+    "created_at": "2026-02-08T07:55:24.370785+00:00"
+  },
+  {
+    "id": "90c172dc-6a90-4c49-8ba2-963bf094db9d",
+    "patient_id": "bac0ebbc-7cb7-43a7-86e8-e0279fbd3534",
+    "disease_id": "b4c0d038-5763-4998-9e5c-c741b879afc3",
+    "created_at": "2026-02-08T08:03:09.369434+00:00"
+  },
+  {
+    "id": "1ea0a11c-0bbe-4f40-9cea-b527b9ebe641",
+    "patient_id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "disease_id": "b4c0d038-5763-4998-9e5c-c741b879afc3",
+    "created_at": "2026-02-10T12:06:48.711961+00:00"
+  },
+  {
+    "id": "7491abd5-b557-4de0-ab59-3698d80877e7",
+    "patient_id": "77b27786-4e8d-4186-9b02-7fdc366f82e6",
+    "disease_id": "d90a903a-f02d-41cc-ac4f-b177bee0ee24",
+    "created_at": "2026-02-10T12:06:48.711961+00:00"
+  }
+]
