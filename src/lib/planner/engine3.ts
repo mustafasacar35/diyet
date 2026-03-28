@@ -2466,6 +2466,8 @@ export class Planner {
             }
             // Hard fallback for required roles: if strict weekly limits block all options,
             // allow a capped item rather than leaving the required role empty.
+            // ignoreRepetition=true activates MANDATORY BYPASS which skips hasNameConflict,
+            // ensuring mainDish (and other required roles) are ALWAYS filled.
             if (!food) {
                 food = await this.selectBestFoodByRole(
                     category,
@@ -2476,12 +2478,34 @@ export class Planner {
                     null,
                     slotCalorieBudget - slotMacros.calories,
                     true,
-                    false,
+                    true,
                     true,
                     true
                 )
                 if (food) {
                     this.log(context.dayIndex + 1, slotName, 'info', `Required role '${role}' filled with cap bypass`, food.name)
+                }
+            }
+            // ROLE MISMATCH GUARD: Reject food if its actual role doesn't match the requested role
+            // This catches cases where lock/consistency returns bread for a mainDish request
+            if (food && STANDARD_ROLES.includes(role)) {
+                const actualRole = this.getCanonicalLockRole(food.role || '')
+                const requestedRole = this.getCanonicalLockRole(role)
+                if (actualRole !== requestedRole) {
+                    this.log(context.dayIndex + 1, slotName, 'info', `Role mismatch: requested '${role}' (${requestedRole}) but got '${food.name}' with role '${food.role}' (${actualRole}). Retrying with emergency mode...`)
+                    // Retry with full emergency mode to bypass locks and find a correctly-typed food
+                    food = await this.selectBestFoodByRole(
+                        category, role, context, selectedIds, slotTags, null,
+                        99999, true, true, true, true
+                    )
+                    // Verify the retry result also matches
+                    if (food) {
+                        const retryRole = this.getCanonicalLockRole(food.role || '')
+                        if (retryRole !== requestedRole) {
+                            this.log(context.dayIndex + 1, slotName, 'info', `Emergency retry also returned wrong role: '${food.name}' (${retryRole}). Giving up.`)
+                            food = null
+                        }
+                    }
                 }
             }
             if (food) {
@@ -2973,23 +2997,42 @@ export class Planner {
         // If this is a Lunch or Dinner slot and we STILL don't have a main dish, 
         // try one more time ignoring EVERYTHING because it is the most important rule.
         const isLunchOrDinner = slotName === 'ÖĞLEN' || slotName === 'AKŞAM'
-        if (isLunchOrDinner && !context.slotMainDish && selectedFoods.length < config.maxItems) {
+        if (isLunchOrDinner && !context.slotMainDish) {
             this.log(context.dayIndex + 1, slotName, 'info', `Last-resort mandatory main dish search...`)
+            // Use minimal exclude set: only exclude foods already selected as mainDish in this slot
+            // Don't pass slotTags to avoid tag conflict false negatives
+            const mainDishExcludeIds = new Set<string>()
+            for (const f of selectedFoods) {
+                if (this.getCanonicalLockRole(f?.role || '') === 'maindish') {
+                    mainDishExcludeIds.add(f.id)
+                }
+            }
+            // Also exclude daily-selected IDs to avoid same food in multiple slots on same day
+            for (const id of context.dailySelectedIds) {
+                mainDishExcludeIds.add(id)
+            }
             const forcedMain = await this.selectBestFoodByRole(
-                category, 'maindish', context, selectedIds, slotTags, null, 99999, true, true, true, true
+                category, 'mainDish', context, mainDishExcludeIds, new Set<string>(), null, 99999, true, true, true, true
             )
             if (forcedMain) {
-                selectedFoods.push(forcedMain)
-                context.slotMainDish = forcedMain
-                const foodRole = this.getCanonicalLockRole(forcedMain.role || '')
-                if (foodRole) selectedRoles.add(foodRole)
-                this.log(context.dayIndex + 1, slotName, 'select', `Forced mandatory main dish selected`, forcedMain.name)
-                selectedFoods[selectedFoods.length - 1].source = { 
-                    type: 'mandatory_override', 
-                    rule: 'Ana Yemek Zorunlu',
-                    is_required_role: true,
-                    required_role_name: 'mainDish'
+                const forcedRole = this.getCanonicalLockRole(forcedMain.role || '')
+                // Only accept if it's actually a mainDish food, not bread/soup/etc
+                if (forcedRole === 'maindish') {
+                    selectedFoods.push(forcedMain)
+                    context.slotMainDish = forcedMain
+                    if (forcedRole) selectedRoles.add(forcedRole)
+                    this.log(context.dayIndex + 1, slotName, 'select', `Forced mandatory main dish selected`, forcedMain.name)
+                    selectedFoods[selectedFoods.length - 1].source = { 
+                        type: 'mandatory_override', 
+                        rule: 'Ana Yemek Zorunlu',
+                        is_required_role: true,
+                        required_role_name: 'mainDish'
+                    }
+                } else {
+                    this.log(context.dayIndex + 1, slotName, 'info', `Last-resort returned '${forcedMain.name}' but role is '${forcedMain.role}' (${forcedRole}), not mainDish. Skipped.`)
                 }
+            } else {
+                this.log(context.dayIndex + 1, slotName, 'info', `Last-resort mandatory main dish search FAILED: no candidates found. Eligible maindish count: ${this.eligibleFoods.filter(f => this.getCanonicalLockRole(f.role || '') === 'maindish').length}`)
             }
         }
         // ===== 5. AFFINITY INJECTION PASS =====
@@ -3145,10 +3188,18 @@ export class Planner {
             return true // No meal_types restriction
         }
 
+        // Helper: verify food's actual role matches the requested role
+        // This prevents rotation/lock/consistency from returning bread for mainDish requests
+        const isRoleMatch = (food: any): boolean => {
+            if (!STANDARD_ROLES.includes(role)) return true // Skip check for non-standard roles
+            const foodRoleNorm = this.getCanonicalLockRole(food.role || '')
+            return foodRoleNorm === requestedRoleNorm
+        }
+
         // ROTATION GENERATOR CHECK: Always overrides default weekly locks
         const eligibleFoodIds = new Set(this.eligibleFoods.map(f => f.id))
         const rotationMatch = this.getNextRotationFood(category, lockRole, context, eligibleFoodIds, excludeIds, slotTags, isMealTypeCompatible)
-        if (rotationMatch) {
+        if (rotationMatch && isRoleMatch(rotationMatch.food)) {
             return {
                 ...rotationMatch.food,
                 _consistencyRuleId: rotationMatch.state.ruleId,
@@ -3157,14 +3208,18 @@ export class Planner {
             }
         }
 
+        // In mandatory emergency mode, skip lock-based early returns
+        // so we always fall through to the full candidate pool
+        const isMandatoryEmergency = isRequired && ignoreBudget && ignoreRepetition
+
         // Weekly Lock Check: If this role is lockable and already has a locked food, use it
         // BUT respect meal_types - don't return a dinner-only soup for lunch!
         const hasWeeklyLockForRole = this.weeklyLocks.has(lockRole) || (lockRole === 'soup' && this.weeklyLocks.has('corba'))
         
-        if (hasWeeklyLockForRole) {
+        if (hasWeeklyLockForRole && !isMandatoryEmergency) {
             const lockedFood = this.weeklyLocks.get(lockRole) || (lockRole === 'soup' ? this.weeklyLocks.get('corba') : null)
             if (!lockedFood) return null
-            if (!excludeIds.has(lockedFood.id) && isMealTypeCompatible(lockedFood) && !this.hasTagConflict(lockedFood, slotTags)) {
+            if (!excludeIds.has(lockedFood.id) && isMealTypeCompatible(lockedFood) && !this.hasTagConflict(lockedFood, slotTags) && isRoleMatch(lockedFood)) {
                 let lockReason = this.getWeeklyLockReason(lockRole)
                 if (!lockReason) {
                     const inferredLock = this.getLockedFood(category, role, context)
@@ -3195,33 +3250,36 @@ export class Planner {
         }
 
         // CONSISTENCY RULE CHECK (Dynamically Locked Foods)
-        const consistencyLockedFood = this.getLockedFood(category, role, context)
-        if (consistencyLockedFood) {
-            if (excludeIds.has(consistencyLockedFood.id)) {
-                return null
-            }
-            const isSeasonal = this.checkSeasonalityHard(consistencyLockedFood, context.currentDate)
-            if (isSeasonal && isMealTypeCompatible(consistencyLockedFood)) {
-                if (this.hasTagConflict(consistencyLockedFood, slotTags)) {
-                    // Locked food has a tag conflict in this slot, abort adding to this slot
+        // In mandatory emergency mode, skip this to fall through to candidate pool
+        if (!isMandatoryEmergency) {
+            const consistencyLockedFood = this.getLockedFood(category, role, context)
+            if (consistencyLockedFood) {
+                if (excludeIds.has(consistencyLockedFood.id)) {
                     return null
                 }
-                const consistencyLockRole = this.getCanonicalLockRole(consistencyLockedFood.role || role || '')
-                if (Planner.LOCKABLE_ROLES.includes(consistencyLockRole) && !this.weeklyLocks.has(consistencyLockRole)) {
-                    this.weeklyLocks.set(consistencyLockRole, consistencyLockedFood)
-                    if (consistencyLockRole === 'soup') {
-                        this.weeklyLocks.set('corba', consistencyLockedFood)
+                const isSeasonal = this.checkSeasonalityHard(consistencyLockedFood, context.currentDate)
+                if (isSeasonal && isMealTypeCompatible(consistencyLockedFood) && isRoleMatch(consistencyLockedFood)) {
+                    if (this.hasTagConflict(consistencyLockedFood, slotTags)) {
+                        // Locked food has a tag conflict in this slot, abort adding to this slot
+                        return null
                     }
+                    const consistencyLockRole = this.getCanonicalLockRole(consistencyLockedFood.role || role || '')
+                    if (Planner.LOCKABLE_ROLES.includes(consistencyLockRole) && !this.weeklyLocks.has(consistencyLockRole)) {
+                        this.weeklyLocks.set(consistencyLockRole, consistencyLockedFood)
+                        if (consistencyLockRole === 'soup') {
+                            this.weeklyLocks.set('corba', consistencyLockedFood)
+                        }
+                    }
+                    if (consistencyLockedFood?._consistencyRuleName) {
+                        this.setWeeklyLockReason(
+                            consistencyLockRole,
+                            consistencyLockedFood._consistencyRuleId || null,
+                            consistencyLockedFood._consistencyRuleName
+                        )
+                    }
+                    this.commitRotationFood(consistencyLockedFood)
+                    return consistencyLockedFood
                 }
-                if (consistencyLockedFood?._consistencyRuleName) {
-                    this.setWeeklyLockReason(
-                        consistencyLockRole,
-                        consistencyLockedFood._consistencyRuleId || null,
-                        consistencyLockedFood._consistencyRuleName
-                    )
-                }
-                this.commitRotationFood(consistencyLockedFood)
-                return consistencyLockedFood
             }
         }
 
@@ -3256,7 +3314,13 @@ export class Planner {
             // ------------------------------------
 
             // MANDATORY BYPASS: If we are in emergency/mandatory mode, ignore almost everything else
+            // BUT still respect the food's OWN max_weekly_freq (not rule-level frequency limits)
             if (isRequired && ignoreBudget && ignoreRepetition) {
+                const explicitMax = this.getExplicitMaxWeeklyFreq(f)
+                if (explicitMax !== null) {
+                    const weeklyCount = context.weeklySelectedIds?.get(f.id) || 0
+                    if (weeklyCount >= explicitMax) return false
+                }
                 return isMealTypeCompatible(f)
             }
 
@@ -3386,6 +3450,7 @@ export class Planner {
             return true
         })
 
+        const candidatesBeforeWeeklyCap = [...candidates] // Preserve for emergency fallback
         const allHitWeeklyCap = candidates.length > 0 && filteredByLimit.length === 0
         const bypassableByDefaultCap = allHitWeeklyCap
             ? candidates.filter(f => this.getExplicitMaxWeeklyFreq(f) === null)
@@ -3413,6 +3478,28 @@ export class Planner {
         }
         candidates = (allowWeeklyCapBypass && allHitWeeklyCap) ? bypassableByDefaultCap : filteredByLimit
         
+        // ── EMERGENCY TIER 3: Full weekly cap bypass for mandatory roles ──
+        // When ALL candidates hit explicit weekly limits AND we're in full mandatory mode,
+        // bypass ALL weekly caps. The required role (e.g. mainDish) is more important than
+        // frequency limits — a repeated food is better than an empty slot.
+        if (candidates.length === 0 && allHitWeeklyCap && isRequired && ignoreBudget && ignoreRepetition) {
+            // Only restore candidates WITHOUT explicit user-set frequency limits
+            // User-set limits (max_weekly_freq) are sacred and should not be bypassed
+            const bypassableEmergency = candidatesBeforeWeeklyCap.filter(f => this.getExplicitMaxWeeklyFreq(f) === null)
+            if (bypassableEmergency.length > 0) {
+                candidates = bypassableEmergency
+            } else {
+                // ALL have explicit limits — as absolute last resort, use all candidates
+                candidates = [...candidatesBeforeWeeklyCap]
+            }
+            this.log(
+                context.dayIndex + 1,
+                context.slotName || '?',
+                'info',
+                `EMERGENCY: All weekly caps bypassed for mandatory role '${role}' (${candidatesBeforeWeeklyCap.length} candidates restored).`
+            )
+        }
+
         if (candidates.length === 0 && allHitWeeklyCap) {
              this.log(context.dayIndex + 1, context.slotName || '?', 'info', `Role '${role}': No candidates left after weekly cap (Max: ${maxWeeklyDefault}).`)
         }
@@ -3434,9 +3521,17 @@ export class Planner {
         }
         const filteredByScore = candidates.filter(f => getEffectivePriority(f) > 0)
         if (candidates.length > 0 && filteredByScore.length === 0) {
-            this.log(context.dayIndex + 1, context.slotName || '?', 'info', `All candidates for role '${role}' have score 0.`)
+            // In mandatory emergency mode, keep all candidates even with score 0
+            if (isRequired && ignoreBudget && ignoreRepetition) {
+                this.log(context.dayIndex + 1, context.slotName || '?', 'info', `All candidates for role '${role}' have score 0. MANDATORY BYPASS: keeping ${candidates.length} candidates.`)
+                // Don't filter — keep all candidates
+            } else {
+                this.log(context.dayIndex + 1, context.slotName || '?', 'info', `All candidates for role '${role}' have score 0.`)
+                candidates = filteredByScore
+            }
+        } else {
+            candidates = filteredByScore
         }
-        candidates = filteredByScore
         if (candidates.length === 0) return null
 
         // ── LAYER 2 & 3: COOLDOWN + LIKED BOOST SCORING ──
@@ -3554,18 +3649,18 @@ export class Planner {
         // even in mandatory fallback paths.
         const viableCandidates = scoredCandidates.filter(c => Number.isFinite(c.score))
         
-        // Hard filter: Discard any food that has a forbidden affinity conflict (score < -500000)
-        const validCandidates = viableCandidates.filter(c => c.score > -500000)
+        // Hard filter: Discard any food that has a massive forbidden affinity conflict
+        const validCandidates = viableCandidates.filter(c => c.score > (-500000 * SF))
 
         if (validCandidates.length === 0) {
             if (viableCandidates.length > 0) {
-                this.log(context.dayIndex + 1, context.slotName || '?', 'info', `All ${viableCandidates.length} candidates for '${role}' blocked by affinity rules.`)
+                this.log(context.dayIndex + 1, context.slotName || '?', 'info', `All ${viableCandidates.length} candidates for '${role}' blocked by extreme negative scores (likely affinity or max capacity).`)
             }
             return null
         }
 
         // Pick randomly from top viable candidates
-        const scoreSafetyMargin = (isRequired || ignoreBudget) ? -1000000 : -10000
+        const scoreSafetyMargin = (isRequired || ignoreBudget) ? (-1000000 * SF) : (-10000 * SF)
         const topN = validCandidates.slice(0, Math.min(3, validCandidates.length)).filter(c => c.score > scoreSafetyMargin)
         
         let bestCandidate: any = null
@@ -3597,11 +3692,23 @@ export class Planner {
                 return null
             }
             if (consistencyResolved) {
-                bestCandidate = { ...bestCandidate, food: consistencyResolved }
+                // ROLE VERIFICATION: Only accept the consistency swap if the resolved food's
+                // actual role matches the requested role. This prevents bread replacing mainDish.
+                if (STANDARD_ROLES.includes(role)) {
+                    const resolvedRole = this.getCanonicalLockRole(consistencyResolved.role || '')
+                    if (resolvedRole === requestedRoleNorm) {
+                        bestCandidate = { ...bestCandidate, food: consistencyResolved }
+                    }
+                    // else: keep original candidate, don't swap
+                } else {
+                    bestCandidate = { ...bestCandidate, food: consistencyResolved }
+                }
             }
 
-            const normalizedSelectedLockRole = this.getCanonicalLockRole(bestCandidate.food?.role || role || '')
-            if (Planner.LOCKABLE_ROLES.includes(normalizedSelectedLockRole) && !this.weeklyLocks.has(normalizedSelectedLockRole)) {
+            // Use only the food's OWN role for lock key — don't fall back to requested role
+            // to prevent cross-role lock contamination (e.g., bread locked under 'maindish')
+            const normalizedSelectedLockRole = this.getCanonicalLockRole(bestCandidate.food?.role || '')
+            if (normalizedSelectedLockRole && Planner.LOCKABLE_ROLES.includes(normalizedSelectedLockRole) && !this.weeklyLocks.has(normalizedSelectedLockRole)) {
                 this.weeklyLocks.set(normalizedSelectedLockRole, bestCandidate.food)
                 if (normalizedSelectedLockRole === 'soup') {
                     this.weeklyLocks.set('corba', bestCandidate.food)
